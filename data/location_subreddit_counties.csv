@@ -1,0 +1,677 @@
+,state,subreddit url,subreddit name,county
+0,Alabama,/r/alabama,Alabama,
+1,Alabama,/r/ArabAlabama,Arab,Marshall
+2,Alabama,/r/baldwincountyal,Baldwin County,Baldwin
+3,Alabama,/r/blountsville,Blountsville,Blount
+4,Alabama,/r/CalhounCounty,Calhoun County,Calhoun
+5,Alabama,/r/dothan,Dothan,Houston
+6,Alabama,/r/fairhopeAlabama,Fairhope,Baldwin
+7,Alabama,/r/florenceal,Florence,Lauderdale
+8,Alabama,/r/gordo,Gordo,Pickens
+9,Alabama,/r/Hartselle,Hartselle,Morgan
+10,Alabama,/r/HooverAL,Hoover AL,Jefferson
+11,Alabama,/r/JacksonvilleAL,Jacksonville,Calhoun
+12,Alabama,/r/marshallcountyal,Marshall County,Marshall
+13,Alabama,/r/montgomery,Montgomery,Montgomery
+14,Alabama,/r/oba,Orange Beach,Baldwin
+15,Alabama,/r/prattville,Prattville,Autauga
+16,Alabama,/r/selma,Selma,Dallas
+17,Alabama,/r/251,Southwest Alabama (251),
+18,Alabama,/r/sylacauga,Sylacauga,Talladega
+19,Alabama,/r/ThomasvilleAL,Thomasville,Clarke
+20,Alabama,/r/tuscaloosa,Tuscaloosa,Tuscaloosa
+21,Alabama,/r/vestaviahills,Vestavia Hills,Jefferson
+22,Alaska,/r/alaska,Alaska,Juneau Borough
+23,Alaska,/r/Anchorage,Anchorage,Anchorage
+24,Alaska,/r/BethelAK,Bethel,Bethel
+25,Alaska,/r/fairbanks,Fairbanks,Fairbanks North Star
+26,Alaska,/r/CosmicHamlet,Homer Area,Kenai Peninsula
+27,Alaska,/r/juneau,Juneau,Juneau Borough
+28,Alaska,/r/KenaiPeninsula,Kenai Peninsula,Kenai Peninsula
+29,Alaska,/r/ketchikan,Ketchikan,Ketchikan Gateway
+30,Alaska,/r/diomede,Little Diomede,Nome
+31,Alaska,/r/MatSu,Matsu Valley,
+32,Alaska,/r/PalmerAK,Palmer,Matanuska-Susitna
+33,Alaska,/r/Sitka,Sitka,Sitka City and
+34,Alaska,/r/spenardak,Spenard,Anchorage
+35,Alaska,/r/Talkeetna,talkeetna,Matanuska-Susitna
+36,Alaska,/r/Wasilla,Wasilla,Matanuska-Susitna
+37,Arizona,/r/arizona,Arizona,
+38,Arizona,/r/ahwatukeeAZ,Ahwatukee,Maricopa
+39,Arizona,/r/avondaleaz,Avondale,Maricopa
+40,Arizona,/r/bisbee,Bisbee,Cochise
+41,Arizona,/r/cavecreek,Cave Creek,Maricopa
+42,Arizona,/r/chinle,Chinle,Apache
+43,Arizona,/r/flagstaff,Flagstaff,Coconino
+44,Arizona,/r/Gilbert,Gilbert,Maricopa
+45,Arizona,/r/GlendaleAZ,Glendale,Maricopa
+46,Arizona,/r/GoodyearAZ,Goodyear,Maricopa
+47,Arizona,/r/heberovergaard,Heber-Overgaard,Navajo
+48,Arizona,/r/kingman,Kingman,Mohave
+49,Arizona,/r/LakeHavasuCityAZ,Lake Havasu City AZ,Mohave
+50,Arizona,/r/Marana,Marana,Pima
+51,Arizona,/r/mesaaz,Mesa,Maricopa
+52,Arizona,/r/NewRiver,New River,Maricopa
+53,Arizona,/r/northphoenix,North Phoenix,Maricopa
+54,Arizona,/r/payson,Payson,Gila
+55,Arizona,/r/phoenixarizona,Phoenix Arizona,Maricopa
+56,Arizona,/r/phx,Phoenix (PHX),Maricopa
+57,Arizona,/r/queencreek,Queen Creek,Maricopa
+58,Arizona,/r/scottsdale,Scottsdale,Maricopa
+59,Arizona,/r/sierravista,Sierra Vista,Cochise
+60,Arizona,/r/surpriseaz,Surprise,Maricopa
+61,Arizona,/r/Tombstone,Tombstone,Cochise
+62,Arizona,/r/WestValleyAZ,West Valley,Maricopa
+63,Arizona,/r/yuma,Yuma,Yuma
+64,Arkansas,/r/arkansas,Arkansas,
+65,Arkansas,/r/almaarkansas,Alma,Crawford
+66,Arkansas,/r/Batesville,Batesville,Independence
+67,Arkansas,/r/bentonville,Bentonville,Benton
+68,Arkansas,/r/CabotArkansas,Cabot,Lonoke
+69,Arkansas,/r/eurekasprings,Eureka Springs,Carroll
+70,Arkansas,/r/FayettevilleAr,Fayetteville AR,Washington
+71,Arkansas,/r/hotsprings,Hot Springs,Garland
+72,Arkansas,/r/jonesboro,Jonesboro,Craighead
+73,Arkansas,/r/littlerock,Little Rock,Pulaski
+74,Arkansas,/r/maumelle,Maumelle,Pulaski
+75,Arkansas,/r/northwestarkansas,Northwest Arkansas,Benton
+76,Arkansas,/r/nwarkansas,NW Arkansas,Benton
+77,Arkansas,/r/stonesboroar,Stonesboro,
+78,Arkansas,/r/texarkana,Texarkana,Miller
+79,California,/r/california,California,
+80,California,/r/LocationReddits/wiki/faq/northamerica#wiki_central_california,Central,Santa Barbara
+81,Colorado,/r/colorado,Colorado,El Paso
+82,Colorado,/r/Aspen,Aspen,Pitkin
+83,Colorado,/r/beavercreek,Beaver Creek,Morgan
+84,Colorado,/r/Broomfield,Broomfield,Broomfield
+85,Colorado,/r/castlerock,Castle Rock,Douglas
+86,Colorado,/r/Cortez,Cortez,Montezuma
+87,Colorado,/r/MileHighCity,Denver (MileHighCity),
+88,Colorado,/r/durango,Durango,La Plata
+89,Colorado,/r/eaglecounty,Eagle County,Eagle
+90,Colorado,/r/EnglewoodLittletonCO,Englewood-Littleton,Arapahoe
+91,Colorado,/r/ErieColorado,Erie,Weld
+92,Colorado,/r/fortcollins,Fort Collins,Larimer
+93,Colorado,/r/FourCorners,Four Corners Region,
+94,Colorado,/r/GoldenCO,Golden,Jefferson
+95,Colorado,/r/grandjunctionco,Grand Junction CO,Mesa
+96,Colorado,/r/Greeley,Greeley,Weld
+97,Colorado,/r/gunnison,Gunnison County,Gunnison
+98,Colorado,/r/highlandsranch,Highlands Ranch,Douglas
+99,Colorado,/r/KremmlingCo,Kremmling CO,Grand
+100,Colorado,/r/PBville,Leadville,Lake
+101,Colorado,/r/longmont,Longmont,Boulder
+102,Colorado,/r/LouisvilleColorado,Louisville,Boulder
+103,Colorado,/r/lucernecolorado,Lucerne,Weld
+104,Colorado,/r/manitousprings,Manitou Springs,El Paso
+105,Colorado,/r/NoCo,Northen Colorado,
+106,Colorado,/r/pueblo,Pueblo,Pueblo
+107,Colorado,/r/RMNP,Rocky Mountain National Park,Larimer
+108,Colorado,/r/snowmass,Snowmass Village,Pitkin
+109,Colorado,/r/thorton,Thorton,Adams
+110,Colorado,/r/trinidadco,Trinidad,Las Animas
+111,Colorado,/r/westerncolorado,Western Colorado,Adams
+112,Colorado,/r/wolfcreek,Wolf Creek,Clear Creek
+113,Connecticut,/r/connecticut,Connecticut,
+114,Connecticut,/r/bethelct,Bethel,Fairfield
+115,Connecticut,/r/BroadBrookCT,Broad Brook,Hartford
+116,Connecticut,/r/EasternCT,Eastern Connecticut,Windham
+117,Connecticut,/r/EnfieldCT,Enfield,Hartford
+118,Connecticut,/r/fairfieldcounty,Fairfield County,Fairfield
+119,Connecticut,/r/GlastonburyCT,Glastonbury,Hartford
+120,Connecticut,/r/groton,Groton,New London
+121,Connecticut,/r/litchfieldct,Litchfield County,Litchfield
+122,Connecticut,/r/SilkCity,Manchester,Hartford
+123,Connecticut,/r/Milford,Milford,New Haven
+124,Connecticut,/r/newbritain,New Britain,Hartford
+125,Connecticut,/r/newlondon,New London,New London
+126,Connecticut,/r/NortheastConnecticut,Northeast Connecticut,
+127,Connecticut,/r/norwichct,Norwich,New London
+128,Connecticut,/r/pointowoods,Point O' Woods,New London
+129,Connecticut,/r/oldsaybrook,Old Saybrook,Middlesex
+130,Connecticut,/r/RockyHill,Rocky Hill,Hartford
+131,Connecticut,/r/Somers,Somers,Tolland
+132,Connecticut,/r/Sono,South Norwalk,Fairfield
+133,Connecticut,/r/StamfordCT,Stamford CT,Fairfield
+134,Connecticut,/r/TollandCT,Tolland,Tolland
+135,Connecticut,/r/WaterburyCT,Waterbury,New Haven
+136,Connecticut,/r/westhartford,West Hartford,Hartford
+137,Connecticut,/r/wethersfield,Wethersfield,Hartford
+138,Connecticut,/r/Woodstockct,Woodstock,Windham
+139,Delaware,/r/delaware,Delaware,Delaware
+140,Delaware,/r/newarkde,Newark,New Castle
+141,Delaware,/r/wilmingtonDE,Wilmington,New Castle
+142,District of Columbia,/r/washingtondc,Washington DC,Washington
+143,District of Columbia,/r/districtofcolumbia,District of Columbia,Richland
+144,District of Columbia,/r/cleveland_park,Cleveland Park,Washington
+145,District of Columbia,/r/MountVernonSquareDC,Mt. Vernon Square,
+146,District of Columbia,/r/nomadc,NoMa,
+147,District of Columbia,/r/petworth,Petworth,Washington
+148,District of Columbia,/r/takomapark,Takoma Park,Washington
+149,Florida,/r/florida,Florida,
+150,Florida,/r/apalachicola,Apalachicola,Franklin
+151,Florida,/r/Auburndale,Auburndale,Polk
+152,Florida,/r/belleview,Belleview,Marion
+153,Florida,/r/bostwick,Bostwick,Putnam
+154,Florida,/r/bradenton,Bradenton,Manatee
+155,Florida,/r/brevardfl,Brevard County,Brevard
+156,Florida,/r/capecoral,Cape Coral,Lee
+157,Florida,/r/centralflorida,Central Florida,Orange
+158,Florida,/r/charlottecounty,Charlotte County,Charlotte
+159,Florida,/r/clearwaterfl,Clearwater,Pinellas
+160,Florida,/r/ClermontFL,Clermont FL,Lake
+161,Florida,/r/coconutgrove,Coconut Grove,Miami-Dade County
+162,Florida,/r/coralsprings,Coral Springs,Broward
+163,Florida,/r/davie,Davie,Broward
+164,Florida,/r/debary,Debary,Volusia
+165,Florida,/r/deland,DeLand,Volusia
+166,Florida,/r/deltona,Deltona,Volusia
+167,Florida,/r/DunedinFlorida,Dunedin,Pinellas
+168,Florida,/r/Ellenton,Ellenton,Manatee
+169,Florida,/r/estero,Estero,Lee
+170,Florida,/r/fernandinabeach,Fernandina Beach,Nassau
+171,Florida,/r/floridakeys,Florida Keys,Monroe
+172,Florida,/r/fortlauderdale,Fort Lauderdale,Broward
+173,Florida,/r/FtMyers_FL,Fort Myers FL,Lee
+174,Florida,/r/gnv,Gainesville,Alachua
+175,Florida,/r/GulfportFL,Gulfport,Pinellas
+176,Florida,/r/highlands,Highlands County,Highlands
+177,Florida,/r/immokalee,Immokalee,Collier
+178,Florida,/r/jacksonvillebeach,Jacksonville Beach,Duval
+179,Florida,/r/KeyLargo,Key Largo,Monroe
+180,Florida,/r/kissimmee,Kissimmee,Osceola
+181,Florida,/r/lakecityflorida,Lake City FL,Columbia
+182,Florida,/r/lakeland,Lakeland,Polk
+183,Florida,/r/LakewoodRanch,Lakewood Ranch,Manatee
+184,Florida,/r/LongwoodFL,Longwood,Seminole
+185,Florida,/r/melbourneflorida,Melbourne,Brevard
+186,Florida,/r/merrittisland,Merritt Island,Brevard
+187,Florida,/r/MiltonFL,Milton,Santa Rosa
+188,Florida,/r/MyakkaCity,Myakka City,Manatee
+189,Florida,/r/naples_fl,Naples,Collier
+190,Florida,/r/Niceville,Niceville,Okaloosa
+191,Florida,/r/NorthFlorida,North Florida,
+192,Florida,/r/ocala,Ocala,Marion
+193,Florida,/r/orangepark,Orange Park,Orange
+194,Florida,/r/orlando,Orlando,Orange
+195,Florida,/r/greaterorlando,Orlando Greater Area,
+196,Florida,/r/palmbeach,Palm Beach,Palm Beach
+197,Florida,/r/Palmetto,Palmetto,Manatee
+198,Florida,/r/panamacity,Panama City,Bay
+199,Florida,/r/panamacitybeach,Panama City Beach,Bay
+200,Florida,/r/Pasco,Pasco County,Pasco
+201,Florida,/r/pensacola,Pensacola,Escambia
+202,Florida,/r/pinellas,Pinellas County,Pinellas
+203,Florida,/r/polk,Polk County,Polk
+204,Florida,/r/pontevedra,Ponte Vedra,Saint Johns
+205,Florida,/r/portorange,Port Orange,Volusia
+206,Florida,/r/portstjohn,Port St. John,Brevard
+207,Florida,/r/riverside,Riverside,Riverside
+208,Florida,/r/Sanford,Sanford,Seminole
+209,Florida,/r/sanibel,Sanibel Island,Lee
+210,Florida,/r/seaside,Seaside,Walton
+211,Florida,/r/springhillfla,Spring Hill,Hernando
+212,Florida,/r/southflorida,South Florida,
+213,Florida,/r/southwood,Southwood,Hillsborough
+214,Florida,/r/staugustinebeach,St. Augustine Beach,Saint Johns
+215,Florida,/r/stpetersburgfl,St. Petersburg,Pinellas
+216,Florida,/r/SunnyIslesBeach,Sunny Isles Beach,Miami-Dade County
+217,Florida,/r/tampabay,Tampa Bay,Hillsborough
+218,Florida,/r/tlh,Tallahassee (TLH),Leon
+219,Florida,/r/ThorntonPark,Thornton Park,
+220,Florida,/r/772,Treasure Coast (772),
+221,Florida,/r/valrico,Valrico,Hillsborough
+222,Florida,/r/Venice_FL,Venice FL,Sarasota
+223,Florida,/r/WestPalmBeachFl,West Palm Beach,Palm Beach
+224,Georgia,/r/georgia,Georgia,
+225,Georgia,/r/acworth,Acworth,Cobb
+226,Georgia,/r/alpharetta,Alpharetta,Fulton
+227,Georgia,/r/atlanta,Atlanta,Fulton
+228,Georgia,/r/augusta,Augusta,Richmond
+229,Georgia,/r/Brookhaven,Brookhaven,DeKalb
+230,Georgia,/r/cantonga,Canton,Cherokee
+231,Georgia,/r/cartersville,Cartersville,Bartow
+232,Georgia,/r/CobbCounty,Cobb County,Cobb
+233,Georgia,/r/columbiacounty,Columbia County,Columbia
+234,Georgia,/r/conyers,Conyers,Rockdale
+235,Georgia,/r/CummingGA,Cumming GA,Forsyth
+236,Georgia,/r/dahlonega,Dahlonega,Lumpkin
+237,Georgia,/r/Dawsonville,Dawsonville,Gordon
+238,Georgia,/r/dvillega,Douglasville,Douglas
+239,Georgia,/r/DuluthGA,Duluth,Gwinnett
+240,Georgia,/r/snobbery,East Cobb County,Cobb
+241,Georgia,/r/Ellijay,Ellijay,Gilmer
+242,Georgia,/r/FalconCrest,Falcon Crest,
+243,Georgia,/r/forsyth,Forsyth County,Forsyth
+244,Georgia,/r/grovetown,Grovetown,Columbia
+245,Georgia,/r/Henrycounty,Henry County,Henry
+246,Georgia,/r/hollyspringsga,Holly Springs,Cherokee
+247,Georgia,/r/jekyllisland,Jekyll Island,Glynn
+248,Georgia,/r/kennesaw,Kennesaw,Cobb
+249,Georgia,/r/leesburgga,Leesburg,Lee
+250,Georgia,/r/ludowici,Ludowici,Long
+251,Georgia,/r/macon,Macon,Bibb
+252,Georgia,/r/marietta,Marietta,Cobb
+253,Georgia,/r/middlegeorgia,Middle Georgia,Bibb
+254,Georgia,/r/milledgeville,Milledgeville,Baldwin
+255,Georgia,/r/northgeorgia,North Georgia,
+256,Georgia,/r/paulding,Paulding County,Paulding
+257,Georgia,/r/RockdaleCounty,Rockdale County,Rockdale
+258,Georgia,/r/roswell,Roswell,Fulton
+259,Georgia,/r/savannah,Savannah,Chatham
+260,Georgia,/r/SEGANEFL,Southeast Georgia,Bulloch
+261,Georgia,/r/stsimonsisland,St. Simons Island,Glynn
+262,Georgia,/r/stonemtn,Stone Mountain,DeKalb
+263,Georgia,/r/Toccoa,Toccoa,Stephens
+264,Georgia,/r/valdosta,Valdosta,Lowndes
+265,Georgia,/r/westgeorgia,West Georgia,Troup
+266,Hawaii,/r/hawaii,Hawaii,
+267,Hawaii,/r/hanamaui,Hana,Honolulu
+268,Hawaii,/r/kailuakona,Kailua,Hawaii
+269,Hawaii,/r/kona,Kona,Hawaii
+270,Idaho,/r/idaho,Idaho,
+271,Idaho,/r/coeurdalene,Coeur d'Alene,Kootenai
+272,Idaho,/r/Gooding,Gooding,Gooding
+273,Idaho,/r/inlandnorthwest,Inland Northwest,
+274,Idaho,/r/LewistonID,Lewiston,Nez Perce
+275,Idaho,/r/moscowidaho,Moscow,Latah
+276,Idaho,/r/nampa,Nampa,Canyon
+277,Idaho,/r/pocatello,Pocatello,Bannock
+278,Idaho,/r/Sandpoint,Sandpoint,Bonner
+279,Idaho,/r/twinfalls,Twin Falls,Twin Falls
+280,Illinois,/r/illinois,Illinois,Cook
+281,Illinois,/r/AltonNews,Alton,Madison
+282,Illinois,/r/ArlingtonHeights,Arlington Heights,Cook
+283,Illinois,/r/auroraillinois,Aurora,Kane
+284,Illinois,/r/BartlettIllinois,Bartlett,Cook
+285,Illinois,/r/bellevilleIL,Belleville,Saint Clair
+286,Illinois,/r/Bethalto,Bethalto,Madison
+287,Illinois,/r/bloomingtonnormal,Bloomington-Normal,McLean
+288,Illinois,/r/webstercounty,Buffalo Grove (Webster County),
+289,Illinois,/r/Carbondale,Carbondale,Jackson
+290,Illinois,/r/carolstream,Carol Stream,DuPage
+291,Illinois,/r/Champaign,Champaign,Champaign
+292,Illinois,/r/champaignurbana,Champaign-Urbana,Champaign
+293,Illinois,/r/Chatsworth,Chatsworth,Livingston
+294,Illinois,/r/chicagoland,Chicago Metro Area,Cook
+295,Illinois,/r/NearWestSuburbs,Chicago Near West Suburbs,
+296,Illinois,/r/WestTown,Chicago West,DuPage
+297,Illinois,/r/deerfield,Deerfield,Lake
+298,Illinois,/r/dekalbarea,De Kalb Area,DeKalb
+299,Illinois,/r/DownersGrove,Downers Grove,DuPage
+300,Illinois,/r/edwardsvilleil,Edwardsville,Madison
+301,Illinois,/r/elgin,Elgin,Kane
+302,Illinois,/r/Elmhurst,Elmhurst,DuPage
+303,Illinois,/r/evanstonil,Evanston IL,Cook
+304,Illinois,/r/freeport,Freeport,Stephenson
+305,Illinois,/r/galesburg,Galesburg,Knox
+306,Illinois,/r/GenevaIL,Geneva,Kane
+307,Illinois,/r/grayslake,Grayslake,Lake
+308,Illinois,/r/gurnee,Gurnee,Lake
+309,Illinois,/r/hinsdale,Hinsdale,DuPage
+310,Illinois,/r/huntley,Huntley,McHenry
+311,Illinois,/r/SKankakee,Kankakee County,Kankakee
+312,Illinois,/r/lakezurichil,Lake Zurich,Lake
+313,Illinois,/r/libertyville,Libertyville,Lake
+314,Illinois,/r/lilacvillage,Lombard (Lilac Village),
+315,Illinois,/r/Makanda,Makanda,Jackson
+316,Illinois,/r/McHenry,McHenry,McHenry
+317,Illinois,/r/metroeast,Metro East,Cook
+318,Illinois,/r/MonmouthIL,Monmouth,Warren
+319,Illinois,/r/Mundelein,Mundelein,Lake
+320,Illinois,/r/newbaden,New Baden,Clinton
+321,Illinois,/r/NormalIL,Normal,McLean
+322,Illinois,/r/northbrook,Northbrook,Cook
+323,Illinois,/r/OakLawn,Oak Lawn,Cook
+324,Illinois,/r/orlandpark,Orland Park,Cook
+325,Illinois,/r/Parkridge,Park Ridge,Cook
+326,Illinois,/r/peoria,Peoria,Peoria
+327,Illinois,/r/Plainfield,Plainfield,Will
+328,Illinois,/r/PortagePark,Portage Park,Cook
+329,Illinois,/r/riverforestillinois,River Forest,Cook
+330,Illinois,/r/rockford,Rockford,Winnebago
+331,Illinois,/r/schaumburg,Schaumburg,Cook
+332,Illinois,/r/618,Southern Illinois (618),
+333,Illinois,/r/springfieldil,Springfield,Sangamon
+334,Illinois,/r/stclairco,St. Clair County,Saint Clair
+335,Illinois,/r/vernonhills,Vernon Hills,Lake
+336,Illinois,/r/westernillinois,Western Illinois,Cook
+337,Illinois,/r/Wilmette,Wilmette,Cook
+338,Illinois,/r/Yorkville,Yorkville,Kendall
+339,Indiana,/r/indiana,Indiana,
+340,Indiana,/r/BatesvilleUnited,Batesville,Ripley
+341,Indiana,/r/broadripple,Broadripple,
+342,Indiana,/r/carmelin,Carmel IN,Hamilton
+343,Indiana,/r/columbusin,Columbus IN,Bartholomew
+344,Indiana,/r/connersville,Connersville,Fayette
+345,Indiana,/r/CrownPointIndiana,Crown Point,Lake
+346,Indiana,/r/evansville,Evansville,Vanderburgh
+347,Indiana,/r/Fishers,Fishers,Hamilton
+348,Indiana,/r/HuntingtonIN,Huntington,Huntington
+349,Indiana,/r/Kendallville,Kendallville,Noble
+350,Indiana,/r/lafayette,Lafayette,Tippecanoe
+351,Indiana,/r/Logansport,Logansport,Cass
+352,Indiana,/r/Marktown,Marktown,Lake
+353,Indiana,/r/MichiganCityIndiana,Michigan City,LaPorte
+354,Indiana,/r/newalbany,New Albany,Floyd
+355,Indiana,/r/TheOtherNewHaven,New Haven,Allen
+356,Indiana,/r/NorthwestIndiana,Northwest Indiana,Orange
+357,Indiana,/r/newburghin,Newburgh,Warrick
+358,Indiana,/r/paoli,Paoli,Orange
+359,Indiana,/r/RidgeportIndiana,Ridgeport,Greene
+360,Indiana,/r/southbend,South Bend,Saint Joseph
+361,Indiana,/r/valparaiso,Valparaiso,Porter
+362,Indiana,/r/WestfieldIndy,Westfield,Hamilton
+363,Indiana,/r/Zionsville,Zionsville,Boone
+364,Iowa,/r/iowa,Iowa,
+365,Iowa,/r/ankeny,Ankeny,Polk
+366,Iowa,/r/camanche,Camanche,Clinton
+367,Iowa,/r/cedarrapids,Cedar Rapids,Linn
+368,Iowa,/r/ColfaxIowa,Colfax,Jasper
+369,Iowa,/r/councilbluffs,Council Bluffs,Pottawattamie
+370,Iowa,/r/desmoines,Des Moines,Polk
+371,Iowa,/r/fairfieldiowa,Fairfield,Jefferson
+372,Iowa,/r/GlenwoodIowa,Glenwood,Mills
+373,Iowa,/r/LuVerne,Lu Verne,Kossuth
+374,Iowa,/r/marioniowa,Marion,Marion
+375,Iowa,/r/masoncity,Mason City,Cerro Gordo
+376,Iowa,/r/NorthLiberty,North Liberty,Johnson
+377,Iowa,/r/okoboji,Okoboji,Dickinson
+378,Iowa,/r/PleasantvilleIA,Pleasantville,Marion
+379,Iowa,/r/siouxcity,Sioux City,Woodbury
+380,Iowa,/r/spenceriowa,Spencer,Clay
+381,Iowa,/r/westdesmoines,West Des Moines,Polk
+382,Kansas,/r/kansas,Kansas,Jackson
+383,Kansas,/r/BaldwinCity,Baldwin City,Douglas
+384,Kansas,/r/CollegeHill,College Hill,Sedgwick
+385,Kansas,/r/DeSotoKS,De Soto,Johnson
+386,Kansas,/r/gcks,Garden City (GCKS),
+387,Kansas,/r/GardenCityKansas,Garden City Kansas,Finney
+388,Kansas,/r/JohnsonCounty,Johnson County,Johnson
+389,Kansas,/r/Leavenworth,Leavenworth,Leavenworth
+390,Kansas,/r/Lenexa,Lenexa,Johnson
+391,Kansas,/r/littleapple,Manhattan,Riley
+392,Kansas,/r/moundcity,Mound City,Linn
+393,Kansas,/r/olathe,Olathe,Johnson
+394,Kansas,/r/prairievillage,Prairie Village,Johnson
+395,Kansas,/r/republiccountykansas,Republic County,Republic
+396,Kansas,/r/topeka,Topeka,Shawnee
+397,Kentucky,/r/kentucky,Kentucky,
+398,Kentucky,/r/ashlandky,Ashland KY,Boyd
+399,Kentucky,/r/BellevueKY,Bellevue,Campbell
+400,Kentucky,/r/boylecounty,Boyle County,Boyle
+401,Kentucky,/r/corbinky,Corbin,Laurel
+402,Kentucky,/r/DanvilleKY,Danville,Boyle
+403,Kentucky,/r/etown,Elizabethtown,Hardin
+404,Kentucky,/r/frankfort,Frankfort,Franklin
+405,Kentucky,/r/glasgowky,Glasgow,Barren
+406,Kentucky,/r/HarlanKY,Harlan,Harlan
+407,Kentucky,/r/hoptown,Hopkinsville (Hoptown),Christian
+408,Kentucky,/r/lawrenceburg,Lawrenceburg,Anderson
+409,Kentucky,/r/lexingtonhangouts,Lexington Hangouts,
+410,Kentucky,/r/louisville,Louisville,Jefferson
+411,Kentucky,/r/middlesboroky,Middlesboroky,
+412,Kentucky,/r/morehead,Morehead,Rowan
+413,Kentucky,/r/newportky,New Port,
+414,Kentucky,/r/northernky,Northern Kentucky,
+415,Kentucky,/r/Okolona,Okolona,Jefferson
+416,Kentucky,/r/owensboro,Owensboro,Daviess
+417,Kentucky,/r/paducah,Paducah,McCracken
+418,Kentucky,/r/pulaskikentucky,Pulaski County,Pulaski
+419,Kentucky,/r/richmondky,Richmond,Madison
+420,Kentucky,/r/sladeky,Slade,Powell
+421,Kentucky,/r/webstercounty,Webster County,Webster
+422,Kentucky,/r/winchesterky,Winchester,Clark
+423,Louisiana,/r/louisiana,Louisiana,
+424,Louisiana,/r/ascensionparish,Ascension Parish,Ascension
+425,Louisiana,/r/bellechasse,Belle Chasse,Plaquemines
+426,Louisiana,/r/bossiercity,Bossier City,Bossier
+427,Louisiana,/r/covingtonla,Covington,Saint Tammany
+428,Louisiana,/r/Eunice,Eunice,Saint Landry
+429,Louisiana,/r/hammond,Hammond,Tangipahoa
+430,Louisiana,/r/jeffersonparish,Jefferson Parish,Jefferson
+431,Louisiana,/r/lakecharles,Lake Charles,Calcasieu
+432,Louisiana,/r/metry,Metairie,Jefferson
+433,Louisiana,/r/newiberia,New Iberia,Iberia
+434,Louisiana,/r/NOLA,NOLA (New Orleans),Orleans
+435,Louisiana,/r/northlouisiana,North Louisiana,
+436,Louisiana,/r/nwla,Northwest Louisiana,Beauregard
+437,Louisiana,/r/ponchatoula,Ponchatoula,Tangipahoa
+438,Louisiana,/r/stcharlesparish,St. Charles Parish,Saint Charles
+439,Louisiana,/r/thibodaux,Thibodaux,Lafourche
+440,Maine,/r/maine,Maine,
+441,Maine,/r/Aroostook,Aroostook County,Aroostook
+442,Maine,/r/bronyisland,Brony Island,
+443,Maine,/r/ellsworth,Ellsworth,Hancock
+444,Maine,/r/gorham,Gorham,Cumberland
+445,Maine,/r/lewiston,Lewiston,Androscoggin
+446,Maine,/r/LAMaine,Lewiston-Auburn (LAMaine),
+447,Maine,/r/PortlandMaine,Portland,Cumberland
+448,Maine,/r/Waterville,Waterville,Kennebec
+449,Maryland,/r/maryland,Maryland,
+450,Maryland,/r/annearundelcountymd,Anne Arundel County,Anne Arundel
+451,Maryland,/r/baltimore,Baltimore,Baltimore
+452,Maryland,/r/Beltsville,Beltsville,Prince George's
+453,Maryland,/r/bettsville,Bettsville,
+454,Maryland,/r/thebbc,Breton bay,Saint Mary's
+455,Maryland,/r/carrollcounty,Carroll County,Carroll
+456,Maryland,/r/Ceciltucky,Cecil County,Cecil
+457,Maryland,/r/chasemd,Chase,Montgomery
+458,Maryland,/r/Cheverly,Cheverly,Prince George's
+459,Maryland,/r/crofton_md,Crofton,Anne Arundel
+460,Maryland,/r/damascusmd,Damascus,Montgomery
+461,Maryland,/r/easternshoremd,Eastern Shore,Somerset
+462,Maryland,/r/elkton,Elkton,Cecil
+463,Maryland,/r/EssexWhat,Essex,Baltimore
+464,Maryland,/r/germantown,Germantown,Montgomery
+465,Maryland,/r/hagerstown,Hagerstown,Washington
+466,Maryland,/r/HarfordMD,Harford,Harford
+467,Maryland,/r/HowardCountyMD,Howard County,Howard
+468,Maryland,/r/lansdownemd,Lansdowne,Baltimore
+469,Maryland,/r/lusby,Lusby,Calvert
+470,Maryland,/r/Montgomerycounty,Montgomery County,Montgomery
+471,Maryland,/r/NorthBethesda,North Bethesda,Montgomery
+472,Maryland,/r/oceancity,Ocean City,Worcester
+473,Maryland,/r/parkville,Parkville,Baltimore
+474,Maryland,/r/perryhall,Perryhall,
+475,Maryland,/r/princegeorgescounty,Prince George's County,Prince George's
+476,Maryland,/r/Reisterstown,Reisterstown,Baltimore
+477,Maryland,/r/rockvillemd,Rockville MD,Montgomery
+478,Maryland,/r/SilverSpring,Silver Spring,Montgomery
+479,Maryland,/r/stmaryscounty,St. Mary's County,Saint Mary's
+480,Maryland,/r/TalbotCounty,Talbot County,Talbot
+481,Maryland,/r/washingtoncountymd,Washington County,Washington
+482,Maryland,/r/WestminsterMaryland,Westminster,Carroll
+483,Maryland,/r/wyeoak,Wye Oak,Talbot
+484,Massachusetts,/r/massachusetts,Massachusetts,Suffolk
+485,Massachusetts,/r/actonma,Acton,Middlesex
+486,Massachusetts,/r/agawam,Agawam,Hampden
+487,Massachusetts,/r/Amesbury,Amesbury,Essex
+488,Massachusetts,/r/andover,Andover,Essex
+489,Massachusetts,/r/TheBerkshires,Berkshire County,Berkshire
+490,Massachusetts,/r/boston,Boston,Suffolk
+491,Massachusetts,/r/MetroBoston,Boston Metro,
+492,Massachusetts,/r/brookline,Brookline,Norfolk
+493,Massachusetts,/r/Camberville,Camberville,
+494,Massachusetts,/r/CambridgeCityHall,Cambridge City Hall,Middlesex
+495,Massachusetts,/r/Townofcarver,Carver,Plymouth
+496,Massachusetts,/r/central_ma,Central_Massachusetts,
+497,Massachusetts,/r/ChestnutHill,Chestnut Hill,Middlesex
+498,Massachusetts,/r/cohasset,Cohasset,Norfolk
+499,Massachusetts,/r/CoolidgeCorner,Coolidge Corner,Norfolk
+500,Massachusetts,/r/Dorchester,Dorchester,Norfolk
+501,Massachusetts,/r/eastbridgewater,East Bridgewater,Plymouth
+502,Massachusetts,/r/EastLongmeadow,East Longmeadow,Hampden
+503,Massachusetts,/r/framinghamma,Framingham,Middlesex
+504,Massachusetts,/r/FranklinMA,Franklin MA,Franklin
+505,Massachusetts,/r/georgetownMa,Georgetown,Essex
+506,Massachusetts,/r/GloucesterMA,Gloucester MA,Essex
+507,Massachusetts,/r/Greenfield,Greenfield,Franklin
+508,Massachusetts,/r/groveland,Groveland,Essex
+509,Massachusetts,/r/Hopkunton,Hopkunton,
+510,Massachusetts,/r/HydeParkMA,Hyde Park,Suffolk
+511,Massachusetts,/r/KendallSquare,Kendall Square,Middlesex
+512,Massachusetts,/r/lowellmass,Lowell Mass,
+513,Massachusetts,/r/Ludlow,Ludlow,Hampden
+514,Massachusetts,/r/LynnMA,Lynn,Essex
+515,Massachusetts,/r/mansfieldma,Mansfield,Bristol
+516,Massachusetts,/r/marlborough,Marlborough,Middlesex
+517,Massachusetts,/r/marthasvineyard,Martha's Vineyard,Dukes
+518,Massachusetts,/r/MedfordMass,Medford,Middlesex
+519,Massachusetts,/r/Methuen,Methuen,Essex
+520,Massachusetts,/r/millbury,Millbury,Worcester
+521,Massachusetts,/r/MiltonMA,Milton,Norfolk
+522,Massachusetts,/r/Natick,Natick,Middlesex
+523,Massachusetts,/r/newburyport,Newbury Port,
+524,Massachusetts,/r/NorthAdams,North Adams,Berkshire
+525,Massachusetts,/r/northshore,North Shore,Nantucket
+526,Massachusetts,/r/NorthamptonMA,Northampton MA,Hampshire
+527,Massachusetts,/r/peabodyma,Peabody,Essex
+528,Massachusetts,/r/pioneervalley,Pioneer Valley,Franklin
+529,Massachusetts,/r/PittsfieldMass,Pittsfield,Berkshire
+530,Massachusetts,/r/quinceyma,Quincy,Norfolk
+531,Massachusetts,/r/rehobothma,Rehoboth,Bristol
+532,Massachusetts,/r/SalemMA,Salem,Essex
+533,Massachusetts,/r/SharonMA,Sharon,Norfolk
+534,Massachusetts,/r/sherborn,Sherborn,Middlesex
+535,Massachusetts,/r/somerville,Somerville,Middlesex
+536,Massachusetts,/r/south_hadley,South Hadley,Hampshire
+537,Massachusetts,/r/southbridge,Southbridge,Worcester
+538,Massachusetts,/r/springfield,Springfield,Hampden
+539,Massachusetts,/r/stoughton,Stoughton,Norfolk
+540,Massachusetts,/r/tauntonma,Taunton,Bristol
+541,Massachusetts,/r/TurnersFalls,Turners Falls,Franklin
+542,Massachusetts,/r/Walpole,Walpole,Norfolk
+543,Massachusetts,/r/watertown,Watertown,Middlesex
+544,Massachusetts,/r/WestSpringfield,West Springfield,Hampden
+545,Massachusetts,/r/413,Western MA (413),
+546,Massachusetts,/r/westernmass,Western Massachusetts,Worcester
+547,Massachusetts,/r/WestfieldMA,Westfield,Hampden
+548,Massachusetts,/r/Whitinsville,Whitinsville,Worcester
+549,Massachusetts,/r/WinchesterMass,Winchester,Middlesex
+550,Massachusetts,/r/worcesterma,Worcester,Worcester
+551,Michigan,/r/michigan,Michigan,
+552,Michigan,/r/almont,Almont,Lapeer
+553,Michigan,/r/annarbor,Ann Arbor,Washtenaw
+554,Michigan,/r/cerealcity,Battle Creek (CerealCity),
+555,Michigan,/r/bentonharbor,Benton Harbor,Berrien
+556,Michigan,/r/blanchard,Blanchard,Isabella
+557,Michigan,/r/charlevoix,Charlevoix,Charlevoix
+558,Michigan,/r/Coopersville,Coopersville,Ottawa
+559,Michigan,/r/detroit,Detroit,Wayne
+560,Michigan,/r/dewitt,DeWitt,Clinton
+561,Michigan,/r/durand,Durand,Shiawassee
+562,Michigan,/r/elkriver,Elk River,Antrim
+563,Michigan,/r/FarmingtonHills,Farmington Hills,Oakland
+564,Michigan,/r/flint,Flint,Genesee
+565,Michigan,/r/freeland,Freeland,Saginaw
+566,Michigan,/r/GardenCityMI,Garden City,Wayne
+567,Michigan,/r/GrandHaven,Grand Haven,Ottawa
+568,Michigan,/r/grandrapids,Grand Rapids,Kent
+569,Michigan,/r/hamtramck,Hamtramck,Wayne
+570,Michigan,/r/haslett,Haslett,Ingham
+571,Michigan,/r/hollandmichigan,Holland,Allegan
+572,Michigan,/r/houghton,Houghton,Houghton
+573,Michigan,/r/Hudsonville,Hudsonville,Ottawa
+574,Michigan,/r/ironmountain,Iron Mountain,Dickinson
+575,Michigan,/r/kzoo,Kalamazoo,Kalamazoo
+576,Michigan,/r/keweenaw,Keweenaw,Keweenaw
+577,Michigan,/r/lansing,Lansing,Ingham
+578,Michigan,/r/leelanau,Leelanau,Leelanau
+579,Michigan,/r/livonia,Livonia,Wayne
+580,Michigan,/r/Ludington,Ludington,Mason
+581,Michigan,/r/marinecity,Marine City,Saint Clair
+582,Michigan,/r/MasonMI,Mason,Mason
+583,Michigan,/r/mesickmi,Mesick,Wexford
+584,Michigan,/r/Midland,Midland,Midland
+585,Michigan,/r/milfordmi,Milford,Oakland
+586,Michigan,/r/Montague,Montague,Muskegon
+587,Michigan,/r/mtpleasantmi,Mt. Pleasant,Emmet
+588,Michigan,/r/NewBaltimore,New Baltimore,Macomb
+589,Michigan,/r/oaklandcounty,Oakland County,Oakland
+590,Michigan,/r/owosso,Owosso,Shiawassee
+591,Michigan,/r/petoskey,Petoskey,Emmet
+592,Michigan,/r/pontiacmi,Pontiac,Oakland
+593,Michigan,/r/rochesterhills,Rochester Hills,Oakland
+594,Michigan,/r/royaloak,Royal Oak,Oakland
+595,Michigan,/r/SaginawBay,Saginaw Bay,Bay
+596,Michigan,/r/saintclairshores,Saint Clair Shores,Macomb
+597,Michigan,/r/SouthBend,South Bend,LaPorte
+598,Michigan,/r/stclairshores,St. Clair Shores,Macomb
+599,Michigan,/r/swmich,SW Michigan,Kent
+600,Michigan,/r/traversecity,Traverse City,Grand Traverse
+601,Michigan,/r/UPmichigan,Upper Peninsula,Marquette
+602,Michigan,/r/westmi,West Michigan,Oakland
+603,Michigan,/r/WhiteLake,White Lake,Oakland
+604,Michigan,/r/Woodhaven,Woodhaven,Wayne
+605,Michigan,/r/wyomingmi,Wyoming,Kent
+606,Michigan,/r/ypsilanti,Ypsilanti,Washtenaw
+607,Minnesota,/r/minnesota,Minnesota,
+608,Minnesota,/r/anokamn,Anoka,Anoka
+609,Minnesota,/r/armatage,Armatage,Hennepin
+610,Minnesota,/r/bloomingtonmn,Bloomington,Ramsey
+611,Minnesota,/r/buffalominnesota,Buffalo,Wright
+612,Minnesota,/r/cambridgeminnesota,Cambridge,Isanti
+613,Minnesota,/r/chanhassen,Chanhassen,Carver
+614,Minnesota,/r/coonrapids,Coon Rapids,Anoka
+615,Minnesota,/r/duluth,Duluth,Saint Louis
+616,Minnesota,/r/eastbethelmn,East Bethel,Anoka
+617,Minnesota,/r/elkriver,Elk River,Sherburne
+618,Minnesota,/r/hastingsmn,Hastings,Dakota
+619,Minnesota,/r/isantimn,Isanti,Isanti
+620,Minnesota,/r/mankato,Mankato,Blue Earth
+621,Minnesota,/r/marshallmn,Marshall,Marshall
+622,Minnesota,/r/minneapolis,Minneapolis,Hennepin
+623,Minnesota,/r/FargoMoorhead,Moorhead-Fargo,Clay
+624,Minnesota,/r/morrismn,Morris,Stevens
+625,Minnesota,/r/moundsview,Mounds View,Ramsey
+626,Minnesota,/r/owatonna,Owatonna,Steele
+627,Minnesota,/r/redwingmn,Red Wing,Goodhue
+628,Minnesota,/r/rochestermn,Rochester,Olmsted
+629,Minnesota,/r/rosemount,Rosemount,Dakota
+630,Minnesota,/r/saintbutt,Saint Butt,
+631,Minnesota,/r/saintpaul,Saint Paul,Ramsey
+632,Minnesota,/r/stpaulpark,St. Paul Park,Washington
+633,Minnesota,/r/shakopee,Shakopee,Scott
+634,Minnesota,/r/twincities,Twin Cities,Ramsey
+635,Minnesota,/r/waconia,Waconia,Carver
+636,Minnesota,/r/willmar,Willmar,Kandiyohi
+637,Minnesota,/r/winona,Winona,Winona
+638,Mississippi,/r/mississippi,Mississippi,Hinds
+639,Mississippi,/r/biloxi,Biloxi,Harrison
+640,Mississippi,/r/edgewoodms,Edgewood,Adams
+641,Mississippi,/r/hattiesburg,Hattiesburg,Forrest
+642,Mississippi,/r/longbeachmississippi,Long Beach,Harrison
+643,Mississippi,/r/natchez,Natchez,Adams
+644,Mississippi,/r/ptownms,Petal,Forrest
+645,Mississippi,/r/pontotoc,Pontotoc,Pontotoc
+646,Mississippi,/r/Starkville,Starkville,Oktibbeha
+647,Mississippi,/r/tupelo,Tupelo,Lee
+648,Missouri,/r/missouri,Missouri,St. Louis
+649,Missouri,/r/bolivarmo,Bolivar,Polk
+650,Missouri,/r/BunkerMissouri,Bunker,Reynolds
+651,Missouri,/r/columbiamo,Columbia,Boone
+652,Missouri,/r/columbiamissouri,Columbia MO,Boone
+653,Missouri,/r/FultonMo,Fulton,Callaway
+654,Missouri,/r/jacksonmo,Jackson MO,Jackson
+655,Missouri,/r/joplinmo,Joplin MO,Jasper
+656,Missouri,/r/kirksville,Kirksville,Adair
+657,Missouri,/r/Maryville,Maryville,Nodaway
+658,Missouri,/r/MissouriCity,Missouri City,St. Louis
+659,Missouri,/r/newmadridcounty,New Madrid County,New Madrid
+660,Missouri,/r/OakvilleSTL,Oakville,Saint Louis
+661,Missouri,/r/ozarks,Ozarks,Douglas
+662,Missouri,/r/PleasantHillMo,Pleasant Hill,Cass
+663,Missouri,/r/rolla,Rolla,Phelps
+664,Missouri,/r/springfieldmo,Springfield,Greene
+665,Missouri,/r/stclairmo,St. Clair,Saint Clair
+666,Missouri,/r/stlouis,St. Louis,St. Louis
+667,Missouri,/r/StLouisMO,St. Louis MO,St. Louis
+668,Missouri,/r/washmo,Washington,Buchanan
+669,Missouri,/r/westplains,West Plains,Howell
+670,Missouri,/r/willardmo,Willard,Greene
+671,Montana,/r/montana,Montana,
+672,Montana,/r/billings,Billings,Yellowstone
+673,Montana,/r/bozeman,Bozeman,Gallatin
+674,Montana,/r/darbymt,Darby,Ravalli
+675,Montana,/r/GlacierPark,Glacier Park,Flathead
