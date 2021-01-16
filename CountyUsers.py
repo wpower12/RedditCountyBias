@@ -5,6 +5,7 @@ import time
 import datetime
 import pymysql as sql
 import sys
+from progress.bar import Bar
 
 """
 inputs:
@@ -81,17 +82,30 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 			comments_checked = 0
 			comments_skipped = 0
 
-			user_set = {}
+			user_set = set()
 			# Note: Do a first pass to fill in this set. I think it needs to be a dict? Youre
 			#       saving a praw object. key is the user id, value is the praw object. 
 			#       see notes in weekly write up. 
 
+			# This should be a big speed up. Not doubling up on user history searches is 
+			# huge. 
 			for comment in sc_cache:
+				try:
+					c_author    = comment.author
+					c_author_id = comment.author.id
+					user_set.add((c_author_id, c_author))
+				except:
+					pass
+
+			print(" - {} in user set".format(len(user_set)))
+			sub_pbar = Bar(" - users", max=len(user_set))
+			for user in user_set:
+				author_id, author_name = user
 				## Attempt to add user to the database
 				try:
 					with db_conn.cursor() as cursor:
-						cursor.execute(USER_INS_SQL.format(comment.author.id, 
-														   comment.author, 
+						cursor.execute(USER_INS_SQL.format(author_id, 
+														   author_name, 
 														   sub_id))
 					db_conn.commit()
 
@@ -99,8 +113,7 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 					uc_cache = []
 					user_comments = psapi.search_comments(after=START_TS,
 			                                     		  before=END_TS,
-			                                     		  author=comment.author)
-			                                     		 # limit=NUM_COMMENTS_CHECKED)
+			                                     		  author=author_name)
 					for c in user_comments:
 						uc_cache.append(c)
 						if len(uc_cache) >= active_N: break
@@ -129,10 +142,10 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 
 						# now the AS
 						with db_conn.cursor() as cursor:
-							unique_hash = "{}{}{}".format(comment.author.id, 
+							unique_hash = "{}{}{}".format(author_id, 
 													   	  user_comment.subreddit_id[3:], 
 													   	  year,)
-							cursor.execute(AS_INS_SQL.format(comment.author.id, 
+							cursor.execute(AS_INS_SQL.format(author_id, 
 														   	 user_comment.subreddit_id[3:], 
 														   	 year,
 														   	 unique_hash))
@@ -146,7 +159,8 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 					except Exception as e:
 						comments_skipped += 1
 				user_count += 1
-
+				sub_pbar.next()
+			sub_pbar.finish()
 			print(" - added {} users".format(user_count))
 			print(" - checked {} comments".format(comments_checked))
 			print(" - skipped {} comments".format(comments_skipped))

@@ -26,4 +26,5 @@ cu.collectUsersAndActiveSubreddits(df,
 								AS_COMMENTS_CHECKED,
 								reddit,
 								conn,
-								start_sub='/r/dothan')
+								start_sub='/r/texarkana') # Left off Jan 163:45PM
+								# start_sub='/r/flagstaff')
