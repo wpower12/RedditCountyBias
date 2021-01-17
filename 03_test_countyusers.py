@@ -18,7 +18,7 @@ reddit = praw.Reddit("data_enrich", user_agent="data_project_ua")
 conn = sql.connect(host='localhost',
 				   user='bill',
 				   password='password',
-				   database='reddit_location_bias')
+				   database='reddit_data')
 
 cu.collectUsersAndActiveSubreddits(df, 
 								TARGET_YEAR,
@@ -26,5 +26,6 @@ cu.collectUsersAndActiveSubreddits(df,
 								AS_COMMENTS_CHECKED,
 								reddit,
 								conn,
-								start_sub='/r/texarkana') # Left off Jan 163:45PM
+								start_sub='/r/dothan')
+								# start_sub='/r/texarkana') # Left off Jan 163:45PM
 								# start_sub='/r/flagstaff')

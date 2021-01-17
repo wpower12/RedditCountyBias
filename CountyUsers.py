@@ -54,7 +54,7 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 			sub_id   = sub_obj.id  # Takes a full query with praw :(
 
 			## Add subreddit to table.
-			SUB_INS_SQL = """INSERT IGNORE INTO reddit_location_bias.subreddit 
+			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
 										(subreddit_id, subreddit_name, subreddit_url) 
 										VALUES (\'{}\', \'{}\', \'{}\');"""
 
@@ -73,7 +73,7 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 				sc_cache.append(c)
 				if len(sc_cache) >= user_N: break
 
-			USER_INS_SQL = """INSERT IGNORE INTO reddit_location_bias.user 
+			USER_INS_SQL = """INSERT IGNORE INTO reddit_data.user 
 											(user_id, user_name, home_subreddit) 
 										VALUES 
 											(\'{}\', \'{}\', \'{}\');"""
@@ -126,7 +126,7 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 					print(" -- Skipped user due to: {}".format(e))
 					pass
 
-				AS_INS_SQL = """INSERT IGNORE INTO reddit_location_bias.active_subreddits
+				AS_INS_SQL = """INSERT IGNORE INTO reddit_data.active_subreddits
 									(user_id, subreddit_id, year, unique_hash)
 								VALUES
 									(\'{}\', \'{}\', {} ,\'{}\');"""
