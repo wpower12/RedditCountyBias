@@ -1,6 +1,5 @@
 import CountyUsers as cu
 import pandas as pd
-import praw
 import time
 import datetime
 import pymysql as sql
@@ -13,8 +12,6 @@ AS_COMMENTS_CHECKED    = 500
 df = pd.read_csv(FN)
 df = df[df['county'].notna()]
 
-reddit = praw.Reddit("data_enrich", user_agent="data_project_ua")
-
 conn = sql.connect(host='localhost',
 				   user='bill',
 				   password='password',
@@ -24,8 +21,8 @@ cu.collectUsersAndActiveSubreddits(df,
 								TARGET_YEAR,
 								SOURCE_COMMENTS_CHECKED,
 								AS_COMMENTS_CHECKED,
-								reddit,
 								conn,
-								start_sub='/r/dothan')
+								start_sub='/r/alpharetta')
+								# start_sub='/r/dothan')
 								# start_sub='/r/texarkana') # Left off Jan 163:45PM
 								# start_sub='/r/flagstaff')

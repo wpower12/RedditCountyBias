@@ -4,7 +4,6 @@ from psaw import PushshiftAPI
 import time
 import datetime
 import pymysql as sql
-import sys
 from progress.bar import Bar
 
 """
@@ -14,7 +13,6 @@ inputs:
  year         - Year of users/comments to process.
  user_N       - number of source comments to process for each subreddit when finding users.
  active_N     - number of source comments to process for each user when finding active subreddits
- reddit_obj   - A connected PRAW reddit object
  db_conn      - A pymysql connection to a properly set-up database, meaning:
 							 (User, Subreddit, ActiveSubreddit) tables. 
  start_sub    - name of the subreddit (its url stub, technically) to start on. Assumes the list is 
@@ -30,13 +28,14 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 									year, 
 									user_N, 
 									active_N, 
-									reddit_obj, 
 									db_conn, 
 									start_sub=None):
 	START_TS = int(time.mktime(datetime.date(year, 1,   1).timetuple()))
 	END_TS   = int(time.mktime(datetime.date(year, 12, 30).timetuple()))
 
-	psapi  = PushshiftAPI(reddit_obj)
+	# psapi  = PushshiftAPI(reddit_obj)
+
+	psapi  = PushshiftAPI()
 	skipping = (not start_sub == None)
 
 	# Collecting subreddits and users
@@ -50,8 +49,18 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 			else:
 				continue # Skip this row. 
 		try:
-			sub_obj  = reddit_obj.subreddit(sub_url[3:])
-			sub_id   = sub_obj.id  # Takes a full query with praw :(
+			## Finding 'Active Users' in subreddit by looking at comments. First PushShift Query
+			sc_cache = []
+			source_comments = psapi.search_comments(after=START_TS,
+	                                     		 before=END_TS,
+	                                     		 subreddit=sub_name)
+	                                     		# limit=SOURCE_COMMENTS_CHECKED)
+			for c in source_comments:
+				sc_cache.append(c)
+				if len(sc_cache) >= user_N: break
+
+			# Use one of the comments to get the subreddit id for insertion.
+			sub_id = sc_cache[0].subreddit_id[3:]
 
 			## Add subreddit to table.
 			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
@@ -63,45 +72,31 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 			db_conn.commit()
 			print("processing: {}".format(sub_url))
 
-			## Finding 'Active Users' in subreddit by looking at comments. First PushShift Query
-			sc_cache = []
-			source_comments = psapi.search_comments(after=START_TS,
-	                                     		 before=END_TS,
-	                                     		 subreddit=sub_name)
-	                                     		# limit=SOURCE_COMMENTS_CHECKED)
-			for c in source_comments:
-				sc_cache.append(c)
-				if len(sc_cache) >= user_N: break
+			# Do a pass over the cache to retrieve the set of unique comment authors, the 'users'.
+			user_set = set()
+			for comment in sc_cache:
+				# print(comment)
+				try:
+					c_author    = comment.author
+					c_author_id = comment.author_fullname[3:]
+					user_set.add((c_author_id, c_author))
+				except Exception as e:
+					# Catches the deleted users. 
+					pass
 
-			USER_INS_SQL = """INSERT IGNORE INTO reddit_data.user 
-											(user_id, user_name, home_subreddit) 
-										VALUES 
-											(\'{}\', \'{}\', \'{}\');"""
-
+			# Now we process each user to find their 'active subreddits' in the same time period.
 			user_count = 0
 			comments_checked = 0
 			comments_skipped = 0
-
-			user_set = set()
-			# Note: Do a first pass to fill in this set. I think it needs to be a dict? Youre
-			#       saving a praw object. key is the user id, value is the praw object. 
-			#       see notes in weekly write up. 
-
-			# This should be a big speed up. Not doubling up on user history searches is 
-			# huge. 
-			for comment in sc_cache:
-				try:
-					c_author    = comment.author
-					c_author_id = comment.author.id
-					user_set.add((c_author_id, c_author))
-				except:
-					pass
-
 			print(" - {} in user set".format(len(user_set)))
 			sub_pbar = Bar(" - users", max=len(user_set))
 			for user in user_set:
-				author_id, author_name = user
 				## Attempt to add user to the database
+				author_id, author_name = user
+				USER_INS_SQL = """INSERT IGNORE INTO reddit_data.user 
+											(user_id, user_name, home_subreddit) 
+									VALUES 
+											(\'{}\', \'{}\', \'{}\');"""
 				try:
 					with db_conn.cursor() as cursor:
 						cursor.execute(USER_INS_SQL.format(author_id, 
@@ -118,10 +113,6 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 						uc_cache.append(c)
 						if len(uc_cache) >= active_N: break
 
-				except KeyboardInterrupt:
-						print("USER KeyboardInterrupt")
-						sys.exit()
-
 				except Exception as e:
 					print(" -- Skipped user due to: {}".format(e))
 					pass
@@ -135,7 +126,7 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 					# first we ignore add the sub
 					try:
 						with db_conn.cursor() as cursor:
-							cursor.execute(SUB_INS_SQL.format(user_comment.subreddit_id, 
+							cursor.execute(SUB_INS_SQL.format(user_comment.subreddit_id[3:], 
 															  user_comment.subreddit, 
 															  user_comment.subreddit))
 						db_conn.commit()
@@ -151,10 +142,6 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 														   	 unique_hash))
 						db_conn.commit()
 						comments_checked += 1
-
-					except KeyboardInterrupt:
-						print("USER KeyboardInterrupt")
-						sys.exit()
 
 					except Exception as e:
 						comments_skipped += 1
