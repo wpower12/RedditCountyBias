@@ -17,17 +17,17 @@ table_headers = srl_soup.find_all('h5')
 subs_by_area = {} # dict; keys - name of geo area, value - list of subreddits
 
 for table_header in table_headers:
-    geo_area_name = table_header.contents[0]
-    table = table_header.find_next_sibling('table').find('tbody')
-    
-    subs_by_area[geo_area_name] = []
-    
-    for sub_row in table.find_all('tr'):
-        a_obj = sub_row.find('a', href=True)
-        sub_str  = a_obj['href']
-        sub_name = a_obj.contents[0]
-        new_item = (sub_str, sub_name)
-        subs_by_area[geo_area_name].append(new_item)
+	geo_area_name = table_header.contents[0]
+	table = table_header.find_next_sibling('table').find('tbody')
+
+	subs_by_area[geo_area_name] = []
+
+	for sub_row in table.find_all('tr'):
+		for a_obj in sub_row.find_all('a', href=True):
+			sub_str  = a_obj['href']
+			sub_name = a_obj.contents[0]
+			new_item = (sub_str, sub_name)
+			subs_by_area[geo_area_name].append(new_item)
 
 state_names = ["Alaska", 
                "Alabama", 
@@ -103,11 +103,7 @@ for state in subs_by_state:
         raw_data_rows.append(new_item)
 
 df = pd.DataFrame(data=raw_data_rows)
-print(df.head())
-print(df.tail())
-print(df[0].nunique()) # 51, nice. 
 df.columns = ['state', 'subreddit url', 'subreddit name']
-# Just need to save the thing as a csv now. Have to check that the formats the same?
-# ,state,subreddit url,subreddit name,
-
 df.to_csv(OUTPUT_FN)
+print("{} large geo areas, {} county level geo areas".format(df['state'].nunique(), len(df))) 
+print("saved to {}".format(OUTPUT_FN))
