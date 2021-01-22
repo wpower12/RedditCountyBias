@@ -10,7 +10,6 @@ SOURCE_COMMENTS_CHECKED = 500
 AS_COMMENTS_CHECKED    = 500
 
 df = pd.read_csv(FN)
-df = df[df['county'].notna()]
 
 conn = sql.connect(host='localhost',
 				   user='bill',
@@ -22,4 +21,5 @@ cu.collectUsersAndActiveSubreddits(df,
 								SOURCE_COMMENTS_CHECKED,
 								AS_COMMENTS_CHECKED,
 								conn,
-								start_sub='/r/GlacierPark')
+								# start_sub='/r/GlacierPark')
+								start_sub='/r/astoria')

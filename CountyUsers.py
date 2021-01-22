@@ -40,8 +40,9 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 
 	# Collecting subreddits and users
 	for sub_row in subreddit_df.iterrows():
-		sub_url  = sub_row[1]['subreddit url']
-		sub_name = sub_row[1]['subreddit name']
+		sub_state = sub_row[1]['state']
+		sub_url   = sub_row[1]['subreddit url']
+		sub_name  = sub_row[1]['subreddit name']
 
 		if skipping:
 			if sub_url == start_sub:
@@ -55,9 +56,16 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 	                                     		 before=END_TS,
 	                                     		 subreddit=sub_name)
 	                                     		# limit=SOURCE_COMMENTS_CHECKED)
+
+
 			for c in source_comments:
 				sc_cache.append(c)
 				if len(sc_cache) >= user_N: break
+			
+			print("processing: {}, {}".format(sub_state, sub_url))
+			if len(sc_cache) == 0:
+				print(" - zero posts found for mining users.")
+				continue
 
 			# Use one of the comments to get the subreddit id for insertion.
 			sub_id = sc_cache[0].subreddit_id[3:]
@@ -70,7 +78,6 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 			with db_conn.cursor() as cursor:
 				cursor.execute(SUB_INS_SQL.format(sub_id, sub_name, sub_url))
 			db_conn.commit()
-			print("processing: {}".format(sub_url))
 
 			# Do a pass over the cache to retrieve the set of unique comment authors, the 'users'.
 			user_set = set()
