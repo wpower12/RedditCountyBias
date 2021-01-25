@@ -161,3 +161,54 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 
 		except Exception as e:
 			print("exception: {}, {}".format(sub_row[1]['subreddit url'], e))
+
+
+"""
+inputs:
+ subreddit_df - Pandas df of the subreddits to process.
+
+side-effects:
+ Adds an additional column to the dataframe that provides the 'county' 
+ associated with each location subreddit, if it was found in the 
+ geonames query,
+
+"""
+def addCounties():
+
+
+	pass
+
+
+def get_county(query):
+    # initial search
+    # http://api.geonames.org/searchJSON?q=long%20beach%20island%20nj&maxRows=10&country=US&username=wpower3dabi
+    query = query.replace(' ', '%20')
+    search_url = "http://api.geonames.org/searchJSON?q={}&country=US&username=wpower3dabi&maxRows=10".format(query)
+    
+    geoname_id = -1 
+    with urllib.request.urlopen(search_url) as response:
+        results = json.loads(response.read())
+        
+        try:
+            if len(results['geonames']) > 0:
+                geoname_id = results['geonames'][0]['geonameId']
+            else:
+                return None
+        except:
+            return None
+        
+    # Get request
+    get_query_url = "http://api.geonames.org/get?geonameId={}&username=wpower3dabi".format(geoname_id)
+    with urllib.request.urlopen(get_query_url) as response:
+        results = xmltodict.parse(response.read())
+        
+        try:
+            if results['geoname']:
+                county = results['geoname']['adminName2']
+            else:
+                return None
+        except:
+            return None
+    
+    # process
+    return county

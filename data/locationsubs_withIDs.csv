@@ -1,0 +1,2352 @@
+,state,subreddit url,subreddit name,subreddit id
+0,Alabama,/r/alabama,Alabama,2qqwk
+1,Alabama,/r/Anniston,Anniston,2x5ek
+2,Alabama,/r/auburn,Auburn,2s54n
+3,Alabama,/r/baldwincountyal,Baldwin County,2urgl
+4,Alabama,/r/birmingham,Birmingham,2r3nd
+5,Alabama,/r/blountsville,Blountsville,34qvq
+6,Alabama,/r/Calera,Calera,31zo6
+7,Alabama,/r/CalhounCounty,Calhoun County,32qpu
+8,Alabama,/r/Cullman,Cullman,30zlh
+9,Alabama,/r/dothan,Dothan,2t9vs
+10,Alabama,/r/DothanAL,Dothan AL,32gec
+11,Alabama,/r/fairhopeAlabama,Fairhope,2wzjn
+12,Alabama,/r/FayetteCounty,Fayette County,345ge
+13,Alabama,/r/florenceal,Florence,2uzck
+14,Alabama,/r/gadsden,Gadsden,2tv7c
+15,Alabama,/r/gordo,Gordo,2vrf2
+16,Alabama,/r/greenvilleal,Greenville,2s4zr
+17,Alabama,/r/Hartselle,Hartselle,3613w
+18,Alabama,/r/cityofhoover,Hoover,2u1f9
+19,Alabama,/r/HooverAL,Hoover AL,2zqy6
+20,Alabama,/r/huntsvillealabama,Huntsville,2qq6o
+21,Alabama,/r/JacksonvilleAL,Jacksonville,33wrh
+22,Alabama,/r/Madisonalabama,Madison,36p3g
+23,Alabama,/r/marshallcountyal,Marshall County,2srgc
+24,Alabama,/r/mobileal,Mobile,2s6s8
+25,Alabama,/r/montgomery,Montgomery,2se3j
+26,Alabama,/r/mountainbrook,Mountain Brook,2t5tj
+27,Alabama,/r/OxfordAL,Oxford,32qq5
+28,Alabama,/r/prattville,Prattville,2s3s5
+29,Alabama,/r/Ragland,Ragland,33ybf
+30,Alabama,/r/selma,Selma,2w8tz
+31,Alabama,/r/shoals,Shoals,2s3qy
+32,Alabama,/r/251,Southwest Alabama (251),2s83z
+33,Alabama,/r/SummerdaleAL,Summerdale,31a9i
+34,Alabama,/r/sylacauga,Sylacauga,2uqyr
+35,Alabama,/r/talladega,Talladega,2u5kr
+36,Alabama,/r/ThomasvilleAL,Thomasville,2t1i2
+37,Alabama,/r/Trussville,Trussville,35vzp
+38,Alabama,/r/tuscaloosa,Tuscaloosa,2sb6a
+39,Alabama,/r/vestavia,Vestavia,2tatn
+40,Alabama,/r/vestaviahills,Vestavia Hills,2w4nq
+41,Alaska,/r/alaska,Alaska,2qhft
+42,Alaska,/r/AleutianIslands,Aleutian Islands,32exc
+43,Alaska,/r/Anchorage,Anchorage,2qwcp
+44,Alaska,/r/BarrowAK,Barrow,322si
+45,Alaska,/r/BethelAK,Bethel,2xdkz
+46,Alaska,/r/Cordova,Cordova,2y6h4
+47,Alaska,/r/fairbanks,Fairbanks,2s854
+48,Alaska,/r/homerAK,Homer,31xc4
+49,Alaska,/r/CosmicHamlet,Homer Area,urhjg
+50,Alaska,/r/juneau,Juneau,2siqn
+51,Alaska,/r/Kenai,Kenai,2wtt0
+52,Alaska,/r/KenaiPeninsula,Kenai Peninsula,3gd3j
+53,Alaska,/r/ketchikan,Ketchikan,2vks3
+54,Alaska,/r/kodiak,Kodiak,2sy3g
+55,Alaska,/r/diomede,Little Diomede,3jpvu
+56,Alaska,/r/MatSu,Matsu Valley,2svj6
+57,Alaska,/r/nome,Nome,2v5m3
+58,Alaska,/r/PalmerAK,Palmer,2ympi
+59,Alaska,/r/Seward,Seward,305n4
+60,Alaska,/r/Sitka,Sitka,2rnfl
+61,Alaska,/r/skagway,Skagway,2sgy1
+62,Alaska,/r/spenardak,Spenard,2tavb
+63,Alaska,/r/sterlingalaska,Sterling,2vh5e
+64,Alaska,/r/Talkeetna,talkeetna,2vuea
+65,Alaska,/r/valdez,Valdez,2uubk
+66,Alaska,/r/Wasilla,Wasilla,2xesw
+67,Arizona,/r/arizona,Arizona,2qn1z
+68,Arizona,/r/anthem,Anthem,2yly2
+69,Arizona,/r/Bagdad,Bagdad,31c6o
+70,Arizona,/r/bisbee,Bisbee,2uz4a
+71,Arizona,/r/casagrandearizona,Casa Grande,2sh3p
+72,Arizona,/r/chandleraz,Chandler,2vx38
+73,Arizona,/r/chinle,Chinle,2slqy
+74,Arizona,/r/cochise,Cochise County,2sd44
+75,Arizona,/r/flagstaff,Flagstaff,2qygf
+76,Arizona,/r/fountainhills,Fountain Hills,2z0j2
+77,Arizona,/r/Gilbert,Gilbert,2r08p
+78,Arizona,/r/GilbertArizona,Gilbert,2wygr
+79,Arizona,/r/grandcanyon,Grand Canyon National Park,2shn3
+80,Arizona,/r/GoodyearAZ,Goodyear,2ylkd
+81,Arizona,/r/heberovergaard,Heber-Overgaard,38r0s
+82,Arizona,/r/jeromeaz,Jerome,32n71
+83,Arizona,/r/kingman,Kingman,2rzw2
+84,Arizona,/r/lakehavasucity,Lake Havasu City,2s5o3
+85,Arizona,/r/LakeHavasuCityAZ,Lake Havasu City AZ,2ybh4
+86,Arizona,/r/LitchfieldPark,Litchfield Park,2yrgu
+87,Arizona,/r/Marana,Marana,2zvgx
+88,Arizona,/r/maricopa,Maricopa,2smov
+89,Arizona,/r/mesaaz,Mesa,2sm44
+90,Arizona,/r/mohavecounty,Mohave County,2t4f9
+91,Arizona,/r/NewRiver,New River,32vrm
+92,Arizona,/r/Nogales,Nogales,2swq9
+93,Arizona,/r/northphoenix,North Phoenix,2vnff
+94,Arizona,/r/paradisevalley,Paradise Valley,2ubrs
+95,Arizona,/r/payson,Payson,2vuq8
+96,Arizona,/r/phoenix,Phoenix,2qmpu
+97,Arizona,/r/phoenixaz,Phoenix AZ,2rr8o
+98,Arizona,/r/phx,Phoenix (PHX),2r1tu
+99,Arizona,/r/prescott,Prescott,2sklq
+100,Arizona,/r/queencreek,Queen Creek,2tvd0
+101,Arizona,/r/santanvalley,San Tan Valley,2szz9
+102,Arizona,/r/scottsdale,Scottsdale,2qnfl
+103,Arizona,/r/sedona,Sedona,2rbvm
+104,Arizona,/r/sierravista,Sierra Vista,2thli
+105,Arizona,/r/sonoita,Sonoita,2tyuj
+106,Arizona,/r/surpriseaz,Surprise,2xttd
+107,Arizona,/r/tempe,Tempe,2s2ml
+108,Arizona,/r/Tombstone,Tombstone,2xpa3
+109,Arizona,/r/tucson,Tucson,2qmno
+110,Arizona,/r/WestValleyAZ,West Valley,34i5s
+111,Arizona,/r/Wittmann,Wittmann,2yygn
+112,Arizona,/r/yuma,Yuma,2seb9
+113,Arkansas,/r/arkansas,Arkansas,2qo0w
+114,Arkansas,/r/naturalstate,Natural State,2sy3i
+115,Arkansas,/r/almaarkansas,Alma,2vrtz
+116,Arkansas,/r/ashdown,Ashdown,305ot
+117,Arkansas,/r/Batesville,Batesville,2w8yo
+118,Arkansas,/r/bentonarkansas,Benton,2vt4q
+119,Arkansas,/r/bentonville,Bentonville,2xscc
+120,Arkansas,/r/buffaloriver,Buffalo River,2urn1
+121,Arkansas,/r/CabotArkansas,Cabot,33320
+122,Arkansas,/r/conwayar,Conway,2uxpv
+123,Arkansas,/r/eurekasprings,Eureka Springs,2udy6
+124,Arkansas,/r/fayetteville,Fayetteville,2r96l
+125,Arkansas,/r/FayettevilleAr,Fayetteville AR,2yyv2
+126,Arkansas,/r/fortsmith,Fort Smith,2roky
+127,Arkansas,/r/hotsprings,Hot Springs,2sih5
+128,Arkansas,/r/jasperar,Jasper,2zf4u
+129,Arkansas,/r/jonesboro,Jonesboro,2rts4
+130,Arkansas,/r/littlerock,Little Rock,2sj2s
+131,Arkansas,/r/malvern,Malvern,2sftc
+132,Arkansas,/r/maumelle,Maumelle,2ygcx
+133,Arkansas,/r/Mountainhomearkansas,Mountain Home,359wr
+134,Arkansas,/r/northwestarkansas,Northwest Arkansas,305rw
+135,Arkansas,/r/NWAReddit,Northwest Arkansas (NWA),2u2qk
+136,Arkansas,/r/nwarkansas,NW Arkansas,2utl9
+137,Arkansas,/r/pinebluff,Pine Bluff,2u999
+138,Arkansas,/r/texarkana,Texarkana,2s4zf
+139,Arkansas,/r/Vilonia,Vilonia,31j7g
+140,California,/r/california,California,2qhsz
+141,Colorado,/r/colorado,Colorado,2qhkb
+142,Colorado,/r/Arvada,Arvada,337zl
+143,Colorado,/r/Aspen,Aspen,2r8tb
+144,Colorado,/r/auroraco,Aurora,2uwzp
+145,Colorado,/r/beavercreek,Beaver Creek,2srzm
+146,Colorado,/r/Breckenridge,Breckenridge,2rkss
+147,Colorado,/r/Broomfield,Broomfield,2yutx
+148,Colorado,/r/boulder,Boulder,2qyl3
+149,Colorado,/r/castlerock,Castle Rock,2vvhm
+150,Colorado,/r/coloradosprings,Colorado Springs,2rde7
+151,Colorado,/r/Cortez,Cortez,2wf0l
+152,Colorado,/r/denver,Denver,2qn3i
+153,Colorado,/r/MileHighCity,Denver (MileHighCity),2uzlt
+154,Colorado,/r/denverwest,Denver West,2ud50
+155,Colorado,/r/durango,Durango,2tak8
+156,Colorado,/r/EagleColorado,Eagle,31dcs
+157,Colorado,/r/eaglecounty,Eagle County,2un5l
+158,Colorado,/r/eaglevail,Eagle-Vail,2upf7
+159,Colorado,/r/EnglewoodLittletonCO,Englewood-Littleton,35snj
+160,Colorado,/r/ErieCO,Erie CO,2wvez
+161,Colorado,/r/ErieColorado,Erie,2xlbz
+162,Colorado,/r/estespark,Estes Park,2u5li
+163,Colorado,/r/fortcollins,Fort Collins,2rrmq
+164,Colorado,/r/foco,Fort Collins (FoCo),2rp4l
+165,Colorado,/r/FourCorners,Four Corners Region,2xkag
+166,Colorado,/r/fruita,Fruita,2vmbh
+167,Colorado,/r/GoldenCO,Golden,2wz1v
+168,Colorado,/r/grandjunction,Grand Junction,2sfod
+169,Colorado,/r/grandjunctionco,Grand Junction CO,2s6wl
+170,Colorado,/r/Greeley,Greeley,2s93r
+171,Colorado,/r/gunnison,Gunnison County,312fl
+172,Colorado,/r/Gypsum,Gypsum,2ygs3
+173,Colorado,/r/highlandsranch,Highlands Ranch,323w7
+174,Colorado,/r/Kremmling,Kremmling,2xflx
+175,Colorado,/r/La_Junta,La Junta,31z63
+176,Colorado,/r/PBville,Leadville,31pxu
+177,Colorado,/r/Littleton,Littleton,2t1a8
+178,Colorado,/r/longmont,Longmont,2slss
+179,Colorado,/r/LouisvilleCO,Louisville CO,2ycef
+180,Colorado,/r/LouisvilleColorado,Louisville,31nq4
+181,Colorado,/r/loveland,Loveland,2t3ep
+182,Colorado,/r/lucernecolorado,Lucerne,2ullp
+183,Colorado,/r/lyons,Lyons,2uaq8
+184,Colorado,/r/manitousprings,Manitou Springs,2u6gx
+185,Colorado,/r/North_Colorado,North Colorado,2z0vd
+186,Colorado,/r/NoCo,Northen Colorado,2z2vl
+187,Colorado,/r/PeytonColorado,Peyton,30hma
+188,Colorado,/r/pueblo,Pueblo,2s938
+189,Colorado,/r/roaringfork,Roaring Fork,2takp
+190,Colorado,/r/RMNP,Rocky Mountain National Park,31lvt
+191,Colorado,/r/SLV,San Luis Valley,2zfaj
+192,Colorado,/r/snowmass,Snowmass Village,2w20m
+193,Colorado,/r/summit,Summit County,2sxp3
+194,Colorado,/r/twn,Thornton Westminster Northglenn,2tagd
+195,Colorado,/r/trinidadco,Trinidad,31wio
+196,Colorado,/r/vail,Vail,2saoz
+197,Colorado,/r/westerncolorado,Western Colorado,36gft
+198,Colorado,/r/willametteco,Willamette,34kc7
+199,Colorado,/r/wolfcreek,Wolf Creek,2unyr
+200,Connecticut,/r/connecticut,Connecticut,2qji0
+201,Connecticut,/r/Ansonia,Ansonia,2xued
+202,Connecticut,/r/bethelct,Bethel,33d5l
+203,Connecticut,/r/BridgeportCT,Bridgeport,2zol5
+204,Connecticut,/r/BroadBrookCT,Broad Brook,2xpcs
+205,Connecticut,/r/Danbury,Danbury,2vj7l
+206,Connecticut,/r/EasternCT,Eastern Connecticut,331t5
+207,Connecticut,/r/east_haddam,East Haddam,2vbc9
+208,Connecticut,/r/EnfieldCT,Enfield,30g1u
+209,Connecticut,/r/fairfield,Fairfield,2s89b
+210,Connecticut,/r/fairfieldcounty,Fairfield County,2vjq1
+211,Connecticut,/r/FarmingtonValley,Farmington Valley,2xgvz
+212,Connecticut,/r/GlastonburyCT,Glastonbury,2yhz6
+213,Connecticut,/r/Greenwich,Greenwich,2ulyh
+214,Connecticut,/r/groton,Groton,2uiki
+215,Connecticut,/r/hartford,Hartford,2rrtf
+216,Connecticut,/r/litchfieldct,Litchfield County,2yx9b
+217,Connecticut,/r/06443,Madison (06443),2um0o
+218,Connecticut,/r/SilkCity,Manchester,32fvt
+219,Connecticut,/r/meridenct,Meriden,2v2fe
+220,Connecticut,/r/Milford,Milford,2suwr
+221,Connecticut,/r/milford_CT,Milford CT,2sc2g
+222,Connecticut,/r/newbritain,New Britain,354p3
+223,Connecticut,/r/newhaven,New Haven,2qqbq
+224,Connecticut,/r/newlondon,New London,2t94l
+225,Connecticut,/r/Newmilford,New Milford,2yoz2
+226,Connecticut,/r/NortheastConnecticut,Northeast Connecticut,31njr
+227,Connecticut,/r/NortheastCT,Northeast CT,366y9
+228,Connecticut,/r/norwichct,Norwich,322kp
+229,Connecticut,/r/PlainfieldConn,Plainfield,35h0v
+230,Connecticut,/r/pointowoods,Point O' Woods,2vl1e
+231,Connecticut,/r/oldlymect,Old Lyme,2tw1z
+232,Connecticut,/r/oldsaybrook,Old Saybrook,2vs2k
+233,Connecticut,/r/reddingct,Redding,2u6i1
+234,Connecticut,/r/RockyHill,Rocky Hill,34bse
+235,Connecticut,/r/sheltonct,Shelton,2uw1p
+236,Connecticut,/r/Southington,Southington,2wud1
+237,Connecticut,/r/Sono,South Norwalk,2t0vz
+238,Connecticut,/r/stamfordconn,Stamford,30n60
+239,Connecticut,/r/StamfordCT,Stamford CT,2x33a
+240,Connecticut,/r/StratfordCT,Stratford,2vjj0
+241,Connecticut,/r/TollandCT,Tolland,2zegp
+242,Connecticut,/r/WaterburyCT,Waterbury,2xmsh
+243,Connecticut,/r/WatertownCT,Watertown,2yerf
+244,Connecticut,/r/westhartford,West Hartford,2uu05
+245,Connecticut,/r/WestportCT,Westport,2xiav
+246,Connecticut,/r/wethersfield,Wethersfield,2tz21
+247,Connecticut,/r/WoodburyCT,Woodbury,35x38
+248,Connecticut,/r/Woodstockct,Woodstock,35drh
+249,Delaware,/r/delaware,Delaware,2qy6p
+250,Delaware,/r/DoverDE,Dover,30jsw
+251,Delaware,/r/newarkde,Newark,2unzg
+252,Delaware,/r/oceanview,Ocean View,2yhm8
+253,Delaware,/r/wilmingtonDE,Wilmington,2s2p4
+254,District of Columbia,/r/washingtondc,Washington DC,2qi2g
+255,District of Columbia,/r/washington_dc,Washington_DC,2tviz
+256,District of Columbia,/r/districtofcolumbia,District of Columbia,2u2x7
+257,District of Columbia,/r/brookland,Brookland,2y556
+258,District of Columbia,/r/cleveland_park,Cleveland Park,2votp
+259,District of Columbia,/r/georgetown,Georgetown,2rh4n
+260,District of Columbia,/r/MountVernonSquareDC,Mt. Vernon Square,36t58
+261,District of Columbia,/r/MountVernonTriangleDC,Mt. Vernon Triangle,36t2b
+262,District of Columbia,/r/nomadc,NoMa,2xvl8
+263,District of Columbia,/r/olney,Olney,2u1vi
+264,District of Columbia,/r/TakomaDC,Takoma,3204u
+265,District of Columbia,/r/takomapark,Takoma Park,2xg5o
+266,Florida,/r/florida,Florida,2qh7q
+267,Florida,/r/annamariaisland,Anna Maria Island,2utct
+268,Florida,/r/apalachicola,Apalachicola,2v9eb
+269,Florida,/r/apopka,Apopka,2wid3
+270,Florida,/r/Auburndale,Auburndale,2r2rs
+271,Florida,/r/aventura,Aventura,2udc6
+272,Florida,/r/belleview,Belleview,2uq3v
+273,Florida,/r/321,Brevard County (321),2s7u4
+274,Florida,/r/bostwick,Bostwick,2zpig
+275,Florida,/r/boyntonbeach,Boynton Beach,2rp4s
+276,Florida,/r/bradenton,Bradenton,2rokh
+277,Florida,/r/brandonFL,Brandon,2sgqm
+278,Florida,/r/brevardfl,Brevard County,353tr
+279,Florida,/r/broward,Broward,2s93d
+280,Florida,/r/capecoral,Cape Coral,2v204
+281,Florida,/r/captiva,Captiva Island,35m2e
+282,Florida,/r/charlottecounty,Charlotte County,2u3vx
+283,Florida,/r/citruscountyflorida,Citrus County,30fur
+284,Florida,/r/clearwaterfl,Clearwater,2u21c
+285,Florida,/r/Clermont,Clermont,2ynd7
+286,Florida,/r/coconutcreek,Coconut Creek,31z98
+287,Florida,/r/coconutgrove,Coconut Grove,358cr
+288,Florida,/r/coralgables,Coral Gables,2udib
+289,Florida,/r/coralsprings,Coral Springs,2tr9s
+290,Florida,/r/crawfordville,Crawfordville,2v7ig
+291,Florida,/r/davie,Davie,2txib
+292,Florida,/r/DaytonaBeach,Daytona Beach,2suuu
+293,Florida,/r/debary,Debary,35bnt
+294,Florida,/r/deerfieldbeach,Deerfield Beach,2tx00
+295,Florida,/r/deland,DeLand,2sikj
+296,Florida,/r/delraybeach,Delray Beach,2sw8s
+297,Florida,/r/deltona,Deltona,2u953
+298,Florida,/r/destin,Destin,2sf6n
+299,Florida,/r/DunedinFlorida,Dunedin,2x299
+300,Florida,/r/dunnellon,Dunnellon,2wx1d
+301,Florida,/r/Ellenton,Ellenton,2tkxr
+302,Florida,/r/englewoodfl,Englewood,2yfmp
+303,Florida,/r/estero,Estero,2wfcr
+304,Florida,/r/Everglades,Everglades National Park,2s5to
+305,Florida,/r/fernandinabeach,Fernandina Beach,2u5cl
+306,Florida,/r/flaglerbeach,Flagler Beach,34rnf
+307,Florida,/r/floridakeys,Florida Keys,2shrz
+308,Florida,/r/FloridaKeysandKeyWest,Florida Keys-Key West,2tmly
+309,Florida,/r/fortlauderdale,Fort Lauderdale,2s494
+310,Florida,/r/FortMyers,Fort Myers,2tnir
+311,Florida,/r/FtMyers_FL,Fort Myers FL,35bhz
+312,Florida,/r/fortwaltonbeach,Fort Walton Beach,30oj4
+313,Florida,/r/gnv,Gainesville,2qwrf
+314,Florida,/r/panhandlegulfcoast,Gulf Coast,2v7z7
+315,Florida,/r/GulfportFL,Gulfport,30xti
+316,Florida,/r/HernandoCountyFlorida,Hernando County,31a01
+317,Florida,/r/highlands,Highlands County,2u4k5
+318,Florida,/r/HomesteadFL,Homestead,322q4
+319,Florida,/r/immokalee,Immokalee,31ope
+320,Florida,/r/jacksonville,Jacksonville,2rhkx
+321,Florida,/r/JupiterFL,Jupiter,2zvvq
+322,Florida,/r/KeyLargo,Key Largo,322rh
+323,Florida,/r/KeyWest,Key West,2syos
+324,Florida,/r/kissimmee,Kissimmee,2vrjd
+325,Florida,/r/LakeCity,Lake City,2xy4p
+326,Florida,/r/lakecityflorida,Lake City FL,2ygs4
+327,Florida,/r/lakeland,Lakeland,2s2xw
+328,Florida,/r/LakeWales,Lake Wales,2y0p8
+329,Florida,/r/LakewoodRanch,Lakewood Ranch,2tkxv
+330,Florida,/r/lakeworth,Lake Worth,2w1oj
+331,Florida,/r/LongwoodFL,Longwood,35pt0
+332,Florida,/r/MarcoIsland,Marco Island,2x0n9
+333,Florida,/r/melbourneflorida,Melbourne,2rg3k
+334,Florida,/r/melbourneFL,Melbourne FL,2sfto
+335,Florida,/r/merrittisland,Merritt Island,2tg2a
+336,Florida,/r/miami,Miami,2qi76
+337,Florida,/r/MiltonFL,Milton,2z1dw
+338,Florida,/r/MyakkaCity,Myakka City,2tky0
+339,Florida,/r/myakkacityFL,Myakka City FL,2vnvb
+340,Florida,/r/naples_fl,Naples,2sbsg
+341,Florida,/r/NavarreNow,Navarre,33l1h
+342,Florida,/r/Niceville,Niceville,32xq8
+343,Florida,/r/386,Northern Florida (386),2sohd
+344,Florida,/r/nwfl,Northwest Florida,2rxoz
+345,Florida,/r/ocala,Ocala,2s4hh
+346,Florida,/r/ocoee,Ocoee,2tzk3
+347,Florida,/r/407,Orlando Area (407),2u2s5
+348,Florida,/r/orlando,Orlando,2qh7s
+349,Florida,/r/orlandodisneyarea,Orlando Disney Area,2sdsn
+350,Florida,/r/greaterorlando,Orlando Greater Area,2sadb
+351,Florida,/r/OrmondBeachFL,Ormond Beach,33667
+352,Florida,/r/palmbeach,Palm Beach,2ruf2
+353,Florida,/r/palmcoast,Palm Coast,2s57m
+354,Florida,/r/Palmetto,Palmetto,2tky8
+355,Florida,/r/palmharbor,Palm Harbor,34h29
+356,Florida,/r/panamacity,Panama City,2ro9p
+357,Florida,/r/PCB,Panama City Beach (PCB),2well
+358,Florida,/r/panamacitybeach,Panama City Beach,2w33u
+359,Florida,/r/parrish,Parrish,2tkwz
+360,Florida,/r/Pasco,Pasco County,2tau4
+361,Florida,/r/pembrokepines,Pembroke Pines,2t3ri
+362,Florida,/r/pensacola,Pensacola,2s42v
+363,Florida,/r/pensacolabeach,Pensacola Beach,2tqvl
+364,Florida,/r/pinellas,Pinellas County,2ut7i
+365,Florida,/r/PlantCity,Plant City,2t377
+366,Florida,/r/polk,Polk County,2twgn
+367,Florida,/r/863,Polk County (863),33hlk
+368,Florida,/r/pontevedra,Ponte Vedra,2ugir
+369,Florida,/r/portcharlotte,Port Charlotte,2wfrg
+370,Florida,/r/portorange,Port Orange,2skkf
+371,Florida,/r/portstjoe,Port St. Joe,2v9ej
+372,Florida,/r/portstjohn,Port St. John,2txjh
+373,Florida,/r/PortStLucie,Port St. Lucie,2t1bd
+374,Florida,/r/riverside,Riverside,2rstq
+375,Florida,/r/RockledgeFL,Rockledge,2yw0s
+376,Florida,/r/Sanford,Sanford,2ujdd
+377,Florida,/r/SanfordFL,Sanford FL,31cun
+378,Florida,/r/sanibel,Sanibel Island,2v2jv
+379,Florida,/r/sarasota,Sarasota,2rpyx
+380,Florida,/r/seaside,Seaside,2sewc
+381,Florida,/r/sebring,Sebring,2x2pv
+382,Florida,/r/springhillfla,Spring Hill,2ypyz
+383,Florida,/r/south_florida,South_Florida,2rk76
+384,Florida,/r/southflorida,South Florida,2rcb1
+385,Florida,/r/southwalton,South Walton,2uk8g
+386,Florida,/r/southwood,Southwood,2seu8
+387,Florida,/r/staugustine,St. Augustine,2sfnn
+388,Florida,/r/staugustinebeach,St. Augustine Beach,2soqf
+389,Florida,/r/stjohnscounty,St. John's County,2ths9
+390,Florida,/r/stpetersburgfl,St. Petersburg,2ryyn
+391,Florida,/r/swfl,Southwest Florida,2se9m
+392,Florida,/r/SunnyIslesBeach,Sunny Isles Beach,3061f
+393,Florida,/r/tampa,Tampa,2r7ih
+394,Florida,/r/tampabay,Tampa Bay,2r9q0
+395,Florida,/r/tallahassee,Tallahassee,2r7a3
+396,Florida,/r/tlh,Tallahassee (TLH),2r03p
+397,Florida,/r/tequesta,Tequesta,2w2rn
+398,Florida,/r/ThorntonPark,Thornton Park,31wt7
+399,Florida,/r/titusville,Titusville,2syp5
+400,Florida,/r/772,Treasure Coast (772),2s3r3
+401,Florida,/r/treasurecoast,Treasure Coast,2rxz5
+402,Florida,/r/valrico,Valrico,2u4pw
+403,Florida,/r/veniceflorida,Venice,2vmxs
+404,Florida,/r/Venice_FL,Venice FL,2zem8
+405,Florida,/r/WellingtonFL,Wellington,2yz8j
+406,Florida,/r/WestPalmBeachFl,West Palm Beach,2zlju
+407,Florida,/r/WinterPark,Winter Park,2sl2s
+408,Georgia,/r/georgia,Georgia,2ql6n
+409,Georgia,/r/georgiausa,Georgia USA,2rda1
+410,Georgia,/r/acworth,Acworth,2usbt
+411,Georgia,/r/albanyga,Albany,2tdek
+412,Georgia,/r/alpharetta,Alpharetta,2scb9
+413,Georgia,/r/athens,Athens,2r1a6
+414,Georgia,/r/atlanta,Atlanta,2qiq9
+415,Georgia,/r/Auburn_GA,Auburn,2z2i8
+416,Georgia,/r/augusta,Augusta,2repf
+417,Georgia,/r/barrowcounty,Barrow County,2t8be
+418,Georgia,/r/Brookhaven,Brookhaven,2xjdq
+419,Georgia,/r/CamdenGA,Camden,2y2i9
+420,Georgia,/r/cantonga,Canton,33q3a
+421,Georgia,/r/carrolltongeorgia,Carrollton,2s9kh
+422,Georgia,/r/cartersville,Cartersville,2vaof
+423,Georgia,/r/cherokeecountyga,Cherokee County,2vhxm
+424,Georgia,/r/CobbCounty,Cobb County,327hf
+425,Georgia,/r/Cochran,Cochran,2x0u9
+426,Georgia,/r/columbiacounty,Columbia County,2solb
+427,Georgia,/r/columbusga,Columbus,2rn8i
+428,Georgia,/r/conyers,Conyers,2u9k0
+429,Georgia,/r/cumming,Cumming,2x6y9
+430,Georgia,/r/CummingGA,Cumming GA,2wy5t
+431,Georgia,/r/dacula,Dacula,2sqrc
+432,Georgia,/r/dahlonega,Dahlonega,2u8j2
+433,Georgia,/r/daltonga,Dalton,2uh7q
+434,Georgia,/r/Dawsonville,Dawsonville,30pqf
+435,Georgia,/r/decaturga,Decatur,2sunp
+436,Georgia,/r/dvillega,Douglasville,2sikr
+437,Georgia,/r/dublinGA,Dublin,2sshy
+438,Georgia,/r/DuluthGA,Duluth,2wyh0
+439,Georgia,/r/Dunwoody,Dunwoody,2ypim
+440,Georgia,/r/snobbery,East Cobb County,2s9vi
+441,Georgia,/r/eastpoint,East Point,2ueye
+442,Georgia,/r/Ellijay,Ellijay,2ys19
+443,Georgia,/r/fayco,Fayette County,2vwc3
+444,Georgia,/r/FalconCrest,Falcon Crest,333sk
+445,Georgia,/r/flowerybranch,Flowery Branch,2vilm
+446,Georgia,/r/forsyth,Forsyth County,2sogi
+447,Georgia,/r/franklincountyga,Franklin County,2us48
+448,Georgia,/r/grovetown,Grovetown,33n1n
+449,Georgia,/r/gwinnett,Gwinnett County,2tvgr
+450,Georgia,/r/Henrycounty,Henry County,34ngd
+451,Georgia,/r/HinesvilleGA,Hinesville,2y4je
+452,Georgia,/r/hollyspringsga,Holly Springs,2zpl9
+453,Georgia,/r/jasperga,Jasper,2v5g3
+454,Georgia,/r/johnscreek,Johns Creek,2tgrg
+455,Georgia,/r/kennesaw,Kennesaw,2s4pu
+456,Georgia,/r/lagrange,La Grange,2t101
+457,Georgia,/r/lilburn,Lilburn,2taw7
+458,Georgia,/r/ludowici,Ludowici,2typl
+459,Georgia,/r/mableton,Mableton,2t903
+460,Georgia,/r/macon,Macon,2sj7x
+461,Georgia,/r/maconbibb,Macon-Bibb County,2unzl
+462,Georgia,/r/marietta,Marietta,2s6fy
+463,Georgia,/r/mariettaga,Marietta GA,2u7o4
+464,Georgia,/r/middlegeorgia,Middle Georgia,2vdym
+465,Georgia,/r/midtownatlanta,Midtown Atlanta,2vcv1
+466,Georgia,/r/milledgeville,Milledgeville,2v5t0
+467,Georgia,/r/newnan,Newnan,2sw8a
+468,Georgia,/r/northgeorgia,North Georgia,2t1d5
+469,Georgia,/r/paulding,Paulding County,2u2ie
+470,Georgia,/r/rockdale,Rockdale,2yq05
+471,Georgia,/r/RockdaleCounty,Rockdale County,2yq0g
+472,Georgia,/r/romega,Rome,2u10h
+473,Georgia,/r/roswell,Roswell,2sovm
+474,Georgia,/r/sandysprings,Sandy Springs,2tnrk
+475,Georgia,/r/savannah,Savannah,2qpx0
+476,Georgia,/r/smyrna,Smyrna,2sjvn
+477,Georgia,/r/SEGANEFL,Southeast Georgia,2toe2
+478,Georgia,/r/SouthGARedditors,South Georgia,2xsg9
+479,Georgia,/r/stsimonsisland,St. Simons Island,2u154
+480,Georgia,/r/statesboro,Statesboro,2sajl
+481,Georgia,/r/stonemtn,Stone Mountain,340b4
+482,Georgia,/r/summervillega,Summerville,2t80h
+483,Georgia,/r/Toccoa,Toccoa,2zjz3
+484,Georgia,/r/ToombsCounty,Toombs County,2wvek
+485,Georgia,/r/valdosta,Valdosta,2umz5
+486,Georgia,/r/waycross,Waycross,2uph5
+487,Georgia,/r/westgeorgia,West Georgia,2xg2l
+488,Georgia,/r/woodstockga,Woodstock,2xw3n
+489,Hawaii,/r/hawaii,Hawaii,2qi3u
+490,Hawaii,/r/bigisland,Big Island,2rwf5
+491,Hawaii,/r/hanamaui,Hana,2s45u
+492,Hawaii,/r/honolulu,Honolulu,2rhhc
+493,Hawaii,/r/kailuakona,Kailua,2z6un
+494,Hawaii,/r/kauai,Kauai,2rfam
+495,Hawaii,/r/kona,Kona,2rkw8
+496,Hawaii,/r/maui,Maui,2rcb6
+497,Idaho,/r/idaho,Idaho,2qtxr
+498,Idaho,/r/boise,Boise,2qlk4
+499,Idaho,/r/coeurdalene,Coeur d'Alene,2s89r
+500,Idaho,/r/easternidaho,Eastern Idaho,2sjan
+501,Idaho,/r/Gooding,Gooding,2sve7
+502,Idaho,/r/idahofalls,Idaho Falls,2s2p0
+503,Idaho,/r/inlandnorthwest,Inland Northwest,2rp7x
+504,Idaho,/r/kuna,Kuna,2v8xf
+505,Idaho,/r/LewistonID,Lewiston,3pu78
+506,Idaho,/r/McCallIdaho,McCall,2x2ej
+507,Idaho,/r/moscowidaho,Moscow,2r4qq
+508,Idaho,/r/mountainhomeidaho,Mountain Home,2u7u0
+509,Idaho,/r/nampa,Nampa,2uux4
+510,Idaho,/r/northidaho,North Idaho,2ulka
+511,Idaho,/r/pocatello,Pocatello,2u68d
+512,Idaho,/r/rexburg,Rexburg,2zos3
+513,Idaho,/r/Sandpoint,Sandpoint,2tnu9
+514,Idaho,/r/SunValley,Sun Valley,31bdt
+515,Idaho,/r/twinfalls,Twin Falls,2s5po
+516,Illinois,/r/illinois,Illinois,2qhco
+517,Illinois,/r/albanypark,Albany Park,2wbzy
+518,Illinois,/r/AltonNews,Alton,300fq
+519,Illinois,/r/andersonvillechicago,Andersonville,2u365
+520,Illinois,/r/ArlingtonHeights,Arlington Heights,2x1uy
+521,Illinois,/r/AuroraIL,Aurora IL,2rywc
+522,Illinois,/r/auroraillinois,Aurora,2secc
+523,Illinois,/r/barringtonil,Barrington,2veh5
+524,Illinois,/r/BartlettIllinois,Bartlett,32xne
+525,Illinois,/r/Batavia,Batavia,2xdbb
+526,Illinois,/r/bellevilleIL,Belleville,2vcvo
+527,Illinois,/r/berwyn,Berwyn,2sflp
+528,Illinois,/r/Bethalto,Bethalto,2zes8
+529,Illinois,/r/bloomingtonil,Bloomington,2y844
+530,Illinois,/r/bloomingtonnormal,Bloomington-Normal,2rl3z
+531,Illinois,/r/BuffaloGrove,Buffalo Grove,2szwy
+532,Illinois,/r/webstercounty,Buffalo Grove (Webster County),2trwe
+533,Illinois,/r/CantonIL,Canton,2xji6
+534,Illinois,/r/Carbondale,Carbondale,2ssre
+535,Illinois,/r/Carpentersville,Carpentersville,30mha
+536,Illinois,/r/carolstream,Carol Stream,32xgo
+537,Illinois,/r/centralillinois,Central Illinois,2sblo
+538,Illinois,/r/Champaign,Champaign,340uy
+539,Illinois,/r/chambana,Champaign-Urbana (Chambana),2r474
+540,Illinois,/r/champaignurbana,Champaign-Urbana,2tif1
+541,Illinois,/r/charlestonil,Charleston,2tvek
+542,Illinois,/r/Chatsworth,Chatsworth,2ss7d
+543,Illinois,/r/chicago,Chicago,2qh2t
+544,Illinois,/r/chicagoland,Chicago Metro Area,2qif4
+545,Illinois,/r/chicagosuburbs,Chicago Suburbs,2ss10
+546,Illinois,/r/NearWestSuburbs,Chicago Near West Suburbs,2xtbb
+547,Illinois,/r/southside,Chicago Southside,2qtk4
+548,Illinois,/r/WestTown,Chicago West,2venz
+549,Illinois,/r/Decatur,Decatur,2xjls
+550,Illinois,/r/deerfield,Deerfield,2ugs4
+551,Illinois,/r/dekalb,De Kalb,2sqf5
+552,Illinois,/r/dekalbarea,De Kalb Area,2vrzl
+553,Illinois,/r/desplaines,Des Plaines,2u4vn
+554,Illinois,/r/DownersGrove,Downers Grove,2vqas
+555,Illinois,/r/eastpeoria,East Peoria,2t7q7
+556,Illinois,/r/edwardsvilleil,Edwardsville,2usmy
+557,Illinois,/r/eville,Edwardsville (Eville),2sykx
+558,Illinois,/r/elgin,Elgin,2tjms
+559,Illinois,/r/elginillinois,Elgin IL,2tpjo
+560,Illinois,/r/Elmhurst,Elmhurst,2wj25
+561,Illinois,/r/evanston,Evanston,2yfti
+562,Illinois,/r/evanstonil,Evanston IL,2t1gj
+563,Illinois,/r/franklinpark,Franklin Park,2y4op
+564,Illinois,/r/freeport,Freeport,2xy5j
+565,Illinois,/r/Galena,Galena,2zzm8
+566,Illinois,/r/galesburg,Galesburg,34mdi
+567,Illinois,/r/GeneseoIllinois,Geneseo,2wpz7
+568,Illinois,/r/GenevaIL,Geneva,2zw80
+569,Illinois,/r/GraniteCity,Granite City,30vmv
+570,Illinois,/r/grayslake,Grayslake,2zp2j
+571,Illinois,/r/Grayslakeillinois,Grayslake IL,2vmow
+572,Illinois,/r/gurnee,Gurnee,2sfee
+573,Illinois,/r/Highland,Highland,2t5ud
+574,Illinois,/r/hinsdale,Hinsdale,2uafj
+575,Illinois,/r/homerglen,Homer Glen,2v6zg
+576,Illinois,/r/huntley,Huntley,35rvj
+577,Illinois,/r/jolietillinois,Joliet,2uimt
+578,Illinois,/r/SKankakee,Kankakee County,2vt2x
+579,Illinois,/r/lakecounty,Lake County,2rs6p
+580,Illinois,/r/lakezurichil,Lake Zurich,2vjiw
+581,Illinois,/r/LaSalleCounty,La Salle County,2ybmv
+582,Illinois,/r/libertyville,Libertyville,2sm69
+583,Illinois,/r/lombard,Lombard,2tv93
+584,Illinois,/r/lilacvillage,Lombard (Lilac Village),2s59g
+585,Illinois,/r/MacombIL,Macomb,2xbem
+586,Illinois,/r/Makanda,Makanda,31yki
+587,Illinois,/r/Marengo,Marengo,2yqkv
+588,Illinois,/r/McHenry,McHenry,34ao2
+589,Illinois,/r/mchenrycounty,McHenry County,2snke
+590,Illinois,/r/metroeast,Metro East,2qjcc
+591,Illinois,/r/metroeastil,Metro East IL,2saiq
+592,Illinois,/r/MonmouthIL,Monmouth,2tcrf
+593,Illinois,/r/mtmorris,Mt. Morris,2w27a
+594,Illinois,/r/Mundelein,Mundelein,2yh6q
+595,Illinois,/r/naperville,Naperville,2slq6
+596,Illinois,/r/newbaden,New Baden,2t8qj
+597,Illinois,/r/newlenox,New Lenox,2u1dh
+598,Illinois,/r/NormalIL,Normal,2zm61
+599,Illinois,/r/northbrook,Northbrook,2vod8
+600,Illinois,/r/NorthCentralIllinois,North Central Illinois,337k9
+601,Illinois,/r/OakLawn,Oak Lawn,33y2m
+602,Illinois,/r/oakparkil,Oak Park,311ti
+603,Illinois,/r/orlandpark,Orland Park,2so9p
+604,Illinois,/r/palatine,Palatine,2upnx
+605,Illinois,/r/Parkridge,Park Ridge,2t35m
+606,Illinois,/r/pekinillinois,Pekin,2rs98
+607,Illinois,/r/peoria,Peoria,2tbve
+608,Illinois,/r/peoriaIL,Peoria IL,2suov
+609,Illinois,/r/Plainfield,Plainfield,31n2c
+610,Illinois,/r/PontiacIllinois,Pontiac,351vb
+611,Illinois,/r/riverforestillinois,River Forest,2zkqh
+612,Illinois,/r/rochesteril,Rochester,2vpqn
+613,Illinois,/r/rockford,Rockford,2sbag
+614,Illinois,/r/roundlake,Round Lake,2xivm
+615,Illinois,/r/schaumburg,Schaumburg,2raty
+616,Illinois,/r/skankakee,Skankakee,2vt2x
+617,Illinois,/r/618,Southern Illinois (618),2suss
+618,Illinois,/r/southernillinois,Southern Illinois,2snfo
+619,Illinois,/r/springfieldil,Springfield,2rdxx
+620,Illinois,/r/StCharlesIL,St. Charles,2wump
+621,Illinois,/r/stclairco,St. Clair County,32swo
+622,Illinois,/r/tuscola,Tuscola,327kn
+623,Illinois,/r/vernonhills,Vernon Hills,2scul
+624,Illinois,/r/waukegan,Waukegan,2v0sq
+625,Illinois,/r/westernillinois,Western Illinois,31sps
+626,Illinois,/r/wrigleyville,Wrigleyville,2uevw
+627,Illinois,/r/Yorkville,Yorkville,2s9g9
+628,Indiana,/r/indiana,Indiana,2qn7d
+629,Indiana,/r/AndersonIN,Anderson,34m07
+630,Indiana,/r/BatesvilleUnited,Batesville,2vasa
+631,Indiana,/r/bloomington,Bloomington,2r8ly
+632,Indiana,/r/broadripple,Broadripple,2sgxe
+633,Indiana,/r/Carmel,Carmel,2qix6
+634,Indiana,/r/carmelin,Carmel IN,2vr27
+635,Indiana,/r/chesterton,Chesterton,2u69l
+636,Indiana,/r/columbusin,Columbus IN,2uv4k
+637,Indiana,/r/columbusindiana,Columbus,2vakh
+638,Indiana,/r/connersville,Connersville,2xpvn
+639,Indiana,/r/corydon,Corydon,2tv4x
+640,Indiana,/r/Elkhart,Elkhart,3058g
+641,Indiana,/r/evansville,Evansville,2sl0p
+642,Indiana,/r/evansvilleindiana,Evansville IN,2u3iz
+643,Indiana,/r/Fishers,Fishers,2uqjd
+644,Indiana,/r/fortwayne,Fort Wayne,2s5b5
+645,Indiana,/r/HuntingtonIN,Huntington,2ztxs
+646,Indiana,/r/indianapolis,Indianapolis,2rtt2
+647,Indiana,/r/Kendallville,Kendallville,2zyh4
+648,Indiana,/r/kokomo,Kokomo,2t02d
+649,Indiana,/r/lafayette,Lafayette,2s96k
+650,Indiana,/r/laporte,La Porte,2vmca
+651,Indiana,/r/Logansport,Logansport,2zce8
+652,Indiana,/r/madtown,Madison,35viu
+653,Indiana,/r/Marktown,Marktown,31z3n
+654,Indiana,/r/michiana,Michiana,2wyrh
+655,Indiana,/r/muncie,Muncie,2s7ph
+656,Indiana,/r/newalbany,New Albany,2ve6m
+657,Indiana,/r/newamsterdam,New Amsterdam,2swdg
+658,Indiana,/r/TheOtherNewHaven,New Haven,35jw6
+659,Indiana,/r/nwi,Northwest Indiana (NWI),2sb9k
+660,Indiana,/r/219,Northwest Indiana (219),2tzpz
+661,Indiana,/r/newburghin,Newburgh,2w2gq
+662,Indiana,/r/owencounty,Owen County,311nv
+663,Indiana,/r/paoli,Paoli,2uds1
+664,Indiana,/r/richmondindiana,Richmond,2sn58
+665,Indiana,/r/RidgeportIndiana,Ridgeport,2uo03
+666,Indiana,/r/SalemIN,Salem,33web
+667,Indiana,/r/southbend,South Bend,2ro11
+668,Indiana,/r/terrehaute,Terre Haute,2tapy
+669,Indiana,/r/valparaiso,Valparaiso,2uu1f
+670,Indiana,/r/Vevay,Vevay,2ygbz
+671,Indiana,/r/WestfieldIndy,Westfield,363b4
+672,Indiana,/r/WinonaLake,Winona Lake,2u0fx
+673,Indiana,/r/Zionsville,Zionsville,2wupg
+674,Iowa,/r/iowa,Iowa,2qn1h
+675,Iowa,/r/ames,Ames,2rygg
+676,Iowa,/r/ankeny,Ankeny,2rbts
+677,Iowa,/r/Burlingtoniowa,Burlington,2t32z
+678,Iowa,/r/camanche,Camanche,30edj
+679,Iowa,/r/cedarfalls,Cedar Falls,2sgpw
+680,Iowa,/r/cedarrapids,Cedar Rapids,2s4hk
+681,Iowa,/r/clintoniowa,Clinton,2ywyf
+682,Iowa,/r/ColfaxIowa,Colfax,34fj4
+683,Iowa,/r/coralville,Coralville,326lh
+684,Iowa,/r/councilbluffs,Council Bluffs,2sw4n
+685,Iowa,/r/decorah,Decorah,2smha
+686,Iowa,/r/desmoines,Des Moines,2rbt6
+687,Iowa,/r/dubuque,Dubuque,2ru62
+688,Iowa,/r/fairfieldiowa,Fairfield,2w65c
+689,Iowa,/r/fortdodge,Fort Dodge,2tr5j
+690,Iowa,/r/GlenwoodIowa,Glenwood,2zhq7
+691,Iowa,/r/iowacity,Iowa City,2r945
+692,Iowa,/r/maquoketa,Maquoketa,32ph7
+693,Iowa,/r/marioniowa,Marion,2xgn6
+694,Iowa,/r/Marshalltown,Marshalltown,2szuj
+695,Iowa,/r/masoncity,Mason City,2t8vq
+696,Iowa,/r/north_iowa_reddit,North Iowa,2uy3d
+697,Iowa,/r/NorthLiberty,North Liberty,340tk
+698,Iowa,/r/RuralNWIowa,Northwest Iowa,332w8
+699,Iowa,/r/okoboji,Okoboji,2s6s1
+700,Iowa,/r/OrangeCity,Orange City,2x5sk
+701,Iowa,/r/PleasantvilleIA,Pleasantville,2yioi
+702,Iowa,/r/quadcities,Quad Cities Area,2rej0
+703,Iowa,/r/siouxcity,Sioux City,2s4ti
+704,Iowa,/r/swi,Southwest Iowa,2sfyl
+705,Iowa,/r/spenceriowa,Spencer,2vohk
+706,Iowa,/r/waterlooiowa,Waterloo,2s4xk
+707,Iowa,/r/westdesmoines,West Des Moines,2tzya
+708,Kansas,/r/kansas,Kansas,2r8ew
+709,Kansas,/r/atchison,Atchison,34cv1
+710,Kansas,/r/BaldwinCity,Baldwin City,34rrt
+711,Kansas,/r/baxtersprings,Baxter Springs,2yntt
+712,Kansas,/r/CollegeHill,College Hill,318ct
+713,Kansas,/r/DerbyKansas,Derby,2xw5q
+714,Kansas,/r/DeSotoKS,De Soto,301gf
+715,Kansas,/r/Emporia,Emporia,2tm2l
+716,Kansas,/r/gcks,Garden City (GCKS),2vvdz
+717,Kansas,/r/gardencityks,Garden City KS,31z3x
+718,Kansas,/r/GardenCityKansas,Garden City Kansas,32x5v
+719,Kansas,/r/hutchinson,Hutchinson,2v80l
+720,Kansas,/r/JohnsonCounty,Johnson County,2sx1k
+721,Kansas,/r/kansascity,Kansas City,2qngc
+722,Kansas,/r/Leavenworth,Leavenworth,33f7k
+723,Kansas,/r/lawrence,Lawrence,2rant
+724,Kansas,/r/LouisburgKS,Louisburg,317vx
+725,Kansas,/r/littleapple,Manhattan,2s7im
+726,Kansas,/r/manhattanks,Manhattan KS,2t7gv
+727,Kansas,/r/moundcity,Mound City,2xhhq
+728,Kansas,/r/newtonkansas,Newton,2skyb
+729,Kansas,/r/olathe,Olathe,2sf0m
+730,Kansas,/r/overlandpark,Overland Park,2vuzl
+731,Kansas,/r/prairievillage,Prairie Village,30ytn
+732,Kansas,/r/pvkansas,Prairie Village KS,34eq7
+733,Kansas,/r/republiccountykansas,Republic County,2uxdk
+734,Kansas,/r/shawnee,Shawnee,2upkr
+735,Kansas,/r/topeka,Topeka,2sqp8
+736,Kansas,/r/wichita,Wichita,2r4wk
+737,Kentucky,/r/kentucky,Kentucky,2qo41
+738,Kentucky,/r/ashlandkentucky,Ashland,2uwcr
+739,Kentucky,/r/ashlandky,Ashland KY,2ufw2
+740,Kentucky,/r/Bardstown,Bardstown,2z882
+741,Kentucky,/r/BellevueKY,Bellevue,34cxp
+742,Kentucky,/r/bowlinggreen,Bowling Green,2ti8x
+743,Kentucky,/r/boylecounty,Boyle County,2ugko
+744,Kentucky,/r/campbellsville,Campbellsville,2txgf
+745,Kentucky,/r/corbinky,Corbin,2sfvf
+746,Kentucky,/r/covington,Covington,2vzjw
+747,Kentucky,/r/DanvilleKY,Danville,3283y
+748,Kentucky,/r/easternky,Eastern Kentucky,2wlf1
+749,Kentucky,/r/etown,Elizabethtown,2th6f
+750,Kentucky,/r/FlorenceKY,Florence,342dp
+751,Kentucky,/r/frankfort,Frankfort,2shnl
+752,Kentucky,/r/gallatinky,Gallatin County,35cve
+753,Kentucky,/r/glasgowky,Glasgow,2w8vq
+754,Kentucky,/r/gravescounty,Graves County,2th1e
+755,Kentucky,/r/HarlanKY,Harlan,2zfie
+756,Kentucky,/r/hoptown,Hopkinsville (Hoptown),2w2s1
+757,Kentucky,/r/lakecumberland,Lake Cumberland,2u7x5
+758,Kentucky,/r/lawrenceburg,Lawrenceburg,36566
+759,Kentucky,/r/lexington,Lexington,2rjxn
+760,Kentucky,/r/lexingtonhangouts,Lexington Hangouts,2zf8x
+761,Kentucky,/r/louisville,Louisville,2qqvg
+762,Kentucky,/r/maysville,Maysville,2vyc8
+763,Kentucky,/r/middlesboroky,Middlesboroky,3f7dcr
+764,Kentucky,/r/morehead,Morehead,2tg1o
+765,Kentucky,/r/newportky,New Port,2y08l
+766,Kentucky,/r/NEKentucky,North East Kentucky,2sm0q
+767,Kentucky,/r/northernky,Northern Kentucky,2tt4a
+768,Kentucky,/r/nky,Northern Kentucky (NKY),2s6d9
+769,Kentucky,/r/Okolona,Okolona,2wdf4
+770,Kentucky,/r/owensboro,Owensboro,2t2d5
+771,Kentucky,/r/OwensboroKY,Owensboro KY,2tch9
+772,Kentucky,/r/paducah,Paducah,2v7t2
+773,Kentucky,/r/pikeville,Pikeville,2u7xr
+774,Kentucky,/r/pulaskikentucky,Pulaski County,2tfzn
+775,Kentucky,/r/redrivergorge,Red River Gorge,2upng
+776,Kentucky,/r/richmondky,Richmond,2sllu
+777,Kentucky,/r/shelbyky,Shelbyville,2sija
+778,Kentucky,/r/sladeky,Slade,2uv5n
+779,Kentucky,/r/SomersetKY,Somerset,31z8b
+780,Kentucky,/r/webstercounty,Webster County,2trwe
+781,Kentucky,/r/westkentucky,West Kentucky,2w246
+782,Kentucky,/r/winchesterky,Winchester,2ufl6
+783,Louisiana,/r/louisiana,Louisiana,2qr93
+784,Louisiana,/r/acadiana,Acadiana,2sldt
+785,Louisiana,/r/ascensionparish,Ascension Parish,2sp9j
+786,Louisiana,/r/batonrouge,Baton Rouge,2s5z1
+787,Louisiana,/r/bellechasse,Belle Chasse,2u5qh
+788,Louisiana,/r/bogalusa,Bogalusa,2u330
+789,Louisiana,/r/bossiercity,Bossier City,2tfhl
+790,Louisiana,/r/centrallouisiana,Central Louisiana,2tr9n
+791,Louisiana,/r/covingtonla,Covington,2xlnt
+792,Louisiana,/r/DenhamSprings,Denham Springs,2wweg
+793,Louisiana,/r/Eunice,Eunice,34fz5
+794,Louisiana,/r/gonzales,Gonzales,335jd
+795,Louisiana,/r/hammond,Hammond,2thtq
+796,Louisiana,/r/houma,Houma,2spk3
+797,Louisiana,/r/jeffersonparish,Jefferson Parish,2r9ar
+798,Louisiana,/r/lafayetteLA,Lafayette,2vf68
+799,Louisiana,/r/lakecharles,Lake Charles,2sc5l
+800,Louisiana,/r/lakecharleslouisiana,Lake Charles LA,2t61t
+801,Louisiana,/r/metry,Metairie,2xcog
+802,Louisiana,/r/morgancity,Morgan City,2w6ef
+803,Louisiana,/r/newiberia,New Iberia,2qvt8
+804,Louisiana,/r/neworleans,New Orleans,2qhp5
+805,Louisiana,/r/NOLA,NOLA (New Orleans),2qlir
+806,Louisiana,/r/newroads,New Roads,32p20
+807,Louisiana,/r/northlouisiana,North Louisiana,2sjpf
+808,Louisiana,/r/Nela,Northeast Louisiana,2qt1l
+809,Louisiana,/r/nwla,Northwest Louisiana,2yjc4
+810,Louisiana,/r/plaquemine,Plaquemine,30bhj
+811,Louisiana,/r/ponchatoula,Ponchatoula,2vbd3
+812,Louisiana,/r/shreveport,Shreveport,2sd75
+813,Louisiana,/r/stcharlesparish,St. Charles Parish,2xjfd
+814,Louisiana,/r/StFrancisville,St. Francisville,2zfz8
+815,Louisiana,/r/thibodaux,Thibodaux,2uvji
+816,Louisiana,/r/westmonroe,West Monroe,2yrtk
+817,Maine,/r/maine,Maine,2qts0
+818,Maine,/r/theothermaine,"Maine, the other",2smx6
+819,Maine,/r/Aroostook,Aroostook County,31esi
+820,Maine,/r/bangorme,Bangor,2xi8n
+821,Maine,/r/bronyisland,Brony Island,312uw
+822,Maine,/r/pryantpond,Bryant Pond,2zecz
+823,Maine,/r/ellsworth,Ellsworth,2xmsp
+824,Maine,/r/freeportmaine,Freeport,2uqac
+825,Maine,/r/gorham,Gorham,2u4ju
+826,Maine,/r/kennebunk,Kennebunk,2u7vk
+827,Maine,/r/lewiston,Lewiston,2v8vk
+828,Maine,/r/LewistonAuburn,Lewiston-Auburn,33f0w
+829,Maine,/r/LAMaine,Lewiston-Auburn (LAMaine),3bxhw
+830,Maine,/r/OrientME,Orient,31es8
+831,Maine,/r/PortlandMaine,Portland,2tdo6
+832,Maine,/r/portlandme,Portland ME,2t1eh
+833,Maine,/r/Waterville,Waterville,2v5fv
+834,Maryland,/r/maryland,Maryland,2qnnv
+835,Maryland,/r/annapolis,Annapolis,2qyl5
+836,Maryland,/r/annearundelcountymd,Anne Arundel County,2uzio
+837,Maryland,/r/butus,Arbutus,2wya7
+838,Maryland,/r/baltimore,Baltimore,2qipq
+839,Maryland,/r/BelAirMD,Bel Air,2xeac
+840,Maryland,/r/Beltsville,Beltsville,2umoq
+841,Maryland,/r/bethesda,Bethesda,2s6f9
+842,Maryland,/r/BeverlyBeach,Beverly Beach,33rp7
+843,Maryland,/r/thebbc,Breton bay,2v1gt
+844,Maryland,/r/carrollcountymd,Carroll County MD,32u1x
+845,Maryland,/r/Ceciltucky,Cecil County,307n1
+846,Maryland,/r/charlescounty,Charles County,2vn8u
+847,Maryland,/r/chasemd,Chase,2u56w
+848,Maryland,/r/chesapeakebay,Chesapeake Bay,2v6i1
+849,Maryland,/r/Cheverly,Cheverly,2x97o
+850,Maryland,/r/columbiamd,Columbia,2slie
+851,Maryland,/r/crofton_md,Crofton,2v9uk
+852,Maryland,/r/cumberland_maryland,Cumberland,2tip8
+853,Maryland,/r/damascusmd,Damascus,2xwea
+854,Maryland,/r/dundalkmd,Dundalk,2y0k9
+855,Maryland,/r/easternshoremd,Eastern Shore,2tcfv
+856,Maryland,/r/elkton,Elkton,2u9sq
+857,Maryland,/r/Emmitsburg,Emmitsburg,2z364
+858,Maryland,/r/EssexWhat,Essex,364ky
+859,Maryland,/r/frederickmd,Frederick,2s59d
+860,Maryland,/r/germantown,Germantown,2riku
+861,Maryland,/r/Glenelg,Glenelg,2whqd
+862,Maryland,/r/hagerstown,Hagerstown,2thlv
+863,Maryland,/r/hampden,Hampden,2wdnj
+864,Maryland,/r/HarfordMD,Harford,2tmpu
+865,Maryland,/r/harfordcountymd,Harford County,2rhoe
+866,Maryland,/r/HowardCountyMD,Howard County,2t2b3
+867,Maryland,/r/Joppatowne,Joppatowne,32jch
+868,Maryland,/r/lansdownemd,Lansdowne,2vb4f
+869,Maryland,/r/laurelmd,Laurel,2vnny
+870,Maryland,/r/lusby,Lusby,2ujlc
+871,Maryland,/r/Middletownmd,Middletown,2ykam
+872,Maryland,/r/Montgomerycounty,Montgomery County,2udw4
+873,Maryland,/r/montgomerycountymd,Montgomery County MD,2sac3
+874,Maryland,/r/NorthBethesda,North Bethesda,2y54j
+875,Maryland,/r/NoBe,North Bethesda-White Flint (NoBe),31a25
+876,Maryland,/r/oceancity,Ocean City,2slkw
+877,Maryland,/r/odenton,Odenton,2uzil
+878,Maryland,/r/parkville,Parkville,2yibt
+879,Maryland,/r/pasadenamd,Pasadena,2u1ua
+880,Maryland,/r/perryhall,Perryhall,2yqti
+881,Maryland,/r/poolesville,Poolesville,2tsqn
+882,Maryland,/r/QueenAnnesCounty,Queen Anne's County,311eo
+883,Maryland,/r/Reisterstown,Reisterstown,2xx3x
+884,Maryland,/r/Rockville,Rockville,2t2ry
+885,Maryland,/r/rockvillemd,Rockville MD,2vohf
+886,Maryland,/r/Scaggsville,Scaggsville,2y9by
+887,Maryland,/r/SilverSpring,Silver Spring,2wy6x
+888,Maryland,/r/somd,South Maryland,2u772
+889,Maryland,/r/takomapark,Takoma Park,2xg5o
+890,Maryland,/r/TalbotCounty,Talbot County,313zl
+891,Maryland,/r/UrbanaMD,Urbana,329ey
+892,Maryland,/r/washingtoncountymd,Washington County,2trxs
+893,Maryland,/r/WestminsterMaryland,Westminster,2sula
+894,Maryland,/r/WheatonMD,Wheaton,31a21
+895,Maryland,/r/wyeoak,Wye Oak,315ya
+896,Massachusetts,/r/massachusetts,Massachusetts,2qkbu
+897,Massachusetts,/r/mass,Mass,2qxul
+898,Massachusetts,/r/actonma,Acton,2yysw
+899,Massachusetts,/r/adamsma,Adams,2w2z6
+900,Massachusetts,/r/agawam,Agawam,2uvfx
+901,Massachusetts,/r/allstonrockcity,Allston,317k7
+902,Massachusetts,/r/Amesbury,Amesbury,2rdf9
+903,Massachusetts,/r/amherst,Amherst,2rf08
+904,Massachusetts,/r/andover,Andover,2vbai
+905,Massachusetts,/r/attleboro,Attleboro,2vbc5
+906,Massachusetts,/r/TheBerkshires,Berkshire County,2sr50
+907,Massachusetts,/r/BlackstoneMA,Blackstone,2zltz
+908,Massachusetts,/r/boston,Boston,2qh3r
+909,Massachusetts,/r/eastie,Boston East,33jai
+910,Massachusetts,/r/MetroBoston,Boston Metro,368rr
+911,Massachusetts,/r/brightonma,Brighton,2sdr7
+912,Massachusetts,/r/brookline,Brookline,2rvb2
+913,Massachusetts,/r/burlingtonma,Burlington,2vb9o
+914,Massachusetts,/r/Camberville,Camberville,2wltq
+915,Massachusetts,/r/cambridgeMA,Cambridge,2vgha
+916,Massachusetts,/r/CambridgeCityHall,Cambridge City Hall,2z3yb
+917,Massachusetts,/r/capecod,Cape Cod,2s0ex
+918,Massachusetts,/r/Townofcarver,Carver,365my
+919,Massachusetts,/r/centralma,Central Massachusetts,2vn27
+920,Massachusetts,/r/central_ma,Central_Massachusetts,2s4lc
+921,Massachusetts,/r/ChelseaMA,Chelsea,32ebl
+922,Massachusetts,/r/chicopee,Chicopee,2v85v
+923,Massachusetts,/r/cohasset,Cohasset,342tw
+924,Massachusetts,/r/ConcordMA,Concord,30xd0
+925,Massachusetts,/r/dedham,Dedham,358xg
+926,Massachusetts,/r/Dorchester,Dorchester,2w2cq
+927,Massachusetts,/r/eastarlington,East Arlington,327kc
+928,Massachusetts,/r/eastbridgewater,East Bridgewater,32bs9
+929,Massachusetts,/r/Easthampton,East Hampton,2y4rd
+930,Massachusetts,/r/EastLongmeadow,East Longmeadow,2y6ui
+931,Massachusetts,/r/fallriver,Fall River,2svl7
+932,Massachusetts,/r/framinghamma,Framingham,2vv7n
+933,Massachusetts,/r/franklinmass,Franklin,2z567
+934,Massachusetts,/r/FranklinMA,Franklin MA,2uabg
+935,Massachusetts,/r/gaithersburg,Gaithersburg,2sdqs
+936,Massachusetts,/r/gloucester,Gloucester,2ud8m
+937,Massachusetts,/r/GloucesterMA,Gloucester MA,3081f
+938,Massachusetts,/r/GreatBarrington,Great Barrington,31t0c
+939,Massachusetts,/r/Greenfield,Greenfield,2y61c
+940,Massachusetts,/r/GrotonMA,Groton,2yam7
+941,Massachusetts,/r/groveland,Groveland,2sfz4
+942,Massachusetts,/r/holyoke,Holyoke,2ua2w
+943,Massachusetts,/r/Hopkunton,Hopkunton,2xzgc
+944,Massachusetts,/r/HudsonMA,Hudson,2xc64
+945,Massachusetts,/r/HydeParkMA,Hyde Park,34h7r
+946,Massachusetts,/r/JamaicaPlain,Jamaica Plain,2simj
+947,Massachusetts,/r/KendallSquare,Kendall Square,2uace
+948,Massachusetts,/r/LowellMA,Lowell MA,31a22
+949,Massachusetts,/r/lowellmass,Lowell Mass,2s52r
+950,Massachusetts,/r/lowellmassachusetts,Lowell Massachusetts,2vo1c
+951,Massachusetts,/r/Ludlow,Ludlow,2sx6p
+952,Massachusetts,/r/LudlowMA,Ludlow MA,32v4g
+953,Massachusetts,/r/LynnMA,Lynn,32xbb
+954,Massachusetts,/r/malden,Malden,2sd87
+955,Massachusetts,/r/mansfieldma,Mansfield,2v5x0
+956,Massachusetts,/r/Marblehead,Marblehead,32e5f
+957,Massachusetts,/r/marlborough,Marlborough,2scdz
+958,Massachusetts,/r/RealMarshVegas,Marshfield,2zbli
+959,Massachusetts,/r/marthasvineyard,Martha's Vineyard,2szk6
+960,Massachusetts,/r/Medfield,Medfield,2tj62
+961,Massachusetts,/r/MedfordMass,Medford,30i75
+962,Massachusetts,/r/medfordma,Medford MA,30biy
+963,Massachusetts,/r/Methuen,Methuen,305bb
+964,Massachusetts,/r/metrowest,Metro West,2v98s
+965,Massachusetts,/r/millbury,Millbury,2vaxn
+966,Massachusetts,/r/Millis,Millis,33oye
+967,Massachusetts,/r/MiltonMA,Milton,2xkjq
+968,Massachusetts,/r/Nantucket,Nantucket,2t14l
+969,Massachusetts,/r/Natick,Natick,2yptx
+970,Massachusetts,/r/newbedford,New Bedford,2xqy5
+971,Massachusetts,/r/newburyport,Newbury Port,2szqi
+972,Massachusetts,/r/newtonma,Newton,2rb6h
+973,Massachusetts,/r/NorthAdams,North Adams,2takh
+974,Massachusetts,/r/01535,North Brookfield (01535),35x6j
+975,Massachusetts,/r/northshore,North Shore,2r24o
+976,Massachusetts,/r/northampton,Northampton,2rgbi
+977,Massachusetts,/r/NorthamptonMA,Northampton MA,32zlf
+978,Massachusetts,/r/norwood,Norwood,2unzh
+979,Massachusetts,/r/peabodyma,Peabody,2uvu8
+980,Massachusetts,/r/01960,Peabody (01960),2uf86
+981,Massachusetts,/r/pioneervalley,Pioneer Valley,2u6bj
+982,Massachusetts,/r/happyvalley,Pioneer Valley (Happy Valley),2uuit
+983,Massachusetts,/r/PittsfieldMass,Pittsfield,2t4tp
+984,Massachusetts,/r/plymouthma,Plymouth,2u3gj
+985,Massachusetts,/r/ReadingMA,Reading,341q5
+986,Massachusetts,/r/rehobothma,Rehoboth,2uise
+987,Massachusetts,/r/roxbury,Roxbury,2zo62
+988,Massachusetts,/r/SalemMA,Salem,2zuwm
+989,Massachusetts,/r/Saugus,Saugus,33q5z
+990,Massachusetts,/r/SharonMA,Sharon,31z6j
+991,Massachusetts,/r/sherborn,Sherborn,2rkh5
+992,Massachusetts,/r/shrewsbury,Shrewsbury,2tyey
+993,Massachusetts,/r/somerville,Somerville,2r7a8
+994,Massachusetts,/r/southcoast,South Coast,2s5ft
+995,Massachusetts,/r/south_hadley,South Hadley,2sghr
+996,Massachusetts,/r/southshore,South Shore,2ua7d
+997,Massachusetts,/r/southbridge,Southbridge,2xlt2
+998,Massachusetts,/r/southwick,Southwick,33kbz
+999,Massachusetts,/r/springfield,Springfield,2qzl0
+1000,Massachusetts,/r/stoneham,Stoneham,3470a
+1001,Massachusetts,/r/stoughton,Stoughton,31her
+1002,Massachusetts,/r/taunton,Taunton,2udkh
+1003,Massachusetts,/r/tauntonma,Taunton,2vuxk
+1004,Massachusetts,/r/townsend,Townsend,2vaxe
+1005,Massachusetts,/r/TurnersFalls,Turners Falls,32zg3
+1006,Massachusetts,/r/WakefieldMA,Wakefield,30ycz
+1007,Massachusetts,/r/Walpole,Walpole,2w9zj
+1008,Massachusetts,/r/Waltham,Waltham,2slpn
+1009,Massachusetts,/r/watertown,Watertown,30en3
+1010,Massachusetts,/r/wellesley,Wellesley,2rvjz
+1011,Massachusetts,/r/WestSpringfield,West Springfield,32yw5
+1012,Massachusetts,/r/westernma,Western MA,2s74i
+1013,Massachusetts,/r/413,Western MA (413),2thgy
+1014,Massachusetts,/r/wmass,Western Mass (WMASS),2s56j
+1015,Massachusetts,/r/westernmass,Western Massachusetts,2s6az
+1016,Massachusetts,/r/Western_Mass,Western_Mass,3310o
+1017,Massachusetts,/r/WestfieldMA,Westfield,2wnsf
+1018,Massachusetts,/r/weston,Weston,2u27u
+1019,Massachusetts,/r/Whitinsville,Whitinsville,35ggn
+1020,Massachusetts,/r/Williamstown,Williamstown,32i9k
+1021,Massachusetts,/r/WinchesterMass,Winchester,2y8bu
+1022,Massachusetts,/r/woburn,Woburn,2y6u2
+1023,Massachusetts,/r/worcesterma,Worcester,2sf2m
+1024,Michigan,/r/michigan,Michigan,2qhtl
+1025,Michigan,/r/allendale,Allendale,2v7ow
+1026,Michigan,/r/almont,Almont,2whnj
+1027,Michigan,/r/alpena,Alpena,2x376
+1028,Michigan,/r/annarbor,Ann Arbor,2r5tm
+1029,Michigan,/r/battlecreek,Battle Creek,2s8ed
+1030,Michigan,/r/cerealcity,Battle Creek (CerealCity),2uc2j
+1031,Michigan,/r/BayCityMichigan,Bay City,2zwiy
+1032,Michigan,/r/bentonharbor,Benton Harbor,2t8n7
+1033,Michigan,/r/birminghammi,Birmingham,2ugl6
+1034,Michigan,/r/blanchard,Blanchard,2u7im
+1035,Michigan,/r/BloomfieldHills,Bloomfield Hills,2u0ag
+1036,Michigan,/r/charlevoix,Charlevoix,2vhq2
+1037,Michigan,/r/coonrapids,Coon Rapids,2uda1
+1038,Michigan,/r/Coopersville,Coopersville,2tkvr
+1039,Michigan,/r/davison,Davison,2u0d8
+1040,Michigan,/r/detroit,Detroit,2qkko
+1041,Michigan,/r/metrodetroit,"Detroit, Metro",2r0ja
+1042,Michigan,/r/dewitt,DeWitt,2tzlu
+1043,Michigan,/r/downriver,Downriver Area,2s8ch
+1044,Michigan,/r/durand,Durand,2upqo
+1045,Michigan,/r/eastlansing,East Lansing,2ujd6
+1046,Michigan,/r/elkriver,Elk River,2vr3y
+1047,Michigan,/r/Escanaba,Escanaba,3i03p
+1048,Michigan,/r/FarmingtonHills,Farmington Hills,2y48d
+1049,Michigan,/r/Ferndale,Ferndale,2ru6q
+1050,Michigan,/r/flint,Flint,2rmf0
+1051,Michigan,/r/Fruitport,Fruitport,37up7
+1052,Michigan,/r/GardenCityMI,Garden City,2zvxn
+1053,Michigan,/r/Gladstone,Gladstone,2ta9d
+1054,Michigan,/r/GrandHaven,Grand Haven,2tqh8
+1055,Michigan,/r/GrandHavenMI,Grand Haven MI,31yl6
+1056,Michigan,/r/grandrapids,Grand Rapids,2qi0v
+1057,Michigan,/r/grossepointe,Grosse Pointe,2us3c
+1058,Michigan,/r/hamtramck,Hamtramck,2som7
+1059,Michigan,/r/harborsprings,Harbor Springs,2uf74
+1060,Michigan,/r/haslett,Haslett,2ugqd
+1061,Michigan,/r/HesperiaMI,Hesperia,315fz
+1062,Michigan,/r/hollandmichigan,Holland,2zo09
+1063,Michigan,/r/hollandmi,Holland MI,2tdr9
+1064,Michigan,/r/houghton,Houghton,2s6ta
+1065,Michigan,/r/howardcity,Howard City,2uckc
+1066,Michigan,/r/Hudsonville,Hudsonville,32z93
+1067,Michigan,/r/IrishHills,Irish Hills,2zgvt
+1068,Michigan,/r/ironmountain,Iron Mountain,309sn
+1069,Michigan,/r/jacksonmi,Jackson,2soqz
+1070,Michigan,/r/kzoo,Kalamazoo,2ryk4
+1071,Michigan,/r/kentcountymichigan,Kent County,2u13b
+1072,Michigan,/r/keweenaw,Keweenaw,2slx8
+1073,Michigan,/r/lakelinden,Lake Linden,2u9wt
+1074,Michigan,/r/lansing,Lansing,2qnvu
+1075,Michigan,/r/lapeer,Lapeer,2vtu1
+1076,Michigan,/r/leelanau,Leelanau,2s7st
+1077,Michigan,/r/Lenawee,Lenawee,2wwxg
+1078,Michigan,/r/livonia,Livonia,2s3j2
+1079,Michigan,/r/lowell,Lowell,2r335
+1080,Michigan,/r/Ludington,Ludington,2ycfo
+1081,Michigan,/r/mackinac,Mackinac,2zexk
+1082,Michigan,/r/marinecity,Marine City,2uw78
+1083,Michigan,/r/MQT,Marquette,2si3x
+1084,Michigan,/r/MasonMI,Mason,2wzfx
+1085,Michigan,/r/MeridianTwp,Meridian Township,31neq
+1086,Michigan,/r/mesickmi,Mesick,2urc4
+1087,Michigan,/r/michigancity,Michigan City,2x842
+1088,Michigan,/r/Midland,Midland,31dad
+1089,Michigan,/r/midland_mi,Midland MI,2sig3
+1090,Michigan,/r/milfordmi,Milford,2vwot
+1091,Michigan,/r/MonroeMI,Monroe,328qf
+1092,Michigan,/r/Montague,Montague,2zk85
+1093,Michigan,/r/mtbrighton,Mt. Brighton,2vqn4
+1094,Michigan,/r/mtpleasantmi,Mt. Pleasant,2tn41
+1095,Michigan,/r/muskegon,Muskegon,2s6ks
+1096,Michigan,/r/NewBaltimore,New Baltimore,2wwid
+1097,Michigan,/r/Northville,Northville,2zzo8
+1098,Michigan,/r/oaklandcounty,Oakland County,2vk03
+1099,Michigan,/r/okemos,Okemos,2soqq
+1100,Michigan,/r/owosso,Owosso,2u6t8
+1101,Michigan,/r/ParmaMI,Parma,31ndg
+1102,Michigan,/r/petoskey,Petoskey,2u15b
+1103,Michigan,/r/PlymouthMI,Plymouth,2w8pm
+1104,Michigan,/r/pontiacmi,Pontiac,2v9qc
+1105,Michigan,/r/posen,Posen,2z31m
+1106,Michigan,/r/rochesterhills,Rochester Hills,2ujrn
+1107,Michigan,/r/romeomi,Romeo,2v2nb
+1108,Michigan,/r/royaloak,Royal Oak,2qm1s
+1109,Michigan,/r/saginaw,Saginaw,2si23
+1110,Michigan,/r/SaginawBay,Saginaw Bay,2th2p
+1111,Michigan,/r/SaginawMichigan,Saginaw MI,356gd
+1112,Michigan,/r/saintclairshores,Saint Clair Shores,33af2
+1113,Michigan,/r/shelbytwp,Shelby,2wyy8
+1114,Michigan,/r/SouthBend,South Bend,2ro11
+1115,Michigan,/r/southwestmichigan,Southwest Michigan,2rjma
+1116,Michigan,/r/stclairshores,St. Clair Shores,2xw9c
+1117,Michigan,/r/St_Joseph,St. Joseph,2xezg
+1118,Michigan,/r/swmich,SW Michigan,2xc05
+1119,Michigan,/r/swartzcreek,Swartz Creek,32jsv
+1120,Michigan,/r/traversecity,Traverse City,2s3ql
+1121,Michigan,/r/uppermichigan,Upper Michigan,2v2gd
+1122,Michigan,/r/UPmichigan,Upper Peninsula,2r3ao
+1123,Michigan,/r/washtenawannarbor,Washtenaw,2y7w9
+1124,Michigan,/r/westmi,West Michigan,2vs3p
+1125,Michigan,/r/westernlowermichigan,Western Lower Michigan,2s5kc
+1126,Michigan,/r/WhiteLake,White Lake,2y8dz
+1127,Michigan,/r/Whitehall,Whitehall,2zk7z
+1128,Michigan,/r/Woodhaven,Woodhaven,2ut6c
+1129,Michigan,/r/yooper,Yooper,2s6ul
+1130,Michigan,/r/ypsilanti,Ypsilanti,2rsmw
+1131,Michigan,/r/ypsi,Ypsilanti (YPSI),2s1rx
+1132,Minnesota,/r/minnesota,Minnesota,2qhxs
+1133,Minnesota,/r/alexandriamn,Alexandria,2v4rh
+1134,Minnesota,/r/applevalley,Apple Valley,2u0kk
+1135,Minnesota,/r/armatage,Armatage,2us8u
+1136,Minnesota,/r/bemidji,Bemidji,2srzq
+1137,Minnesota,/r/bloomingtonmn,Bloomington,2sdw9
+1138,Minnesota,/r/brainerd,Brainerd,2sjsj
+1139,Minnesota,/r/buffalominnesota,Buffalo,2ttsf
+1140,Minnesota,/r/burnsvillemn,Burnsville,2vj97
+1141,Minnesota,/r/cambridgeminnesota,Cambridge,2ulna
+1142,Minnesota,/r/carvercounty,Carver County,2uvhk
+1143,Minnesota,/r/chaska,Chaska,2vazn
+1144,Minnesota,/r/coonrapids,Coon Rapids,2uda1
+1145,Minnesota,/r/cottagegrove,Cottage Grove,2ughc
+1146,Minnesota,/r/duluth,Duluth,2s2ua
+1147,Minnesota,/r/eaganmn,Eagan,2udl2
+1148,Minnesota,/r/eastbethelmn,East Bethel,2vzfd
+1149,Minnesota,/r/edenprairie,Eden Prairie,2vzpn
+1150,Minnesota,/r/elkriver,Elk River,2vr3y
+1151,Minnesota,/r/grandrapidsmn,Grand Rapids,2uhls
+1152,Minnesota,/r/hastingsmn,Hastings,2vo3s
+1153,Minnesota,/r/hibbing,Hibbing,2sjr0
+1154,Minnesota,/r/isantimn,Isanti,2v0p6
+1155,Minnesota,/r/kassonmantorville,Kasson and Mantorville,2u06y
+1156,Minnesota,/r/mankato,Mankato,2sltu
+1157,Minnesota,/r/MapleGroveMN,Maple Grove,fmfcq
+1158,Minnesota,/r/marshallmn,Marshall,2vjtv
+1159,Minnesota,/r/minneapolis,Minneapolis,2r3bl
+1160,Minnesota,/r/minnetonka,Minnetonka,2twyv
+1161,Minnesota,/r/FargoMoorhead,Moorhead-Fargo,3iobd
+1162,Minnesota,/r/morrismn,Morris,2u54a
+1163,Minnesota,/r/moundmn,Mound,2u0ef
+1164,Minnesota,/r/moundsview,Mounds View,2vr95
+1165,Minnesota,/r/northfield,Northfield,2sc3h
+1166,Minnesota,/r/owatonna,Owatonna,2utbp
+1167,Minnesota,/r/plymouthmn,Plymouth,2v4r6
+1168,Minnesota,/r/redwingmn,Red Wing,2zmr6
+1169,Minnesota,/r/richfield,Richfield,2v3xz
+1170,Minnesota,/r/rochestermn,Rochester,2rqfl
+1171,Minnesota,/r/rochesterminnesota,Rochester MN,2s4rl
+1172,Minnesota,/r/rosemount,Rosemount,2ujbv
+1173,Minnesota,/r/rosemountmn,Rosemount MN,2vo3d
+1174,Minnesota,/r/saintpaul,Saint Paul,2tnnm
+1175,Minnesota,/r/stpaul,St. Paul,2uhe1
+1176,Minnesota,/r/stpaulpark,St. Paul Park,2vlnf
+1177,Minnesota,/r/saintpeter,Saint Peter,2uq5j
+1178,Minnesota,/r/shakopee,Shakopee,2s57k
+1179,Minnesota,/r/staples_minnesota,Staples,2rk4h
+1180,Minnesota,/r/twincities,Twin Cities,2r7ar
+1181,Minnesota,/r/twincitiessocial,Twin Cities Social,2r5mc
+1182,Minnesota,/r/waconia,Waconia,2vh55
+1183,Minnesota,/r/waterville,Waterville,2v5fv
+1184,Minnesota,/r/willmar,Willmar,2ye4w
+1185,Minnesota,/r/windommn,Windom,2tvmd
+1186,Minnesota,/r/winona,Winona,2sgxk
+1187,Minnesota,/r/woodburyminnesota,Woodbury,2v39h
+1188,Mississippi,/r/mississippi,Mississippi,2qhht
+1189,Mississippi,/r/amory,Amory,2u903
+1190,Mississippi,/r/biloxi,Biloxi,2r3l1
+1191,Mississippi,/r/clevelandms,Cleveland,2vcsc
+1192,Mississippi,/r/edgewoodms,Edgewood,35bir
+1193,Mississippi,/r/ellisville,Ellisville,2xnk6
+1194,Mississippi,/r/hattiesburg,Hattiesburg,2sgsr
+1195,Mississippi,/r/jacksonms,Jackson,2skgq
+1196,Mississippi,/r/longbeachmississippi,Long Beach,2w37l
+1197,Mississippi,/r/meridian,Meridian,2ugy2
+1198,Mississippi,/r/natchez,Natchez,2t8ko
+1199,Mississippi,/r/oceansprings,Ocean Springs,2tze9
+1200,Mississippi,/r/ptownms,Petal,2t2ll
+1201,Mississippi,/r/philadelphiams,Philadelphia,2txd0
+1202,Mississippi,/r/pontotoc,Pontotoc,2xnan
+1203,Mississippi,/r/southaven,Southaven,2yklv
+1204,Mississippi,/r/Starkville,Starkville,2t79y
+1205,Mississippi,/r/tunica,Tunica,2yic1
+1206,Mississippi,/r/tupelo,Tupelo,2stdd
+1207,Mississippi,/r/TupeloMS,Tupelo MS,31zh8
+1208,Missouri,/r/missouri,Missouri,2qham
+1209,Missouri,/r/alton,Alton,2uate
+1210,Missouri,/r/bolivarmo,Bolivar,2u8pz
+1211,Missouri,/r/bransonmo,Branson,2vl66
+1212,Missouri,/r/BunkerMissouri,Bunker,307qj
+1213,Missouri,/r/ChillicotheMissouri,Chillicothe,2zzcr
+1214,Missouri,/r/columbiamo,Columbia,2rr9b
+1215,Missouri,/r/co_mo,Columbia (Co_Mo),2qp4b
+1216,Missouri,/r/FultonMo,Fulton,34dep
+1217,Missouri,/r/jackson_missouri,Jackson,2v6u0
+1218,Missouri,/r/jacksonmo,Jackson MO,35it5
+1219,Missouri,/r/joplin,Joplin,2rtek
+1220,Missouri,/r/joplinmo,Joplin MO,2ss0q
+1221,Missouri,/r/kansascity,Kansas City,2qngc
+1222,Missouri,/r/kirksville,Kirksville,2uatu
+1223,Missouri,/r/libertymo,Liberty,2ufc5
+1224,Missouri,/r/MidMo,Middle Missouri,35sw9
+1225,Missouri,/r/montgomerycountymo,Montgomery County,2vgfv
+1226,Missouri,/r/newmadridcounty,New Madrid County,2x9mi
+1227,Missouri,/r/nwmissouri,Northwest Missouri,2t2l8
+1228,Missouri,/r/OakvilleSTL,Oakville,3291i
+1229,Missouri,/r/ozarkmo,Ozark,2u911
+1230,Missouri,/r/ozarks,Ozarks,2r96n
+1231,Missouri,/r/lakeoftheozarks,Ozarks Lakes,2uula
+1232,Missouri,/r/PleasantHillMo,Pleasant Hill,2yliy
+1233,Missouri,/r/Rayville,Rayville,33hih
+1234,Missouri,/r/rolla,Rolla,2rvtz
+1235,Missouri,/r/sedalia,Sedalia,2soga
+1236,Missouri,/r/springfieldmo,Springfield,2qiap
+1237,Missouri,/r/stcharlesmo,St. Charles,2up4q
+1238,Missouri,/r/stclairmo,St. Clair,2u6cf
+1239,Missouri,/r/stjoemo,St. Joseph,339i2
+1240,Missouri,/r/stlouis,St. Louis,2qpnm
+1241,Missouri,/r/stlouiscounty,St. Louis County,2w3iw
+1242,Missouri,/r/unionmo,Union,2vbiu
+1243,Missouri,/r/washmo,Washington,2v3nt
+1244,Missouri,/r/warrensburg,Warrensburg,2uxrm
+1245,Missouri,/r/westplains,West Plains,2u42k
+1246,Missouri,/r/wildwoodmo,Wildwood,2uq62
+1247,Missouri,/r/willardmo,Willard,2sevo
+1248,Montana,/r/montana,Montana,2quij
+1249,Montana,/r/bigsky,Big Sky,2vhky
+1250,Montana,/r/billings,Billings,2s78t
+1251,Montana,/r/bitterroot,Bitterroot Valley,2tcfb
+1252,Montana,/r/bozeman,Bozeman,2s4e7
+1253,Montana,/r/butte,Butte,2sr5n
+1254,Montana,/r/glacier,Glacier National Park,2xh73
+1255,Montana,/r/GlacierPark,Glacier Park,2xwsu
+1256,Montana,/r/greatfalls,Great Falls,2t47c
+1257,Montana,/r/havre,Havre,2vlev
+1258,Montana,/r/helena,Helena,2qxk8
+1259,Montana,/r/kalispell,Kalispell,2t478
+1260,Montana,/r/missoula,Missoula,2rr4m
+1261,Montana,/r/ruralmt,Rural Montana,2ssj0
+1262,Montana,/r/whitefish,Whitefish,2vwd5
+1263,Nebraska,/r/nebraska,Nebraska,2qo70
+1264,Nebraska,/r/aurorane,Aurora,2w5q3
+1265,Nebraska,/r/blair,Blair,2sjtk
+1266,Nebraska,/r/douglascounty,Douglas County,2s5f4
+1267,Nebraska,/r/fremontne,Fremont,2ux1r
+1268,Nebraska,/r/hastingsne,Hastings,2ug78
+1269,Nebraska,/r/kearney,Kearney,2szee
+1270,Nebraska,/r/lincoln,Lincoln,2s5gj
+1271,Nebraska,/r/omaha,Omaha,2qihb
+1272,Nebraska,/r/Scottsbluffnebraska,Scottsbluff,2sxw5
+1273,Nebraska,/r/Stromsburg,Stromsburg,31plx
+1274,Nebraska,/r/WesternNebraska,Western Nebraska,340e5
+1275,Nevada,/r/nevada,Nevada,2rqwi
+1276,Nevada,/r/bouldercity,Boulder City,30fwz
+1277,Nevada,/r/carsoncity,Carson City,2uaur
+1278,Nevada,/r/crystalbay,Crystal Bay,2vyhr
+1279,Nevada,/r/elko,Elko,2t25o
+1280,Nevada,/r/elyNV,Ely,35ymc
+1281,Nevada,/r/CityOfHenderson,Henderson,2xy35
+1282,Nevada,/r/inclinevillage,Incline Village,2vyh5
+1283,Nevada,/r/lasvegas,Las Vegas,2ra8w
+1284,Nevada,/r/vegas,(Las) Vegas,2qhrs
+1285,Nevada,/r/Mesquite,Mesquite,2woid
+1286,Nevada,/r/nevadacity,Nevada City,2uyao
+1287,Nevada,/r/PerfectionValley,Perfection Valley,34aa5
+1288,Nevada,/r/reno,Reno,2qsfi
+1289,Nevada,/r/RenoNV,Reno NV,30yu4
+1290,Nevada,/r/tahoe,Tahoe,2s4yk
+1291,Nevada,/r/Winnemucca,Winnemucca,2sz9s
+1292,Nevada,/r/zephyrcove,Zephyr Cove,2vyhe
+1293,New Hampshire,/r/newhampshire,New Hampshire,2rmnf
+1294,New Hampshire,/r/concordnh,Concord,2udb7
+1295,New Hampshire,/r/conwaynh,Conway,2ve20
+1296,New Hampshire,/r/durhamnh,Durham,2vt7d
+1297,New Hampshire,/r/etna,Etna,2w0dj
+1298,New Hampshire,/r/keene,Keene,2sn42
+1299,New Hampshire,/r/winnipesaukee,Lake Winnipesaukee,2urcv
+1300,New Hampshire,/r/manchesternh,Manchester,2sdic
+1301,New Hampshire,/r/milfordnh,Milford,2udaz
+1302,New Hampshire,/r/nashua,Nashua,2rq99
+1303,New Hampshire,/r/PeterboroughNH,Peterborough,31ilp
+1304,New Hampshire,/r/Pittsfieldnh,Pittsfield,30xcx
+1305,New Hampshire,/r/portsmouthnh,Portsmouth,2sn4d
+1306,New Hampshire,/r/rochesternh,Rochester,2ssr2
+1307,New Hampshire,/r/salemnh,Salem,2vkhb
+1308,New Hampshire,/r/seacoastnh,Seacoast,2u4ck
+1309,New Hampshire,/r/tuckermanravine,Tuckerman Ravine,2uvd4
+1310,New Hampshire,/r/watervillevalleynh,Waterville Valley,2vtf2
+1311,New Jersey,/r/newjersey,New Jersey,2qhsu
+1312,New Jersey,/r/jersey,Jersey,2rloo
+1313,New Jersey,/r/acquackanonk,Acquackanonk,2v1oj
+1314,New Jersey,/r/asburypark,Asbury Park,2thb1
+1315,New Jersey,/r/atlanticcity,Atlantic City,2rj8l
+1316,New Jersey,/r/whitebrier,Avalon,2u968
+1317,New Jersey,/r/BayonneNJ,Bayonne,2xmw1
+1318,New Jersey,/r/Belmar,Belmar,2xeis
+1319,New Jersey,/r/bergencity,Bergen City,2umsd
+1320,New Jersey,/r/bernardsville,Bernardsville,2uvdu
+1321,New Jersey,/r/Blairstown,Blairstown,2ux8q
+1322,New Jersey,/r/blairstowne,Blairstowne,2ux8e
+1323,New Jersey,/r/boonton,Boonton,2timz
+1324,New Jersey,/r/BordentownNJ,Bordentown,34p8y
+1325,New Jersey,/r/Bridgeton,Bridgeton,361e8
+1326,New Jersey,/r/CamdenCountyNJ,Camden County,2x6ws
+1327,New Jersey,/r/capemay,Cape May,2v0rj
+1328,New Jersey,/r/Carlstadt,Carlstadt,35u4g
+1329,New Jersey,/r/centraljersey,Central Jersey,2zqcn
+1330,New Jersey,/r/CherryHillNJ,Cherry Hill,2z842
+1331,New Jersey,/r/clifton,Clifton,2srwi
+1332,New Jersey,/r/collingswood,Collingswood,2s1pu
+1333,New Jersey,/r/Cranbury,Cranbury,2zfw4
+1334,New Jersey,/r/Cresskill,Cresskill,32alx
+1335,New Jersey,/r/eastbrunswick,East Brunswick,2sgoz
+1336,New Jersey,/r/edisonnj,Edison,2sijx
+1337,New Jersey,/r/elmwoodpark,Elmwood Park,2ufm1
+1338,New Jersey,/r/Flemington,Flemington,306y5
+1339,New Jersey,/r/FortLee,Fort Lee,2yvx4
+1340,New Jersey,/r/gibbsboro,Gibbsboro,2u35m
+1341,New Jersey,/r/gloucestercounty,Gloucester County,2rinn
+1342,New Jersey,/r/hackettstown,Hackettstown,2uuj8
+1343,New Jersey,/r/haddonfield,Haddonfield,2wivm
+1344,New Jersey,/r/hammonton,Hammonton,2t1lx
+1345,New Jersey,/r/hazlet,Hazlet,34dwd
+1346,New Jersey,/r/hoboken,Hoboken,2rni6
+1347,New Jersey,/r/hudsoncounty,Hudson County,2uaps
+1348,New Jersey,/r/jerseycity,Jersey City,2rznh
+1349,New Jersey,/r/kearny,Kearny,2scxb
+1350,New Jersey,/r/livingston,Livingston,2ubkk
+1351,New Jersey,/r/longbeachisland,Long Beach Island,2vfhk
+1352,New Jersey,/r/marlton,Marlton,2skkr
+1353,New Jersey,/r/MaysLanding,Mays Landing,34ph5
+1354,New Jersey,/r/Metuchen,Metuchen,323s8
+1355,New Jersey,/r/MiddlesexNJ,Middlesex,2zjxg
+1356,New Jersey,/r/Millville,Millville,2zugg
+1357,New Jersey,/r/monmouthcounty,Monmouth County,2umxd
+1358,New Jersey,/r/Montclairnj,Montclair NJ,2tkvy
+1359,New Jersey,/r/NJMontclair,Montclair,30bw4
+1360,New Jersey,/r/montgomerynj,Montgomery,2vux9
+1361,New Jersey,/r/morriscounty,Morris County,2zimf
+1362,New Jersey,/r/morristownnj,Morristown,2txbo
+1363,New Jersey,/r/mountainlakes,Mountain Lakes,2u1kf
+1364,New Jersey,/r/newark,Newark,2rc7a
+1365,New Jersey,/r/NewBrunswickNJ,New Brunswick,2thdl
+1366,New Jersey,/r/newmilfordnj,New Milford,2sfxy
+1367,New Jersey,/r/NewProvidence,New Providence,2yi6x
+1368,New Jersey,/r/northjersey,North Jersey,2ulv1
+1369,New Jersey,/r/northernnewjersey,Northern New Jersey,2qq2i
+1370,New Jersey,/r/OceanCityNewJersey,Ocean City,36gb0
+1371,New Jersey,/r/oceancitynj,Ocean City NJ,32or5
+1372,New Jersey,/r/oceancounty,Ocean County,2xdub
+1373,New Jersey,/r/oceangrove,Ocean Grove,2uejb
+1374,New Jersey,/r/pennington,Pennington,2uenh
+1375,New Jersey,/r/pittsgrove,Pittsgrove,36f7w
+1376,New Jersey,/r/rahway,Rahway,2udm1
+1377,New Jersey,/r/ramseynj,Ramsey,2z5nn
+1378,New Jersey,/r/redbank,Red Bank,2vyta
+1379,New Jersey,/r/Ringwood,Ringwood,35cuk
+1380,New Jersey,/r/Rutherfordnj,Rutherford,33jse
+1381,New Jersey,/r/sayreville,Sayreville,2s5lg
+1382,New Jersey,/r/SeaIsleCity,Sea Isle City,31br1
+1383,New Jersey,/r/SomersetNJ,Somerset,2uwy7
+1384,New Jersey,/r/somersetnj,Somerset County,2uwy7
+1385,New Jersey,/r/southjersey,South Jersey,2s74w
+1386,New Jersey,/r/609,Southeastern & Central (609),2uvtw
+1387,New Jersey,/r/springfieldnj,Springfield,2w502
+1388,New Jersey,/r/sussexcounty,Sussex County,2sq8k
+1389,New Jersey,/r/tenafly,Tenafly,2s5vk
+1390,New Jersey,/r/trentonnj,Trenton,2tv1t
+1391,New Jersey,/r/Vineland,Vineland,2t1rs
+1392,New Jersey,/r/washingtontwp,Washington Township,2twz7
+1393,New Jersey,/r/westorange,West Orange,2u4dr
+1394,New Mexico,/r/newmexico,New Mexico,2raxc
+1395,New Mexico,/r/alamogordo,Alamogordo,2y6ze
+1396,New Mexico,/r/albuquerque,Albuquerque,2qxoe
+1397,New Mexico,/r/artesianm,Artesia,2um7a
+1398,New Mexico,/r/BloomfieldNM,Bloomfield,315in
+1399,New Mexico,/r/carlsbadnm,Carlsbad,2ucxl
+1400,New Mexico,/r/ClovisNewMexico,Clovis,2tcdh
+1401,New Mexico,/r/gallup,Gallup,2rpl3
+1402,New Mexico,/r/gallupnm,Gallup NM,2uzoh
+1403,New Mexico,/r/lascruces,Las Cruces,2sfxh
+1404,New Mexico,/r/losalamos,Los Alamos,2uu77
+1405,New Mexico,/r/lovington,Lovington,2s7yc
+1406,New Mexico,/r/QuayCounty,Quay County,34jj7
+1407,New Mexico,/r/RoswellNM,Roswell,2x65p
+1408,New Mexico,/r/santafe,Santa Fe,2raxq
+1409,New Mexico,/r/silvercity,Silver City,2ud32
+1410,New Mexico,/r/newmex,Southern New Mexico,2s8ob
+1411,New Mexico,/r/taos,Taos,2tl5p
+1412,New Mexico,/r/Tucumcari,Tucumcari,34jj1
+1413,New York,/r/newyork,New York,2qh3t
+1414,New York,/r/empirestate,Empire State,2u90t
+1415,New York,/r/adirondacks,Adirondack Park,2tj4q
+1416,New York,/r/agloe,Agloe,2u8bj
+1417,New York,/r/albany,Albany,2qzxo
+1418,New York,/r/albany_newyork,Albany NY,2r9cy
+1419,New York,/r/Allegany,Allegany State Park,2w82j
+1420,New York,/r/amsterdamny,Amsterdam,2uj45
+1421,New York,/r/astoria,Astoria,2rbi1
+1422,New York,/r/AuburnNY,Auburn,2v277
+1423,New York,/r/bayridge,Bay Ridge,2usbw
+1424,New York,/r/beacon,Beacon,2sge3
+1425,New York,/r/beaconny,Beacon NY,2uo7e
+1426,New York,/r/binghamton,Binghamton,2rnm3
+1427,New York,/r/binghamtonny,Binghamton NY,2utl7
+1428,New York,/r/brewster,Brewster,2tw0t
+1429,New York,/r/Brockville,Brockville,2wyrm
+1430,New York,/r/bronx,Bronx,2ruo6
+1431,New York,/r/bronxville,Bronxville,2ubrq
+1432,New York,/r/brooklyn,Brooklyn,2qme3
+1433,New York,/r/buffalo,Buffalo,2qi6i
+1434,New York,/r/bushwick,Bushwick,2s1hk
+1435,New York,/r/cny,Central New York,2qn4a
+1436,New York,/r/CentralPark,Central Park,2vxwu
+1437,New York,/r/chappaquany,Chappaqua,2uc9z
+1438,New York,/r/cherryvalley,Cherry Valley,339t2
+1439,New York,/r/cobleskill,Cobleskill,2upgx
+1440,New York,/r/coneyisland,Coney Island,2u4d1
+1441,New York,/r/cooperstownny,Cooperstown,2ul6r
+1442,New York,/r/corning,Corning,2tutu
+1443,New York,/r/cortlandny,Cortland,2w26s
+1444,New York,/r/crownheights,Crown Heights,2ur2n
+1445,New York,/r/eastmeadow,East Meadow,2udz7
+1446,New York,/r/eastvillage,East Village,2swck
+1447,New York,/r/elmiraNY,Elmira,2wqa9
+1448,New York,/r/endicott,Endicott,2vq9s
+1449,New York,/r/FlushingQueens/,Flushing,30xen
+1450,New York,/r/ForestHills,Forest Hills,2zphu
+1451,New York,/r/fortgreene,Fort Greene,2uoh5
+1452,New York,/r/FranklinSquare,Franklin Square,2t7rp
+1453,New York,/r/Genesee,Genesee County,2wi9l
+1454,New York,/r/GenevaNY,Geneva,314tt
+1455,New York,/r/glensfalls,Glens Falls,2v03k
+1456,New York,/r/GlensFallsNY,Glens Falls NY,2xgox
+1457,New York,/r/greatneck,Great Neck,2twf0
+1458,New York,/r/greaterbinghamton,Greater Binghamton,2viqg
+1459,New York,/r/greenwichvillage,Greenwich Village,2vxwk
+1460,New York,/r/harlemusa,Harlem,2uxyn
+1461,New York,/r/Hornell,Hornell,2s59q
+1462,New York,/r/HudsonNY,Hudson,2x522
+1463,New York,/r/hudsonvalley,Hudson Valley,2sa17
+1464,New York,/r/hton,Huntington,2rhj0
+1465,New York,/r/ithaca,Ithaca,2rp73
+1466,New York,/r/jacksonheights,Jackson Heights,2sac0
+1467,New York,/r/jamestownny,Jamestown,2w4qo
+1468,New York,/r/liverpool_ny,Liverpool,2u1yq
+1469,New York,/r/lbny,Long Beach,2sint
+1470,New York,/r/longbeachny,Long Beach NY,2ut0x
+1471,New York,/r/longisland,Long Island,2qk64
+1472,New York,/r/lowereastside,Lower East Side,2ryf9
+1473,New York,/r/mahopac,Mahopac,2x1ik
+1474,New York,/r/maltany,Malta,2ywg6
+1475,New York,/r/manhattan,Manhattan,2qn3w
+1476,New York,/r/mechanicville,Mechanicville,2v8yd
+1477,New York,/r/millbrook,Millbrook,2u7q2
+1478,New York,/r/Narrowsburg,Narrowsburg,2zlvy
+1479,New York,/r/nassaucounty,Nassau County,2u1u1
+1480,New York,/r/newhydepark,New Hyde Park,2v7lh
+1481,New York,/r/nyc,New York City,2qhu2
+1482,New York,/r/uptownnyc,"New York City, Uptown",2uzxe
+1483,New York,/r/newburgh,Newburgh,2trmr
+1484,New York,/r/cityofnewburghny,Newburgh NY,2sbpe
+1485,New York,/r/niagarafallsny,Niagara Falls,3ha8a
+1486,New York,/r/niskayuna,Niskayuna,2vxbn
+1487,New York,/r/northportny,North Port,2x96c
+1488,New York,/r/Ogdensburg,Ogdensburg,2yu94
+1489,New York,/r/olean,Olean,2u5gc
+1490,New York,/r/ocny,Orange County,2umez
+1491,New York,/r/orangecountyny,Orange County NY,2qq2g
+1492,New York,/r/ossining,Ossining,2u9zl
+1493,New York,/r/owego,Owego,2sj52
+1494,New York,/r/parkslope,Park Slope,2sa4f
+1495,New York,/r/pelham,Pelham,2ulxw
+1496,New York,/r/Pelham,Pelham,2ulxw
+1497,New York,/r/PhilmontNY,Philmont,2x4tr
+1498,New York,/r/phoenixny,Phoenix,2ulav
+1499,New York,/r/plattsburgh,Plattsburgh,2sx09
+1500,New York,/r/12901,Plattsburgh (12901),2v5o1
+1501,New York,/r/PortWashington,Port Washington,2yls8
+1502,New York,/r/queens,Queens,2r2s3
+1503,New York,/r/Queensbury,Queensbury,2zdqn
+1504,New York,/r/rhinebeck,Rhinebeck,2u0nb
+1505,New York,/r/ridgewood,Ridgewood,2unsu
+1506,New York,/r/rochester,Rochester,2qhkc
+1507,New York,/r/rockland,Rockland County,2r9f7
+1508,New York,/r/rooseveltisland,Roosevelt Island,2u256
+1509,New York,/r/ryeny,Rye,2x4mz
+1510,New York,/r/Salamanca,Salamanca,2x6wn
+1511,New York,/r/saratogasprings,Saratoga Springs,2vkaf
+1512,New York,/r/scarsdale,Scarsdale,2wm6r
+1513,New York,/r/schenectady,Schenectady,2te0e
+1514,New York,/r/schoharie,Schoharie County,25vzpi
+1515,New York,/r/scottsville,Scottsville,2txhg
+1516,New York,/r/SouthWedge,South Wedge,2vyfz
+1517,New York,/r/stanfordville,Stanfordville,2tyq5
+1518,New York,/r/statenisland,Staten Island,2rh1q
+1519,New York,/r/syracuse,Syracuse,2qn4e
+1520,New York,/r/thehamptons,The Hamptons,2se74
+1521,New York,/r/troy,Troy,2qye0
+1522,New York,/r/troyny,Troy NY,2sf3n
+1523,New York,/r/upstate_new_york,Upstate New York,2rcb2
+1524,New York,/r/utica,Utica,2sjdr
+1525,New York,/r/vestal,Vestal,2u7og
+1526,New York,/r/wantagh,Wantagh,2v53x
+1527,New York,/r/Warwick_NY,Warwick,2slfa
+1528,New York,/r/watertownny,Watertown,2unjv
+1529,New York,/r/websterny,Webster,2t3o9
+1530,New York,/r/wellsvilleny,Wellsville,2u650
+1531,New York,/r/westislip,West Islip,2ty9j
+1532,New York,/r/westnewyork,West New York,2uchl
+1533,New York,/r/westchester,Westchester County,2rqqt
+1534,New York,/r/wny,Western New York,2r3rw
+1535,New York,/r/WhitePlainsNY,White Plains,359wb
+1536,New York,/r/williamsburg,Williamsburg,2r4vl
+1537,New York,/r/williamson,Williamson,2s3mn
+1538,New York,/r/yonkers,Yonkers,2thfe
+1539,North Carolina,/r/northcarolina,North Carolina,2qhmx
+1540,North Carolina,/r/asheboro,Asheboro,2vblv
+1541,North Carolina,/r/asheville,Asheville,2rf3h
+1542,North Carolina,/r/boone,Boone,2r5xo
+1543,North Carolina,/r/brevard,Brevard,2u27r
+1544,North Carolina,/r/brysoncity,Bryson City,2yqdb
+1545,North Carolina,/r/buncombe,Buncombe County,2u9ou
+1546,North Carolina,/r/BurlingtonNC,Burlington,31wig
+1547,North Carolina,/r/cabarruscounty,Cabarrus County,2v81h
+1548,North Carolina,/r/cary,Cary,2skdc
+1549,North Carolina,/r/chapelhill,Chapel Hill,2rohp
+1550,North Carolina,/r/charlotte,Charlotte,2qo2j
+1551,North Carolina,/r/cherokeenc,Cherokee,2tvx5
+1552,North Carolina,/r/concordnc,Concord,2ujrq
+1553,North Carolina,/r/cornelius,Cornelius,2yku0
+1554,North Carolina,/r/creedmoor,Creedmoor,2vc09
+1555,North Carolina,/r/DentonNC,Denton,30ggd
+1556,North Carolina,/r/bullcity,Durham,2sv0n
+1557,North Carolina,/r/edenton,Edenton,33z9s
+1558,North Carolina,/r/elizabethcity,Elizabeth City,2udv2
+1559,North Carolina,/r/fayettenam,Fayetteville,2se9h
+1560,North Carolina,/r/forestcity,Forest City,2sfp3
+1561,North Carolina,/r/Fuquayvarina,Fuquay Varina,2x0go
+1562,North Carolina,/r/gastonia,Gastonia,2u0jp
+1563,North Carolina,/r/goldsboronc,Goldsboro,2s5ly
+1564,North Carolina,/r/gso,Greensboro,2s3px
+1565,North Carolina,/r/gvegas,Greenville,2to1b
+1566,North Carolina,/r/hampstead,Hampstead,2vryj
+1567,North Carolina,/r/HarrisburgNC,Harrisburg,2wzjv
+1568,North Carolina,/r/hendersonville,Hendersonville,30dy2
+1569,North Carolina,/r/highpointnc,High Point,33tp6
+1570,North Carolina,/r/Hillsborough,Hillsborough,2xoru
+1571,North Carolina,/r/HollySpringsNC,Holly Springs,35den
+1572,North Carolina,/r/hopemills,Hope Mills,2umr6
+1573,North Carolina,/r/huntersville,Huntersville,2ykty
+1574,North Carolina,/r/IndianTrailNC,Indian Trail,2znco
+1575,North Carolina,/r/lakegaston,Lake Gaston,2vu16
+1576,North Carolina,/r/lkn,Lake Norman Area,2uosx
+1577,North Carolina,/r/leland,Leland,2vi0b
+1578,North Carolina,/r/Lenoir,Lenoir,2z73s
+1579,North Carolina,/r/lexingtonnc,Lexington,2ul7d
+1580,North Carolina,/r/Mocksville,Mocksville,3228o
+1581,North Carolina,/r/monroe,Monroe,2srno
+1582,North Carolina,/r/morrisville,Morrisville,2taat
+1583,North Carolina,/r/mountairy,Mount Airy,2yvou
+1584,North Carolina,/r/NewaygoCounty,Newaygo County,2xyhv
+1585,North Carolina,/r/obx,Outer Banks,2soai
+1586,North Carolina,/r/pinehurst,Pinehurst,2z56a
+1587,North Carolina,/r/raleigh,Raleigh,2r0z3
+1588,North Carolina,/r/rockinghamcountync,Rockingham County,2ur5v
+1589,North Carolina,/r/rockymountnc,Rocky Mount,2u1af
+1590,North Carolina,/r/rutherfordton,Rutherfordton,2sfp6
+1591,North Carolina,/r/SanfordNC,Sanford,2xjex
+1592,North Carolina,/r/shallotte,Shallotte,32eqk
+1593,North Carolina,/r/shelbyNC,Shelby,2vh97
+1594,North Carolina,/r/sneadsferry,Sneads Ferry,2tynl
+1595,North Carolina,/r/sprucepine,Spruce Pine,2siw2
+1596,North Carolina,/r/surfcity,Surf City,2uv5j
+1597,North Carolina,/r/thomasville,Thomasville,2vatn
+1598,North Carolina,/r/topsail,Topsail Island,2vmmr
+1599,North Carolina,/r/Triangle,Triangle,2qht2
+1600,North Carolina,/r/waxhaw,Waxhaw,2tyma
+1601,North Carolina,/r/Waynesville,Waynesville,2taoc
+1602,North Carolina,/r/wnc,Western North Carolina,2u4di
+1603,North Carolina,/r/wilmington,Wilmington,2r69k
+1604,North Carolina,/r/WilsonNC,Wilson,33e9t
+1605,North Carolina,/r/winstonsalem,Winston-Salem,2rqrv
+1606,North Carolina,/r/zebulon,Zebulon,2u44y
+1607,North Dakota,/r/northdakota,North Dakota,2r04w
+1608,North Dakota,/r/Bathgate,Bathgate,30lv3
+1609,North Dakota,/r/bismarck,Bismarck,2slfj
+1610,North Dakota,/r/beulah,Beulah,30zpb
+1611,North Dakota,/r/fargo,Fargo,2rf47
+1612,North Dakota,/r/FargoMoorhead,Fargo-Moorhead,3iobd
+1613,North Dakota,/r/grandforks,Grand Forks,2t1bp
+1614,North Dakota,/r/hettinger,Hettinger,2uq6o
+1615,North Dakota,/r/jamestownnd,Jamestown,2tzxu
+1616,North Dakota,/r/mandan,Mandan,2t7ae
+1617,North Dakota,/r/minot,Minot,2sdxq
+1618,North Dakota,/r/Thompson_northdakota,Thompson,34lvs
+1619,North Dakota,/r/williston,Williston,2t7ab
+1620,Ohio,/r/ohio,Ohio,2qn7b
+1621,Ohio,/r/akron,Akron,2r7a5
+1622,Ohio,/r/ashlandohio,Ashland,2s9qm
+1623,Ohio,/r/athensohio,Athens,2sko7
+1624,Ohio,/r/beavercreekoh,Beaver Creek,33n9n
+1625,Ohio,/r/bellbrook,Bellbrook,2txyl
+1626,Ohio,/r/bgohio,Bowling Green,2ul6i
+1627,Ohio,/r/Cambridge_Ohio,Cambridge,2tfa9
+1628,Ohio,/r/canton,Canton,2slgr
+1629,Ohio,/r/carlisleohio,Carlisle,2u58c
+1630,Ohio,/r/chardon,Chardon,2v02r
+1631,Ohio,/r/towpath,Chesapeake & Ohio Canal,32coz
+1632,Ohio,/r/chillicothe,Chillicothe,2ti50
+1633,Ohio,/r/cincinnati,Cincinnati,2qt1k
+1634,Ohio,/r/cleveland,Cleveland,2qkh0
+1635,Ohio,/r/clintoncounty,Clinton County,2v2su
+1636,Ohio,/r/columbus,Columbus,2r373
+1637,Ohio,/r/Cuyahoga,Cuyahoga,2ztj4
+1638,Ohio,/r/cuyahogafalls,Cuyahoga Falls,2vor6
+1639,Ohio,/r/dayton,Dayton,2rlxw
+1640,Ohio,/r/delawareoh,Delaware,2skza
+1641,Ohio,/r/dublinohio,Dublin,2u98r
+1642,Ohio,/r/eastcanton,East Canton,2u37c
+1643,Ohio,/r/eaton,Eaton,2x26q
+1644,Ohio,/r/Elyria,Elyria,2tj0j
+1645,Ohio,/r/fairborn,Fairborn,2ssm8
+1646,Ohio,/r/Findlay,Findlay,2ssi1
+1647,Ohio,/r/gahanna,Gahanna,2w6jn
+1648,Ohio,/r/geauga,Geauga County,2ut83
+1649,Ohio,/r/Grandviewheightsohio,Grandview Heights,33s8l
+1650,Ohio,/r/gville,Granville,2tzhd
+1651,Ohio,/r/Granvilleohio,Granville OH,2sx7b
+1652,Ohio,/r/Greentown,Greentown,2xlnm
+1653,Ohio,/r/hamilton_ohio,Hamilton,2u6zg
+1654,Ohio,/r/hilliard,Hilliard,2tkou
+1655,Ohio,/r/howland,Howland,2ttxn
+1656,Ohio,/r/hudsonoh,Hudson,2t8o5
+1657,Ohio,/r/kent,Kent,2qqh3
+1658,Ohio,/r/lakewood,Lakewood,2s9ll
+1659,Ohio,/r/lancastero,Lancaster,2utsg
+1660,Ohio,/r/lewiscenter,Lewis Center,2uill
+1661,Ohio,/r/lima,Lima,2skyl
+1662,Ohio,/r/Lorain,Lorain,2tf3l
+1663,Ohio,/r/mahoningvalley,Mahoning Valley,2sc8j
+1664,Ohio,/r/mansfield,Mansfield,2tdy6
+1665,Ohio,/r/MariettaOH,Marietta,2vo63
+1666,Ohio,/r/massillon,Massillon,2soa4
+1667,Ohio,/r/44646,Massillon (44646),30nxs
+1668,Ohio,/r/maumee,Maumee,2wab3
+1669,Ohio,/r/MedinaOhio,Medina,2wuuq
+1670,Ohio,/r/mercercountyohio,Mercer County,2urah
+1671,Ohio,/r/MiddletownOhio,Middletown,2t66x
+1672,Ohio,/r/Monroe_County,Monroe County,2ygnm
+1673,Ohio,/r/morgancounty,Morgan County,2v4ai
+1674,Ohio,/r/mountvernon,Mt. Vernon,2ssy4
+1675,Ohio,/r/nerk,Newark (Nerk),2vkeq
+1676,Ohio,/r/newarkohio,Newark,2vxlg
+1677,Ohio,/r/neohio,Northeast Ohio,2u1d5
+1678,Ohio,/r/NorthOlmsted,North Olmsted,2x6vt
+1679,Ohio,/r/NorthRidgeville,North Ridgeville,2x7p3
+1680,Ohio,/r/pataskala,Pataskala,2tpga
+1681,Ohio,/r/Pickerington,Pickerington,2t5mn
+1682,Ohio,/r/portagelakes,Portage Lakes,2v1i9
+1683,Ohio,/r/ravenna,Ravenna,30mtn
+1684,Ohio,/r/reynoldsburg,Reynoldsburg,2w1bi
+1685,Ohio,/r/Sandusky,Sandusky,2tq4w
+1686,Ohio,/r/sheffieldlake,Sheffield Lake,2v7ty
+1687,Ohio,/r/shelbyohio,Shelby,2vpak
+1688,Ohio,/r/solonoh,Solon,2ueb3
+1689,Ohio,/r/southernohio,Southern Ohio,2uepa
+1690,Ohio,/r/springfieldoh,Springfield,2v09a
+1691,Ohio,/r/starkcounty,Stark County,2s3ru
+1692,Ohio,/r/starkcountyOhio,Stark County OH,2sc3i
+1693,Ohio,/r/Steubenville,Steubenville,2zc2e
+1694,Ohio,/r/stow,Stow,2ys2e
+1695,Ohio,/r/Sylvania,Sylvania,2z0kz
+1696,Ohio,/r/tallmadge,Tallmadge,2ybcw
+1697,Ohio,/r/toledo,Toledo,2qlrv
+1698,Ohio,/r/tcounty,Tuscarawas County,2v3uj
+1699,Ohio,/r/unioncounty,Union County,2vbtq
+1700,Ohio,/r/vanwert,Van Wert,2ubkx
+1701,Ohio,/r/wadsworthoh,Wadsworth,2txsk
+1702,Ohio,/r/westcentralohio,West Central Ohio,2vdnx
+1703,Ohio,/r/westerville,Westerville,2u79x
+1704,Ohio,/r/WilmingtonOH,Wilmington,314tk
+1705,Ohio,/r/YellowSprings,Yellow Springs,2z33a
+1706,Ohio,/r/Youngstown,Youngstown,2r0va
+1707,Ohio,/r/zanesville,Zanesville,2s42p
+1708,Oklahoma,/r/oklahoma,Oklahoma,2qtnt
+1709,Oklahoma,/r/ardmore,Ardmore,325xd
+1710,Oklahoma,/r/bville,Bartlesville,2snn5
+1711,Oklahoma,/r/beggs,Beggs,2uk61
+1712,Oklahoma,/r/choctawOK,Choctaw,2vf1b
+1713,Oklahoma,/r/Claremore,Claremore,30k1i
+1714,Oklahoma,/r/DuncanOk,Duncan,2tmeo
+1715,Oklahoma,/r/Edmond,Edmond,33xm3
+1716,Oklahoma,/r/EdmondOK,Edmond OK,2tnv4
+1717,Oklahoma,/r/glenpool,Glenpool,2v8x4
+1718,Oklahoma,/r/lawtonok,Lawton,2tzmc
+1719,Oklahoma,/r/MooreOK,Moore,32vsl
+1720,Oklahoma,/r/mustangok,Mustang OK,2u0tq
+1721,Oklahoma,/r/MustangOklahoma,Mustang,3050j
+1722,Oklahoma,/r/muskogee,Muskogee,2s982
+1723,Oklahoma,/r/normanok,Norman,2sikv
+1724,Oklahoma,/r/NWOK,Northwest Oklahoma,2vxuv
+1725,Oklahoma,/r/okc,Oklahoma City (OKC),2r053
+1726,Oklahoma,/r/oklahomacity,Oklahoma City,2uprp
+1727,Oklahoma,/r/owasso,Owasso,2u88y
+1728,Oklahoma,/r/tahlequah,Tahlequah,2tv72
+1729,Oklahoma,/r/tulsa,Tulsa,2rq31
+1730,Oregon,/r/oregon,Oregon,2qhjg
+1731,Oregon,/r/ashland,Ashland,2rpty
+1732,Oregon,/r/Astoria_Oregon,Astoria,300ks
+1733,Oregon,/r/beaverton,Beaverton,2utsp
+1734,Oregon,/r/bend,Bend,2sj1v
+1735,Oregon,/r/bendoregon,Bend OR,2u4iq
+1736,Oregon,/r/Brookings,Brookings,353bx
+1737,Oregon,/r/canbyoregon,Canby,2umt1
+1738,Oregon,/r/forestgrove,Forest Grove,2wl1n
+1739,Oregon,/r/cannonbeach,Cannon Beach,2zg5b
+1740,Oregon,/r/centraloregon,Central Oregon,2tzch
+1741,Oregon,/r/clackamas,Clackamas County,2u9as
+1742,Oregon,/r/CollinsBeach,Collins Beach,35tt8
+1743,Oregon,/r/corvallis,Corvallis,2rgpa
+1744,Oregon,/r/CreswellOR,Creswell,2xgft
+1745,Oregon,/r/EasternOregon,Eastern Oregon,32vsy
+1746,Oregon,/r/estacada,Estacada,2uwze
+1747,Oregon,/r/eugene,Eugene,2qp4p
+1748,Oregon,/r/grantspass,Grants Pass,2smjm
+1749,Oregon,/r/gresham,Gresham,2s95a
+1750,Oregon,/r/hillsboro,Hillsboro,2tf4i
+1751,Oregon,/r/keizer,Keizer,2uxfa
+1752,Oregon,/r/klamathfalls,Klamath Falls,2w45d
+1753,Oregon,/r/lanecountyoregon,Lane County,2zjnn
+1754,Oregon,/r/lakeoswego,Lake Oswego,2sw63
+1755,Oregon,/r/medford,Medford,2s9q0
+1756,Oregon,/r/mcminnville,McMinnville,2wnv1
+1757,Oregon,/r/MtBachelor,Mt. Bachelor,334a0
+1758,Oregon,/r/newberg,Newberg,3aggr
+1759,Oregon,/r/NewportOR,Newport,35z3o
+1760,Oregon,/r/oregoncity,Oregon City,2s8tl
+1761,Oregon,/r/oregoncoast,Oregon Coast,2tdex
+1762,Oregon,/r/portland,Portland,2qi2i
+1763,Oregon,/r/portlandoregon,Portland OR,2qlmv
+1764,Oregon,/r/RedmondOR,Redmond,2xltn
+1765,Oregon,/r/roguevalley,Rogue Valley,2s1zn
+1766,Oregon,/r/roseburg,Roseburg,2s79c
+1767,Oregon,/r/salem,Salem,2rxnv
+1768,Oregon,/r/sherwoodoregon,Sherwood,312n8
+1769,Oregon,/r/silverton,Silverton,2u493
+1770,Oregon,/r/SouthernOregon,Southern Oregon,2qyzz
+1771,Oregon,/r/SpringfieldOR,Springfield,2z3lq
+1772,Oregon,/r/thedalles,The Dalles,2ud41
+1773,Oregon,/r/tigard,Tigard,2x2qf
+1774,Oregon,/r/troutdale_oregon,Troutdale,2sh78
+1775,Oregon,/r/tualatin,Tualatin,2siw1
+1776,Oregon,/r/WestLinnOR,West Linn,333tv
+1777,Pennsylvania,/r/pennsylvania,Pennsylvania,2qn7a
+1778,Pennsylvania,/r/KingAllentown,Allentown,32vgj
+1779,Pennsylvania,/r/AllwoodManor,Allwood Manor,31kjf
+1780,Pennsylvania,/r/altoona,Altoona,2sw5b
+1781,Pennsylvania,/r/aston,Aston,2urte
+1782,Pennsylvania,/r/BeaverPA,Beaver,35t6k
+1783,Pennsylvania,/r/BeaverCounty,Beaver County,2s4zi
+1784,Pennsylvania,/r/berksco,Berks County,3098i
+1785,Pennsylvania,/r/bethelpark,Bethel Park,2uavd
+1786,Pennsylvania,/r/bethlehem,Bethlehem,2ur38
+1787,Pennsylvania,/r/Bloomsburg,Bloomsburg,2tg4b
+1788,Pennsylvania,/r/Bluemtn,Blue Mountain,2zm8t
+1789,Pennsylvania,/r/buckscountypa,Bucks County,2s582
+1790,Pennsylvania,/r/ButlerPA,Butler,2yzz0
+1791,Pennsylvania,/r/carlisle,Carlisle,2qsp1
+1792,Pennsylvania,/r/centralpa,Central Pennsylvania,2qygz
+1793,Pennsylvania,/r/chestercounty,Chester County,2vumy
+1794,Pennsylvania,/r/conshohocken,Conshohocken,2ujtk
+1795,Pennsylvania,/r/coudersport,Coudersport,2xeup
+1796,Pennsylvania,/r/delco,Delaware County,2sb5n
+1797,Pennsylvania,/r/delawarecounty,Delaware County PA,2vfd2
+1798,Pennsylvania,/r/dillsburg,Dillsburg,2s74n
+1799,Pennsylvania,/r/downingtown,Downingtown,2ryje
+1800,Pennsylvania,/r/DuBoisPA,DuBois,2yj9c
+1801,Pennsylvania,/r/easternpa,Eastern Pennsylvania,2qzmh
+1802,Pennsylvania,/r/Easton,Easton,2zyx6
+1803,Pennsylvania,/r/Edinboro,Edinboro,2xegr
+1804,Pennsylvania,/r/ElkMountain,Elk Mountain,335tt
+1805,Pennsylvania,/r/enola,Enola,2u3jq
+1806,Pennsylvania,/r/erie,Erie,2ruus
+1807,Pennsylvania,/r/fawngrove,Fawn Grove,2vw6t
+1808,Pennsylvania,/r/Gettysburg,Gettysburg,2wzkq
+1809,Pennsylvania,/r/greensburg,Greensburg,32vy5
+1810,Pennsylvania,/r/hanoverpa,Hanover,2sjhc
+1811,Pennsylvania,/r/harrisburg,Harrisburg,2rar7
+1812,Pennsylvania,/r/harrisburgpa,Harrisburg PA,2rb30
+1813,Pennsylvania,/r/hazleton,Hazleton,2t9ex
+1814,Pennsylvania,/r/Hermitage,Hermitage,2t7m9
+1815,Pennsylvania,/r/Hershey,Hershey,2uvc8
+1816,Pennsylvania,/r/highspire,Highspire,2vcqt
+1817,Pennsylvania,/r/honesdale,Honesdale,2tuyb
+1818,Pennsylvania,/r/Horsham,Horsham,2y6wu
+1819,Pennsylvania,/r/IndianaPA,Indiana County,2xuc9
+1820,Pennsylvania,/r/johnstown,Johnstown,2synj
+1821,Pennsylvania,/r/kingofprussia,King of Prussia,2tqpd
+1822,Pennsylvania,/r/lancaster,Lancaster,2r3r9
+1823,Pennsylvania,/r/Lansdale,Lansdale,2sm8t
+1824,Pennsylvania,/r/lehighvalley,Lehigh Valley,2sjxv
+1825,Pennsylvania,/r/lehighvalleypa,Lehigh Valley PA,2r541
+1826,Pennsylvania,/r/levittown,Levittown,2ut9j
+1827,Pennsylvania,/r/lititz,Lititz,2tl4f
+1828,Pennsylvania,/r/macungie,Macungie,31we9
+1829,Pennsylvania,/r/meadville,Meadville,2uapx
+1830,Pennsylvania,/r/mercercounty,Mercer County,2xz04
+1831,Pennsylvania,/r/montco,Montgomery County,2wqhj
+1832,Pennsylvania,/r/lebo,Mt. Lebanon,2v17k
+1833,Pennsylvania,/r/MtLebo,Mt. Lebo(non),2x59w
+1834,Pennsylvania,/r/murrysville,Murrysville,2uytl
+1835,Pennsylvania,/r/NewHopePA,NewHope,2xe5u
+1836,Pennsylvania,/r/nepa,Northeast Pennsylvania (NEPA),2s2wg
+1837,Pennsylvania,/r/nephilly,Northeast Philly,2u4jk
+1838,Pennsylvania,/r/northeasternpa,Northeastern Pennsylvania,2vm69
+1839,Pennsylvania,/r/nwpa,Northwest Pennsylvania(NWPA),2uapt
+1840,Pennsylvania,/r/philadelphia,Philadelphia,2qh24
+1841,Pennsylvania,/r/phoenixville,Phoenixville,2vrci
+1842,Pennsylvania,/r/PikeCountyPA,Pike County,2qqb4
+1843,Pennsylvania,/r/pittsburgh,Pittsburgh,2qhrn
+1844,Pennsylvania,/r/poconos,Poconos Region,2v2h5
+1845,Pennsylvania,/r/pottsville,Pottsville,2xjf2
+1846,Pennsylvania,/r/ReadingPA,Reading,2wing
+1847,Pennsylvania,/r/rhawnhurst,Rhawnhurst,2utkv
+1848,Pennsylvania,/r/Scranton,Scranton,2se4c
+1849,Pennsylvania,/r/shaler,Shaler,2udd9
+1850,Pennsylvania,/r/sharpsville,Sharpsville,2u5i8
+1851,Pennsylvania,/r/shippensburg,Shippensburg,2s6sa
+1852,Pennsylvania,/r/Springfielddelco,Springfield Delco,2yuxp
+1853,Pennsylvania,/r/stroudsburg,Stroudsburg,2vvcw
+1854,Pennsylvania,/r/towanda,Towanda,2rwqj
+1855,Pennsylvania,/r/trevose,Trevose,2vjpm
+1856,Pennsylvania,/r/upperstclair,Upper St. Clair,2sibd
+1857,Pennsylvania,/r/VenangoCountyPA,Venango County,30yb2
+1858,Pennsylvania,/r/WashingtonPA,Washington,327sf
+1859,Pennsylvania,/r/westchesterpa,West Chester,2si67
+1860,Pennsylvania,/r/westmifflin,West Mifflin,2vfau
+1861,Pennsylvania,/r/wexford,Wexford,2vop5
+1862,Pennsylvania,/r/WilkesBarre,Wilkes-Barre,2tr37
+1863,Pennsylvania,/r/williamsport,Williamsport,2qqw6
+1864,Pennsylvania,/r/wynnewood,Wynnewood,30ic0
+1865,Pennsylvania,/r/Yardley,Yardley,369g5
+1866,Pennsylvania,/r/yorkpa,York,2skxo
+1867,Pennsylvania,/r/YorkCountyPA,York County,2z0cn
+1868,Rhode Island,/r/rhodeisland,Rhode Island,2rec6
+1869,Rhode Island,/r/BlockIsland,Block Island,36br1
+1870,Rhode Island,/r/Eastgreenwich,East Greenwich,32a4x
+1871,Rhode Island,/r/kentcountyri,Kent County,2ux2i
+1872,Rhode Island,/r/misquamicut,Misquamicut,2v2zp
+1873,Rhode Island,/r/narragansett,Narragansett,2wz4f
+1874,Rhode Island,/r/newport,Newport,2rs9d
+1875,Rhode Island,/r/pawtucket,Pawtucket,2s6ef
+1876,Rhode Island,/r/providence,Providence,2rmqg
+1877,Rhode Island,/r/southcounty,South County,2vz80
+1878,South Carolina,/r/southcarolina,South Carolina,2qr5g
+1879,South Carolina,/r/AbbevilleSC,Abbeville,2yksj
+1880,South Carolina,/r/AndersonSC,Anderson,2tpnk
+1881,South Carolina,/r/andersoncounty,Anderson County,2u7ze
+1882,South Carolina,/r/beaufort,Beaufort,2sj9r
+1883,South Carolina,/r/CalhounFalls,Calhoun Falls,2z7g0
+1884,South Carolina,/r/charleston,Charleston,2qi6h
+1885,South Carolina,/r/clemson,Clemson,2qlts
+1886,South Carolina,/r/columbiasc,Columbia,2smb7
+1887,South Carolina,/r/danielisland,Daniel Island,2trht
+1888,South Carolina,/r/easley,Easley,2w785
+1889,South Carolina,/r/EdgefieldSC,Edgefield,2ytu9
+1890,South Carolina,/r/florence,Florence,2si8r
+1891,South Carolina,/r/fortmillsc,Fort Mill,2u0hu
+1892,South Carolina,/r/gtownsc,Georgetown,2v6p5
+1893,South Carolina,/r/greenville,Greenville,2rnx6
+1894,South Carolina,/r/greenwoodsc,Greenwood,2um8z
+1895,South Carolina,/r/Greer,Greer,30van
+1896,South Carolina,/r/hiltonhead,Hilton Head,2sm84
+1897,South Carolina,/r/kiawahisland,Kiawah Island,2vv98
+1898,South Carolina,/r/myrtlebeach,Myrtle Beach,2s77w
+1899,South Carolina,/r/newberry,Newberry,2v5kl
+1900,South Carolina,/r/ninetysixsc,Ninety Six,2vt9v
+1901,South Carolina,/r/oconeesc,Oconee County,2uu5p
+1902,South Carolina,/r/pawleysisland,Pawleys Island,2vuou
+1903,South Carolina,/r/Rockhill,Rockhill,2sa20
+1904,South Carolina,/r/spartanburg,Spartanburg,2s44l
+1905,South Carolina,/r/spartanburgsc,Spartanburg SC,2tz0g
+1906,South Carolina,/r/summervillesc,Summerville,2ww88
+1907,South Carolina,/r/upstatesc,Upstate South Carolina,2ro6q
+1908,South Carolina,/r/wareshoals,Ware Shoals,2xn66
+1909,South Dakota,/r/southdakota,South Dakota,2qsoy
+1910,South Dakota,/r/blackhills,Black Hills,2snqj
+1911,South Dakota,/r/TheBlackHills,"Black Hills, the",35tw4
+1912,South Dakota,/r/madisonsd,Madison,2ueoa
+1913,South Dakota,/r/mtrushmore,Mount Rushmore,2vi1o
+1914,South Dakota,/r/pierre,Pierre,2rgmi
+1915,South Dakota,/r/rapidcity,Rapid City,2tmgm
+1916,South Dakota,/r/siouxfalls,Sioux Falls,2seua
+1917,Tennessee,/r/tennessee,Tennessee,2qy2y
+1918,Tennessee,/r/totallytennessee,Totally Tennessee,2qo8y
+1919,Tennessee,/r/athenstn,Athens TN,2u4cm
+1920,Tennessee,/r/athensunofficial,Athens,2uslo
+1921,Tennessee,/r/bartlett,Bartlett,2um79
+1922,Tennessee,/r/baylortn,Baylor,2tz15
+1923,Tennessee,/r/chattanooga,Chattanooga,2qnd8
+1924,Tennessee,/r/clarksville,Clarksville,2s5xv
+1925,Tennessee,/r/clevelandtn,Cleveland,2xxw2
+1926,Tennessee,/r/Collierville,Collierville,331ts
+1927,Tennessee,/r/cookeville,Cookeville,2sa2f
+1928,Tennessee,/r/crossville,Crossville,2ur2l
+1929,Tennessee,/r/crossvilleTN,Crossville TN,2vj24
+1930,Tennessee,/r/DandridgeTN,Dandridge,2xext
+1931,Tennessee,/r/fayettevilleTN,Fayetteville,2vetg
+1932,Tennessee,/r/franklintn,Franklin,2ubrg
+1933,Tennessee,/r/gatlinburgtn,Gatlinburg,2urfz
+1934,Tennessee,/r/germantown,Germantown,2riku
+1935,Tennessee,/r/GSMNP,Great Smoky Mountain National Park,31aiy
+1936,Tennessee,/r/kingstonsprings,Kingston Springs,2tujx
+1937,Tennessee,/r/knoxville,Knoxville,2qi32
+1938,Tennessee,/r/lenoircity,Lenoir City,2vpqe
+1939,Tennessee,/r/livingston_tn,Livingston,2w1if
+1940,Tennessee,/r/ManchesterTN,Manchester,3233l
+1941,Tennessee,/r/MaryvilleTN,Maryville,32z2r
+1942,Tennessee,/r/McminnvilleTN,Mcminnville,31mam
+1943,Tennessee,/r/memphis,Memphis,2qpqw
+1944,Tennessee,/r/middletn,Middle Tennessee,2s1bv
+1945,Tennessee,/r/morristowntn,Morristown,31p3d
+1946,Tennessee,/r/murfreesboro,Murfreesboro,2s6s9
+1947,Tennessee,/r/nashville,Nashville,2qimh
+1948,Tennessee,/r/nashvilletennessee,Nashville TN,2xocx
+1949,Tennessee,/r/powelltn,Powell,2v3kg
+1950,Tennessee,/r/RockwoodTN,Rockwood,32q6u
+1951,Tennessee,/r/SavannahTN,Savannah,2wedc
+1952,Tennessee,/r/springhill,Spring Hill,2seaz
+1953,Tennessee,/r/tricities,Tri-Cities,2ru2v
+1954,Tennessee,/r/westtn,West Tennessee,2sh7j
+1955,Tennessee,/r/whitehousetn,White House,2ufhd
+1956,Tennessee,/r/WilliamsonCountyTN,Williamson County,354kc
+1957,Texas,/r/texas,Texas,2qho4
+1958,Texas,/r/abilenetexas,Abilene,2skxz
+1959,Texas,/r/dyess,Abilene (dyess),2skkn
+1960,Texas,/r/Allen,Allen,2qtfe
+1961,Texas,/r/Allentx,Allen TX,2tcry
+1962,Texas,/r/amarillo,Amarillo,2rjb1
+1963,Texas,/r/aransaspass,Aransas Pass,2utmx
+1964,Texas,/r/arlington,Arlington,2r1fv
+1965,Texas,/r/arlingtontx,Arlington TX,2ruu0
+1966,Texas,/r/atascocitatx,Atascocita,306ts
+1967,Texas,/r/Austin,Austin,2qhn5
+1968,Texas,/r/realaustin,Austin (real),31ds2
+1969,Texas,/r/austinsanantonio,Austin-San Antonio,2u6ea
+1970,Texas,/r/bastroptx,Bastrop,2rnm6
+1971,Texas,/r/baycitytx,Bay City,2up62
+1972,Texas,/r/baytown,Baytown,2v3p6
+1973,Texas,/r/Beaumont,Beaumont,2u5vv
+1974,Texas,/r/bedford,Bedford,2v29p
+1975,Texas,/r/BellCountyTX,Bell County,3fluk
+1976,Texas,/r/belton,Belton,2u5cm
+1977,Texas,/r/benbrook,Benbrook,2soy8
+1978,Texas,/r/BigBendTX,Big Bend National Park,2x4ad
+1979,Texas,/r/bocachica,Boca Chica,ovskl
+1980,Texas,/r/boerne,Boerne,2t2c6
+1981,Texas,/r/boyd,Boyd,2si25
+1982,Texas,/r/brazoriacounty,Brazoria County,2vbzg
+1983,Texas,/r/Brownsville,Brownsville,2rv80
+1984,Texas,/r/Brownwood_Texas,Brownwood,2ymi5
+1985,Texas,/r/bcstx,Bryan College Station,2s3gc
+1986,Texas,/r/burleson,Burleson,2wyz6
+1987,Texas,/r/CarrolltonTX,Carrollton,2w9wt
+1988,Texas,/r/castroville,Castroville,2u9a6
+1989,Texas,/r/cedarcreek,Cedar Creek,2umy5
+1990,Texas,/r/CedarPark,Cedar Park,2uhh3
+1991,Texas,/r/heartland,Central Texas (Heartland),2vcid
+1992,Texas,/r/clearlake,Clearlake,2safd
+1993,Texas,/r/collegestation,College Station,2riwk
+1994,Texas,/r/CollinCounty,Collin County,2tmzc
+1995,Texas,/r/commercetx,Commerce,2sj23
+1996,Texas,/r/Conroe,Conroe,2tca9
+1997,Texas,/r/copperascove,Copperas Cove,2vsu2
+1998,Texas,/r/corpus,Corpus (Christi),2sd2i
+1999,Texas,/r/corpuschristi,Corpus Christi,2rdkv
+2000,Texas,/r/corsicanatx,Corsicana,2u6xr
+2001,Texas,/r/cypresstx,Cypress,2shiy
+2002,Texas,/r/dallas,Dallas,2qnkr
+2003,Texas,/r/deerpark,Deer Park,2v4bz
+2004,Texas,/r/denton,Denton,2r4df
+2005,Texas,/r/easttexas,East Texas,2sd7i
+2006,Texas,/r/easttx,East TX,2s6cn
+2007,Texas,/r/east_texas,East_Texas,2s4r4
+2008,Texas,/r/edinburg,Edinburg,2vwxl
+2009,Texas,/r/elpaso,El Paso,2rp61
+2010,Texas,/r/ElginTx,Elgin,33pad
+2011,Texas,/r/euless,Euless,2w39b
+2012,Texas,/r/flowermound,Flower Mound,2xirx
+2013,Texas,/r/forney,Forney,2u0ep
+2014,Texas,/r/fortbend,Fort Bend,2shj0
+2015,Texas,/r/fortworth,Fort Worth,2rsbl
+2016,Texas,/r/friendswood,Friendswood,2se2v
+2017,Texas,/r/frisco,Frisco,2txxb
+2018,Texas,/r/fulshear,Fulshear,2sd6b
+2019,Texas,/r/galveston,Galveston,2riby
+2020,Texas,/r/GarlandTX,Garland,2xfux
+2021,Texas,/r/georgetowntx,Georgetown,2x5z9
+2022,Texas,/r/granbury,Granbury,2rn18
+2023,Texas,/r/Harlingen,Harlingen,30f2k
+2024,Texas,/r/heartland,Heartland,2vcid
+2025,Texas,/r/heidenheimer,Heidenheimer,2vgsn
+2026,Texas,/r/HighlandVillage,Highland Village,2y12n
+2027,Texas,/r/houston,Houston,2qj1l
+2028,Texas,/r/huntcounty,Hunt County,2xhw6
+2029,Texas,/r/hurst,Hurst,2xpgh
+2030,Texas,/r/irvingtexas,Irving,2sl1q
+2031,Texas,/r/jerseyvillage,Jersey Village,2ufgt
+2032,Texas,/r/jollyville,Jollyville,2ve3s
+2033,Texas,/r/karnescity,Karnes City,2x5xh
+2034,Texas,/r/katytx,Katy,2s45m
+2035,Texas,/r/katy_texas,Katy TX,2vc4f
+2036,Texas,/r/keller,Keller,2tt12
+2037,Texas,/r/Kennedale,Kennedale,2y383
+2038,Texas,/r/Kingsville,Kingsville,2u2oh
+2039,Texas,/r/kingwood,Kingwood,2s752
+2040,Texas,/r/laketravis,Lake Travis,2u7ee
+2041,Texas,/r/laredo,Laredo,2qm2s
+2042,Texas,/r/cityoflaredo,"Laredo, city of",2u6jo
+2043,Texas,/r/lascruces,Las Cruces,2sfxh
+2044,Texas,/r/leander,Leander,2ulsm
+2045,Texas,/r/leandercedarpark,Leander-Cedar Park,2uo5v
+2046,Texas,/r/lockhart,Lockhart,2umah
+2047,Texas,/r/longviewtexas,Longview,2vjie
+2048,Texas,/r/lubbock,Lubbock,2rv85
+2049,Texas,/r/lubbocktx,Lubbock TX,2rf4w
+2050,Texas,/r/marblefalls,Marble Falls,2uj07
+2051,Texas,/r/mckinney,McKinney,2sblf
+2052,Texas,/r/MesquiteTX,Mesquite,33eru
+2053,Texas,/r/midessa,Midland Odessa,2she3
+2054,Texas,/r/Nacogdoches,Nacogdoches,2t6al
+2055,Texas,/r/Navasota,Navasota,31a86
+2056,Texas,/r/northtexas,North Texas,2si98
+2057,Texas,/r/oakcliff,Oak Cliff,2t4ia
+2058,Texas,/r/PalestineTX,Palestine,31mf3
+2059,Texas,/r/paristx,Paris TX,2vzms
+2060,Texas,/r/Pearland,Pearland,2srda
+2061,Texas,/r/pflugerville,Pflugerville,2s87j
+2062,Texas,/r/plano,Plano,2r5cn
+2063,Texas,/r/planotx,Plano TX,2uchx
+2064,Texas,/r/prosper,Prosper,2rwma
+2065,Texas,/r/richardson,Richardson,2u6qz
+2066,Texas,/r/riograndevalley,Rio Grande Valley,2r6hv
+2067,Texas,/r/riveroaks,River Oaks,2vzxa
+2068,Texas,/r/roundrock,Round Rock,2s6vc
+2069,Texas,/r/roundrocktexas,Round Rock TX,2s6hv
+2070,Texas,/r/Rowlett,Rowlett,30f1e
+2071,Texas,/r/RoyseCity,Royse City,2t6w0
+2072,Texas,/r/san_angelo,San Angelo,2setg
+2073,Texas,/r/sanantonio,San Antonio,2qqch
+2074,Texas,/r/sanmarcos,San Marcos,2rsch
+2075,Texas,/r/sanger,Sanger,2tvhh
+2076,Texas,/r/Schlitterbahn,Schlitterbahn,32pt1
+2077,Texas,/r/southtexas,South Texas,2us67
+2078,Texas,/r/setx,Southeast Texas,2s75p
+2079,Texas,/r/Southlake,Southlake,2tptl
+2080,Texas,/r/SpringBranch,Spring Branch,2xlbe
+2081,Texas,/r/stephenville,Stephenville,2s54q
+2082,Texas,/r/texarkana,Texarkana,2s4zf
+2083,Texas,/r/HillCountry,Texas Hill Country,2s1bs
+2084,Texas,/r/thecolony,The Colony,2tvo8
+2085,Texas,/r/valley956,The Valley (956),2ula9
+2086,Texas,/r/thewoodlands,The Woodlands,2sazj
+2087,Texas,/r/tylertx,Tyler,2sccy
+2088,Texas,/r/VTown,Victoria,33j2a
+2089,Texas,/r/waco,Waco,2rxyf
+2090,Texas,/r/weatherford,Weatherford,2sl9o
+2091,Texas,/r/westcentraltexas,West Central Texas,2sn3y
+2092,Texas,/r/westtexas,West Texas,2w40h
+2093,Texas,/r/whitesettlement,White Settlement,2ug9e
+2094,Texas,/r/wimberley,Wimberley,2sb4b
+2095,Utah,/r/utah,Utah,2qwed
+2096,Utah,/r/CedarCity,Cedar City,2y57e
+2097,Utah,/r/eaglemountain,Eagle Mountain,2v2k1
+2098,Utah,/r/kanab,Kanab,2vpvb
+2099,Utah,/r/Logan,Logan,2qybq
+2100,Utah,/r/millcreek,Mill Creek,2vfkq
+2101,Utah,/r/moab,Moab,2subm
+2102,Utah,/r/northernutah,Northern Utah,2udxh
+2103,Utah,/r/ogden,Ogden,2sjyt
+2104,Utah,/r/Orem,Orem,311kh
+2105,Utah,/r/parkcity,Park City,2w3sd
+2106,Utah,/r/provoutah,Provo,2wjg3
+2107,Utah,/r/saltlakecity,Salt Lake City,2r7ac
+2108,Utah,/r/southernutah,Southern Utah,2sma4
+2109,Utah,/r/stgeorge,St. George,2xedp
+2110,Utah,/r/Tooele,Tooele,2wy06
+2111,Utah,/r/UtahValley,Utah Valley,2s7v7
+2112,Utah,/r/ZionNationalPark,Zion National Park,3651z
+2113,Utah,/r/ZionNP,Zion NP,2yx3p
+2114,Vermont,/r/vermont,Vermont,2qqdd
+2115,Vermont,/r/barre,Barre,2vtqv
+2116,Vermont,/r/bellowsfalls,Bellows Falls,2yfd3
+2117,Vermont,/r/burlington,Burlington,2ri40
+2118,Vermont,/r/burlingtonvt,Burlington VT,2rea1
+2119,Vermont,/r/btv,Burlington (BTV),2rv5u
+2120,Vermont,/r/essexvt,Essex,2zbdy
+2121,Vermont,/r/JerichoUnderhill,Jericho-Underhill,2yfqq
+2122,Vermont,/r/killington,Killington,2v7eg
+2123,Vermont,/r/montpelier,Montpelier,2urvv
+2124,Vermont,/r/quechee,Quechee,2u00m
+2125,Vermont,/r/rutlandvt,Rutland,2ulky
+2126,Vermont,/r/southburlington,South Burlington,2wqbl
+2127,Vermont,/r/stalbansvt,St. Albans,2tcxc
+2128,Vermont,/r/stjohnsbury,St. Johnsbury,2xv74
+2129,Vermont,/r/Stowe,Stowe,2z2g2
+2130,Vermont,/r/winooski,Winooski,2xp2u
+2131,Virginia,/r/virginia,Virginia,2qj17
+2132,Virginia,/r/Alexandria_Virginia,Alexandria,34pej
+2133,Virginia,/r/blacksburg,Blacksburg,2r9q4
+2134,Virginia,/r/bluemont,Bluemont,2vmmt
+2135,Virginia,/r/BonAir,Bon Air,kwebq
+2136,Virginia,/r/buchanan,Buchanan,2vpqh
+2137,Virginia,/r/charlottesville,Charlottesville,2qhq4
+2138,Virginia,/r/chesapeake,Chesapeake,2sm9t
+2139,Virginia,/r/chesapeakebay,Chesapeake Bay,2v6i1
+2140,Virginia,/r/ChesterfieldVA,Chesterfield County,2youh
+2141,Virginia,/r/coastalvirginia,Coastal Virginia,2zpuu
+2142,Virginia,/r/fairfaxcounty,Fairfax County,2szcj
+2143,Virginia,/r/hamptonroads,Hampton Roads,2s7mx
+2144,Virginia,/r/hanoverco,Hanover County,2vnmz
+2145,Virginia,/r/harrisonburg,Harrisonburg,2qm3i
+2146,Virginia,/r/HuntingtonVA,Huntington,2v52d
+2147,Virginia,/r/fredericksburg,Fredericksburg,2rpwd
+2148,Virginia,/r/leesburg,Leesburg,2ubhs
+2149,Virginia,/r/lexvegasva,Lexington (Lexvegas),2uueb
+2150,Virginia,/r/lurayva,Luray,2vutn
+2151,Virginia,/r/lynchburg,Lynchburg,2s5ir
+2152,Virginia,/r/jamesriver,James River,2vs5b
+2153,Virginia,/r/manassas,Manassas,2vgpe
+2154,Virginia,/r/mechanicsvilleva,Mechanicsville,2w07m
+2155,Virginia,/r/merrifield,Merrifield,2vhs5
+2156,Virginia,/r/montclairva,Montclair,2urpo
+2157,Virginia,/r/newkent,New Kent County,2utfm
+2158,Virginia,/r/nrv,New River Valley,2qx5t
+2159,Virginia,/r/nova,Northern Virginia (NOVA),2riyy
+2160,Virginia,/r/boredinnova,Northern Virginia (BoredInNova),2sfym
+2161,Virginia,/r/northernva,Northern Virginia,2ukda
+2162,Virginia,/r/norfolk,Norfolk,2rt3o
+2163,Virginia,/r/orangeva,Orange County,2v13g
+2164,Virginia,/r/powhatan,Powhatan County,2vehb
+2165,Virginia,/r/rappahannock,Rappahannock County,2v76y
+2166,Virginia,/r/rva,Richmond,2qpvj
+2167,Virginia,/r/roanoke,Roanoke,2s6k8
+2168,Virginia,/r/salemva,Salem,2v7t3
+2169,Virginia,/r/shenandoah,Shenandoah Valley,2sll4
+2170,Virginia,/r/757,Southeast Virginia (757),2seae
+2171,Virginia,/r/swva,Southwest Virginia,2rjl2
+2172,Virginia,/r/Stafford,Stafford,2vw8p
+2173,Virginia,/r/staunton,Staunton,2u805
+2174,Virginia,/r/StauntonVA,Staunton VA,32qk7
+2175,Virginia,/r/virginiabeach,Virginia Beach,2rzc0
+2176,Virginia,/r/waynesboro,Waynesboro,2w6z2
+2177,Virginia,/r/williamsburgva,Williamsburg,2wet7
+2178,Virginia,/r/winchester,Winchester,2scm9
+2179,Virginia,/r/yorktown,Yorktown,2sead
+2180,Washington,/r/washington,Washington,2qjvz
+2181,Washington,/r/CoastalWA,Coastal Washington,35urj2
+2182,Washington,/r/Anacortes,Anacortes,2tuji
+2183,Washington,/r/aberdeenwa,Aberdeen,2zzd0
+2184,Washington,/r/auburnwa,Auburn,2u0eq
+2185,Washington,/r/bainbridgeisland,Bainbridge Island,2tv8u
+2186,Washington,/r/bellevuewa,Bellevue WA,2uf7r
+2187,Washington,/r/bellingham,Bellingham,2r6yo
+2188,Washington,/r/bothell/,Bothell,2tdrd
+2189,Washington,/r/bremerton,Bremerton,2udo9
+2190,Washington,/r/burien,Burien,2v3sf
+2191,Washington,/r/camaswashington,Camas,2txau
+2192,Washington,/r/CapitolHillSea,Capitol Hill,2s9sy
+2193,Washington,/r/CastleRockWa,Castle Rock,34n9z
+2194,Washington,/r/clallam,Clallam County,2snza
+2195,Washington,/r/CovingtonWA,Covington,32bul
+2196,Washington,/r/Duvall,Duvall,2yls2
+2197,Washington,/r/Duvall_Washington,Duvall WA,2we1x
+2198,Washington,/r/eastside,Eastside,2sazx
+2199,Washington,/r/Eatonville,Eatonville,2ywk7
+2200,Washington,/r/Edmonds,Edmonds,2th5l
+2201,Washington,/r/everett,Everett,2r04f
+2202,Washington,/r/federalway,Federal Way,2sjh8
+2203,Washington,/r/FerndaleWashington,Ferndale,35nqv
+2204,Washington,/r/forkswa,Forks,2v0mx
+2205,Washington,/r/grandcoulee,Grand Coulee,2ugmt
+2206,Washington,/r/graysharbor,Grays Harbor,2smyw
+2207,Washington,/r/Hockinson,Hockinson,2tju4
+2208,Washington,/r/Issaquah,Issaquah,2stq3
+2209,Washington,/r/kentwashington,Kent,2sglx
+2210,Washington,/r/kentwa,Kent WA,2ux3l
+2211,Washington,/r/kingcounty,King County,2vplw
+2212,Washington,/r/kirkland,Kirkland,2rjzl
+2213,Washington,/r/kitsap,Kitsap,2saeq
+2214,Washington,/r/kittitas,Kittitas,2vdx7
+2215,Washington,/r/Lacey,Lacey,30m40
+2216,Washington,/r/lakestevenswa,Lake Stevens,2yga1
+2217,Washington,/r/LangleyWA,Langley,305pi
+2218,Washington,/r/lewiscounty,Lewis County,2snbu
+2219,Washington,/r/longview,Longview,2trqw
+2220,Washington,/r/longviewwa,Longview WA,2spqf
+2221,Washington,/r/LynnwoodWA,Lynnwood WA,2th2m
+2222,Washington,/r/marysville,Marysville,2s33t
+2223,Washington,/r/MountBaker,Mt. Baker,35ns6
+2224,Washington,/r/rainier,Mt. Rainier,2tidp
+2225,Washington,/r/northcascades,North Cascades National Park,30i04
+2226,Washington,/r/oceanshores,Ocean Shores,2snbx
+2227,Washington,/r/OlympicNationalPark,Olympic National Park,21x98a
+2228,Washington,/r/Olympia,Olympia,2r63n
+2229,Washington,/r/olympicpeninsula,Olympic Peninsula,2sflb
+2230,Washington,/r/olympic_peninsula,Olympic_Peninsula,2uf0b
+2231,Washington,/r/parkland,Parkland,2y9sp
+2232,Washington,/r/pointroberts,Point Roberts,31mjy
+2233,Washington,/r/portangeles,Port Angeles,2smhr
+2234,Washington,/r/portorchard,Port Orchard,2vm2f
+2235,Washington,/r/porttownsend,Port Townsend,2uema
+2236,Washington,/r/poulsbo,Poulsbo,329da
+2237,Washington,/r/PuyallupWA,Puyallup,32hin
+2238,Washington,/r/pugetsound,Puget Sound,2sfj7
+2239,Washington,/r/redmond,Redmond,2s985
+2240,Washington,/r/renton,Renton,2seph
+2241,Washington,/r/renton_wa,Renton WA,2upoj
+2242,Washington,/r/Salkum,Salkum,2soqj
+2243,Washington,/r/sammamish,Sammamish,2s4oz
+2244,Washington,/r/sanjuanislands,San Juan Islands,347is
+2245,Washington,/r/seatac,Seattle Tacoma,2v3pg
+2246,Washington,/r/Seattle,Seattle,2qhad
+2247,Washington,/r/SeattleWA,SeattleWA,2vbli
+2248,Washington,/r/sheltonwa,Shelton,25h2v9
+2249,Washington,/r/shoreline,Shoreline,2solu
+2250,Washington,/r/skagitcounty,Skagit County,2uies
+2251,Washington,/r/skagitvalley,Skagit Valley,2tmha
+2252,Washington,/r/skagit/,Skagit,2shgy
+2253,Washington,/r/snohomish,Snohomish,2rlvw
+2254,Washington,/r/SnohomishCounty,Snohomish County,2tuj2
+2255,Washington,/r/snoqualmie,Snoqualmie,2s4y8
+2256,Washington,/r/spokane,Spokane,2r9l2
+2257,Washington,/r/stevenspass,Stevens Pass,2t7up
+2258,Washington,/r/Sumner,Sumner,318hn
+2259,Washington,/r/tacoma,Tacoma,2r9ix
+2260,Washington,/r/Tulalip,Tulalip,2sn8d
+2261,Washington,/r/tukwila,Tukwila,2v3sl
+2262,Washington,/r/tumwater,Tumwater,2sdxa
+2263,Washington,/r/tricitieswa,Tricities,2smpc
+2264,Washington,/r/vancouverwa,Vancouver,2rjkh
+2265,Washington,/r/Vancouver_wa,Vancouver WA,2r2dq
+2266,Washington,/r/downtownvancouver,"Vancouver, Downtown",2zqv6
+2267,Washington,/r/vancouverwashington,Vancouver Washington,2wmpb
+2268,Washington,/r/wallawalla,Walla Walla,2qjy4
+2269,Washington,/r/wallawallawashington,Walla Walla WA,2sgw4
+2270,Washington,/r/wenatchee,Wenatchee,2sk6z
+2271,Washington,/r/whidbey,Whidbey Island,2tr41
+2272,Washington,/r/woodinville,Woodinville,2st0i
+2273,Washington,/r/yakima,Yakima,2r8m7
+2274,West Virginia,/r/westvirginia,West Virginia,2rfre
+2275,West Virginia,/r/BeckleyOnReddit,Beckley,2umwz
+2276,West Virginia,/r/bomontwv,Bomont,2yqop
+2277,West Virginia,/r/CharlestonWV,Charleston,2tdj6
+2278,West Virginia,/r/coalwood,Coalwood,2wj7w
+2279,West Virginia,/r/easternpanhandle,Eastern Panhandle,2twug
+2280,West Virginia,/r/elkinswv,Elkins,35wdn
+2281,West Virginia,/r/fairmont,Fairmont,2vres
+2282,West Virginia,/r/hampshirecounty,Hampshire County,2sgsy
+2283,West Virginia,/r/HuntingtonWV,Huntington,2wu1p
+2284,West Virginia,/r/fairmontwv,Fairmont,2v2oi
+2285,West Virginia,/r/martinsburg,Martinsburg,2uywp
+2286,West Virginia,/r/morgantownwv,Morgantown,2rxnx
+2287,West Virginia,/r/parkersburg,Parkersburg,2tz2h
+2288,West Virginia,/r/sissonville,Sissonville,2u9ne
+2289,West Virginia,/r/snowshoemountain,Snowshoe Mountain,2zrrw
+2290,West Virginia,/r/WestonWV,Weston,2ycnq
+2291,West Virginia,/r/WheelingWV,Wheeling,2y1k7
+2292,Wisconsin,/r/Wisconsin,Wisconsin,2qrc2
+2293,Wisconsin,/r/antigo,Antigo,2u9ux
+2294,Wisconsin,/r/appleton,Appleton,2s1mu
+2295,Wisconsin,/r/beloitwisconsin,Beloit,2shb8
+2296,Wisconsin,/r/Brillion,Brillion,2wuh2
+2297,Wisconsin,/r/Chequamegon_Bay_WI,Chequamegon Bay,2smfd
+2298,Wisconsin,/r/Delafield,Delafield,319zp
+2299,Wisconsin,/r/delavan,Delavan,2vq48
+2300,Wisconsin,/r/doorcounty,Door County,2sfsl
+2301,Wisconsin,/r/eauclaire,Eau Claire,2u1c2
+2302,Wisconsin,/r/eau_claire,Eau_Claire,2u8w3
+2303,Wisconsin,/r/ec_wisc,Eau Claire WI,2rvql
+2304,Wisconsin,/r/fonddulac,Fond du Lac,2uflf
+2305,Wisconsin,/r/foxcities,Fox Cities,2u5xr
+2306,Wisconsin,/r/foxvalleywi,Fox Valley,2sc7x
+2307,Wisconsin,/r/germantownwisconsin,Germantown,2u1zk
+2308,Wisconsin,/r/greenbay,Green Bay,2ri8u
+2309,Wisconsin,/r/smalltowngreendale,Greendale,2vd00
+2310,Wisconsin,/r/hortonville,Hortonville,2vfhm
+2311,Wisconsin,/r/Janesville,Janesville,2sfd5
+2312,Wisconsin,/r/kenosha,Kenosha,2scb2
+2313,Wisconsin,/r/lacrossewi,La Crosse,2s12r
+2314,Wisconsin,/r/madisonwi,Madison,2r8rz
+2315,Wisconsin,/r/Manitowoc,Manitowoc,2szbc
+2316,Wisconsin,/r/medfordwi,Medford,2scwf
+2317,Wisconsin,/r/menomoneefalls,Menomonee Falls,2v0wm
+2318,Wisconsin,/r/mequon,Mequon,2ydyk
+2319,Wisconsin,/r/Milwaukee,Milwaukee,2r7dt
+2320,Wisconsin,/r/middletonwi,Middleton,2srm5
+2321,Wisconsin,/r/northernwi,Northern Wisconsin,2uiv1
+2322,Wisconsin,/r/Oakfield,Oakfield,2wzf2
+2323,Wisconsin,/r/oregonwi,Oregon,2zie3
+2324,Wisconsin,/r/oshkosh,Oshkosh,2se26
+2325,Wisconsin,/r/racinewi,Racine,2w1zl
+2326,Wisconsin,/r/riverfallswi,River Falls,2tbg3
+2327,Wisconsin,/r/rockdalewi,Rockdale,2ujkj
+2328,Wisconsin,/r/sheboygan,Sheboygan,2t96z
+2329,Wisconsin,/r/swwisconsin,Southwest Wisconsin,2v9z7
+2330,Wisconsin,/r/SpartaWI,Sparta,32ybd
+2331,Wisconsin,/r/stevenspoint,Stevens Point,2sl20
+2332,Wisconsin,/r/VeronaWisconsin,Verona,30mw0
+2333,Wisconsin,/r/waukesha,Waukesha,2sfsj
+2334,Wisconsin,/r/waukeshawi,Waukesha WI,2vdu9
+2335,Wisconsin,/r/waukeshacounty,Waukesha County,2vkq3
+2336,Wisconsin,/r/waunakee,Waunakee,ho356
+2337,Wisconsin,/r/wausau,Wausau,2sljj
+2338,Wisconsin,/r/westallis,West Allis,2sxrb
+2339,Wisconsin,/r/westbend,West Bend,2ungs
+2340,Wyoming,/r/Wyoming,Wyoming,2r53d
+2341,Wyoming,/r/casper,Casper,2r4ss
+2342,Wyoming,/r/cheyenne,Cheyenne,2qp2z
+2343,Wyoming,/r/Cody_WY,Cody,31i7e
+2344,Wyoming,/r/gillette,Gillette,2tu42
+2345,Wyoming,/r/grandtetons,Grand Tetons National Park,363t1
+2346,Wyoming,/r/jacksonhole,Jackson Hole,2vbkz
+2347,Wyoming,/r/laramie,Laramie,2srt5
+2348,Wyoming,/r/sheridanwyoming,Sheridan,35mr6
+2349,Wyoming,/r/StarValley,Star Valley,2tlk8
+2350,Wyoming,/r/yellowstone,Yellowstone National Park,2t545
