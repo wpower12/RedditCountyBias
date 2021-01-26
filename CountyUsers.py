@@ -4,6 +4,9 @@ from psaw import PushshiftAPI
 import time
 import datetime
 import pymysql as sql
+import urllib
+import json
+import xmltodict
 from progress.bar import Bar
 
 """
@@ -161,22 +164,6 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 
 		except Exception as e:
 			print("exception: {}, {}".format(sub_row[1]['subreddit url'], e))
-
-
-"""
-inputs:
- subreddit_df - Pandas df of the subreddits to process.
-
-side-effects:
- Adds an additional column to the dataframe that provides the 'county' 
- associated with each location subreddit, if it was found in the 
- geonames query,
-
-"""
-def addCounties():
-
-
-	pass
 
 
 def get_county(query):
