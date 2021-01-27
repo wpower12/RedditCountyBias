@@ -12,7 +12,6 @@ from progress.bar import Bar
 """
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
- start_sub    - name of the sub to start with - NOT IMPLEMENTED YET.
  year         - Year of users/comments to process.
  user_N       - number of source comments to process for each subreddit when finding users.
  active_N     - number of source comments to process for each user when finding active subreddits
@@ -35,8 +34,6 @@ def collectUsersAndActiveSubreddits(subreddit_df,
 									start_sub=None):
 	START_TS = int(time.mktime(datetime.date(year, 1,   1).timetuple()))
 	END_TS   = int(time.mktime(datetime.date(year, 12, 30).timetuple()))
-
-	# psapi  = PushshiftAPI(reddit_obj)
 
 	psapi  = PushshiftAPI()
 	skipping = (not start_sub == None)

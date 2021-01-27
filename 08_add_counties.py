@@ -19,11 +19,13 @@ for row in df_raw.iterrows():
 	sub_name = row[1]['subreddit name']
 	sub_id   = row[1]['subreddit id']
 	county   = None
+	
 	try:
 		query  = "{} {}".format(sub_name, state)
 		county = cu.get_county(query)
 		print("processing {}/{}, {} {}".format(i, total, state, sub_name))
 	except Exception as e:
+		# pass
 		print("\t error: {}".format(e))
 	finally:
 		new_row = [state, sub_url, sub_name, sub_id, county]
