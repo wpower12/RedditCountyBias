@@ -8,30 +8,150 @@ import urllib
 import json
 import xmltodict
 from progress.bar import Bar
+import progressbar
+from datetime import date, timedelta
 
 """
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
  year         - Year of users/comments to process.
+ week         - week
  user_N       - number of source comments to process for each subreddit when finding users.
  active_N     - number of source comments to process for each user when finding active subreddits
  db_conn      - A pymysql connection to a properly set-up database, meaning:
 							 (User, Subreddit, ActiveSubreddit) tables. 
- start_sub    - name of the subreddit (its url stub, technically) to start on. Assumes the list is 
-                sorted alphabetically. 
 
 side-effects:
   Fills the database tables with the retrieved users, and their active subreddits using queries
-  limited to the year provided. The initial list of users is found by scraping the authors of
-  comments of submissions in subreddits listed in the subreddit_df.
-
+  limited to the year and week provided. 
 """
-def collectUsersAndActiveSubreddits(subreddit_df, 
-									year, 
-									user_N, 
-									active_N, 
-									db_conn, 
-									start_sub=None):
+
+def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N, db_conn):
+	START_DATE = date.fromisocalendar(year, week, 1)
+	a_week = timedelta(days=7)
+
+	START_TS = int(time.mktime(START_DATE.timetuple()))
+	END_TS   = int(time.mktime((START_DATE+a_week).timetuple()))
+
+	psapi  = PushshiftAPI()
+
+	# Collecting subreddits and users
+	sub_bar = progressbar.ProgressBar(max_value=len(subreddit_df), redirect_stdout=True)
+	sub_bar.start()
+	i = 0
+	for sub_row in subreddit_df.iterrows():
+		sub_state = sub_row[1]['state']
+		sub_url   = sub_row[1]['subreddit url']
+		sub_name  = sub_row[1]['subreddit name']
+		sub_id    = sub_row[1]['subreddit id']
+
+		try:
+			## Finding 'Active Users' in subreddit by looking at comments. First PushShift Query
+			sc_cache = []
+			source_comments = psapi.search_comments(after=START_TS,
+	                                     		 before=END_TS,
+	                                     		 subreddit=sub_name)
+
+			for c in source_comments:
+				sc_cache.append(c)
+				if len(sc_cache) >= user_N: break
+			
+			print("processing: {}, {}, {}".format(START_DATE, sub_state, sub_url))
+			if len(sc_cache) == 0:
+				continue
+
+			# Use one of the comments to get the subreddit id for insertion.
+			sub_id = sc_cache[0].subreddit_id[3:]
+
+			## Add subreddit to table.
+			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
+										(subreddit_id, subreddit_name, subreddit_url) 
+										VALUES (\'{}\', \'{}\', \'{}\');"""
+
+			with db_conn.cursor() as cursor:
+				cursor.execute(SUB_INS_SQL.format(sub_id, sub_name, sub_url))
+			db_conn.commit()
+
+			# Do a pass over the cache to retrieve the set of unique comment authors, the 'users'.
+			user_set = set()
+			for comment in sc_cache:
+				try:
+					c_author    = comment.author
+					c_author_id = comment.author_fullname[3:]
+					user_set.add((c_author_id, c_author))
+				except Exception as e:
+					# Catches the deleted/banned users. 
+					pass
+
+			# Now we process each user to find their 'active subreddits' in the same time period.
+			user_count = 0
+			comments_checked = 0
+			comments_skipped = 0
+			for user in user_set:
+				## Attempt to add user to the database
+				author_id, author_name = user
+
+
+				USER_INS_SQL = """INSERT INTO reddit_data.useryw 
+											(user_reddit_id, user_reddit_name, home_subreddit, year, week) 
+									VALUES 
+											(\'{}\', \'{}\', \'{}\', {}, {});"""
+				try:
+					with db_conn.cursor() as cursor:
+						cursor.execute(USER_INS_SQL.format(author_id, 
+														   author_name, 
+														   sub_id,
+														   year,
+														   week))
+					db_conn.commit()
+					useryw_id = db_conn.insert_id() # Get id of the recently added useryw.
+
+					## Add 'Active Subreddits' by looking at the comments made by the author
+					uc_cache = []
+					user_comments = psapi.search_comments(after=START_TS,
+			                                     		  before=END_TS,
+			                                     		  author=author_name)
+					for c in user_comments:
+						uc_cache.append(c)
+						if len(uc_cache) >= active_N: break
+
+				except Exception as e:
+					pass
+
+				AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddits
+									(useryw_id, subreddit_id)
+								VALUES
+									({}, \'{}\', {} ,\'{}\');"""
+
+				for user_comment in uc_cache:
+					try:
+						# first we ignore add the sub
+						with db_conn.cursor() as cursor:
+							cursor.execute(SUB_INS_SQL.format(user_comment.subreddit_id[3:], 
+															  user_comment.subreddit, 
+															  user_comment.subreddit))
+						db_conn.commit()
+
+						# now the AS
+						with db_conn.cursor() as cursor:
+							cursor.execute(AS_INS_SQL.format(useryw_id, 
+														   	 user_comment.subreddit_id[3:]))
+						db_conn.commit()
+
+					except Exception as e:
+						pass
+
+		except Exception as e:
+			# print("exception: {}, {}".format(sub_row[1]['subreddit url'], e))
+			pass
+		finally:
+			i += 1
+			sub_bar.update(i)
+
+	sub_bar.finish()
+
+
+def collectUsersAndActiveSubreddits(subreddit_df, year, user_N, active_N, db_conn, start_sub=None):
 	START_TS = int(time.mktime(datetime.date(year, 1,   1).timetuple()))
 	END_TS   = int(time.mktime(datetime.date(year, 12, 30).timetuple()))
 
