@@ -11,6 +11,7 @@ from progress.bar import Bar
 import progressbar
 from datetime import date, timedelta
 
+
 """
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
@@ -22,11 +23,12 @@ inputs:
 							 (User, Subreddit, ActiveSubreddit) tables. 
 
 side-effects:
-  Fills the database tables with the retrieved users, and their active subreddits using queries
+  Fills the database tables with the retrieved useryw's, and their activesubreddits using queries
   limited to the year and week provided. 
 """
-
 def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N, db_conn):
+	import warnings
+	warnings.simplefilter("ignore")
 	START_DATE = date.fromisocalendar(year, week, 1)
 	a_week = timedelta(days=7)
 
