@@ -26,14 +26,16 @@ side-effects:
   Fills the database tables with the retrieved useryw's, and their activesubreddits using queries
   limited to the year and week provided. 
 """
-def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N, db_conn):
+def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N, db_conn):
 	import warnings
 	warnings.simplefilter("ignore")
-	START_DATE = date.fromisocalendar(year, week, 1)
-	a_week = timedelta(days=7)
 
-	START_TS = int(time.mktime(START_DATE.timetuple()))
-	END_TS   = int(time.mktime((START_DATE+a_week).timetuple()))
+	# Assuming that the start_date is actually a pandas TimeStamp object
+	START_TS = int(start_date.timestamp())
+	a_week   = pd.Timedelta(value=7, unit="days")
+	END_TS   = int((start_date+a_week).timestamp())
+	year = start_date.year
+	week = start_date.week
 
 	psapi  = PushshiftAPI()
 
@@ -58,7 +60,7 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N
 				sc_cache.append(c)
 				if len(sc_cache) >= user_N: break
 			
-			print("processing: {}, {}, {}".format(START_DATE, sub_state, sub_url))
+			print("processing: {}, {}, {}".format(start_date, sub_state, sub_url))
 			if len(sc_cache) == 0:
 				continue
 
@@ -105,8 +107,8 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N
 														   sub_id,
 														   year,
 														   week))
+						useryw_id = cursor.lastrowid # Get id of the recently added useryw.
 					db_conn.commit()
-					useryw_id = db_conn.insert_id() # Get id of the recently added useryw.
 
 					## Add 'Active Subreddits' by looking at the comments made by the author
 					uc_cache = []
@@ -120,10 +122,10 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, year, week, user_N, active_N
 				except Exception as e:
 					pass
 
-				AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddits
+				AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddit
 									(useryw_id, subreddit_id)
 								VALUES
-									({}, \'{}\', {} ,\'{}\');"""
+									({}, \'{}\');"""
 
 				for user_comment in uc_cache:
 					try:
