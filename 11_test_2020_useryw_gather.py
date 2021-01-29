@@ -10,8 +10,8 @@ conn = sql.connect(host='localhost',
 				   password='password',
 				   database='reddit_data')
 
-NC_SOURCE_USERS = 200 # Using less cause its at a week.
-NC_SOURCE_ASUBS = 200
+NC_SOURCE_USERS = 50 # Using less cause its at a week.
+NC_SOURCE_ASUBS = 50
 
 # Gets us the first day of each weekly period. 
 first_days = pd.date_range('2020-01-01', '2020-12-31', freq='W-WED')
