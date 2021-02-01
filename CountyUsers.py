@@ -22,18 +22,14 @@ def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 		END_TS   = int((w+a_week).timestamp())
 
 		sc_cache = []
-		source_comments = psapi.search_comments(after=START_TS,
-	                                     		 before=END_TS,
-	                                     		 subreddit=sub_name)
-
-		for c in source_comments:
+		source_submissions = psapi.search_submissions(after=START_TS, before=END_TS, subreddit=sub_name)
+		for c in source_submissions:
 			sc_cache.append(c)
 			if len(sc_cache) >= max_responses: break
 
 		counts.append(len(sc_cache))
 
 	count_s = pd.Series(counts)
-
 	return count_s.mean(), count_s.var()
 
 

@@ -2,6 +2,10 @@ import CountyUsers as cu
 import pandas as pd
 import pymysql as sql
 
+# Stopping a run on 2021-02-01 at 18:10.
+# Week of 2020-03-18
+# Subreddit: /r/nashville.
+
 FN = "./data/locationsubs_withCounties.csv"
 df = pd.read_csv(FN)
 
@@ -10,7 +14,7 @@ conn = sql.connect(host='localhost',
 				   password='password',
 				   database='reddit_data')
 
-WEEK_ID   = 2 # 0-indexed.
+WEEK_ID   = 2 # 0-indexed. so put WEEK#-1 in here
 START_SUB = '/r/rochesteril'
 
 NC_SOURCE_USERS = 50 # Using less cause its at a week.
