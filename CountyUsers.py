@@ -34,6 +34,7 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N
 	START_TS = int(start_date.timestamp())
 	a_week   = pd.Timedelta(value=7, unit="days")
 	END_TS   = int((start_date+a_week).timestamp())
+
 	year = start_date.year
 	week = start_date.week
 
@@ -153,7 +154,6 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N
 			sub_bar.update(i)
 
 	sub_bar.finish()
-
 
 def collectUsersAndActiveSubreddits(subreddit_df, year, user_N, active_N, db_conn, start_sub=None):
 	START_TS = int(time.mktime(datetime.date(year, 1,   1).timetuple()))
