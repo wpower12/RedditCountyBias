@@ -12,6 +12,32 @@ import progressbar
 from datetime import date, timedelta
 
 
+def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
+	num_weeks = len(weeks)*1.0
+	counts = []
+
+	for w in weeks:
+		START_TS = int(w.timestamp())
+		a_week   = pd.Timedelta(value=7, unit="days")
+		END_TS   = int((w+a_week).timestamp())
+
+		sc_cache = []
+		source_comments = psapi.search_comments(after=START_TS,
+	                                     		 before=END_TS,
+	                                     		 subreddit=sub_name)
+
+		for c in source_comments:
+			sc_cache.append(c)
+			if len(sc_cache) >= max_responses: break
+
+		counts.append(len(sc_cache))
+
+	count_s = pd.Series(counts)
+
+	return count_s.mean(), count_s.var()
+
+
+
 """
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
@@ -285,7 +311,6 @@ def collectUsersAndActiveSubreddits(subreddit_df, year, user_N, active_N, db_con
 
 		except Exception as e:
 			print("exception: {}, {}".format(sub_row[1]['subreddit url'], e))
-
 
 def get_county(query):
     # initial search
