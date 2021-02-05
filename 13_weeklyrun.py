@@ -5,7 +5,7 @@ import pymysql as sql
 FN = "./data/locationsubs_withCounties.csv"
 df = pd.read_csv(FN)
 
-START_WEEK = 4 # Started full run on 2021-01-29 23:00
+START_WEEK = 14 # Started full run on 2021-02-04 20:00
 
 conn = sql.connect(host='localhost',
 				   user='bill',
