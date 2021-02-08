@@ -1,0 +1,1054 @@
+fips,county_id,county_name,state
+26115,1,Monroe,Michigan
+47009,2,Blount,Tennessee
+22057,3,Lafourche,Louisiana
+50005,4,Caledonia,Vermont
+01089,5,Madison,Alabama
+51683,6,Manassas,Virginia
+16057,7,Latah,Idaho
+42085,8,Mercer,Pennsylvania
+37135,9,Orange,North Carolina
+27013,10,Blue Earth,Minnesota
+51540,11,Charlottesville,Virginia
+53021,12,Franklin,Washington
+22071,13,Orleans,Louisiana
+26043,14,Dickinson,Michigan
+04025,15,Yavapai,Arizona
+19013,16,Black Hawk,Iowa
+51790,17,Staunton,Virginia
+53029,18,Island,Washington
+53063,19,Spokane,Washington
+39057,20,Greene,Ohio
+41007,21,Clatsop,Oregon
+13279,22,Toombs,Georgia
+26037,23,Clinton,Michigan
+36109,24,Tompkins,New York
+49045,25,Tooele,Utah
+29019,26,Boone,Missouri
+35031,27,McKinley,New Mexico
+51131,28,Northampton,Virginia
+36015,29,Chemung,New York
+29067,30,Douglas,Missouri
+53045,31,Mason,Washington
+56005,32,Campbell,Wyoming
+04027,33,Yuma,Arizona
+18069,34,Huntington,Indiana
+48055,35,Caldwell,Texas
+,36,Oregon,Oregon
+48041,37,Brazos,Texas
+51145,38,Powhatan,Virginia
+33013,39,Merrimack,New Hampshire
+48051,40,Burleson,Texas
+21009,41,Barren,Kentucky
+19127,42,Marshall,Iowa
+39139,43,Richland,Ohio
+42107,44,Schuylkill,Pennsylvania
+,45,Richland,District of Columbia
+55009,46,Brown,Wisconsin
+11001,47,Washington,District of Columbia
+51157,48,Rappahannock,Virginia
+16083,49,Twin Falls,Idaho
+26139,50,Ottawa,Michigan
+29143,51,New Madrid,Missouri
+28105,52,Oktibbeha,Mississippi
+45041,53,Florence,South Carolina
+29179,54,Reynolds,Missouri
+16017,55,Bonner,Idaho
+37025,56,Cabarrus,North Carolina
+48481,57,Wharton,Texas
+51137,58,Orange,Virginia
+21067,59,Fayette,Kentucky
+27041,60,Douglas,Minnesota
+48099,61,Coryell,Texas
+12115,62,Sarasota,Florida
+17089,63,Kane,Illinois
+45047,64,Greenwood,South Carolina
+13257,65,Stephens,Georgia
+42091,66,Montgomery,Pennsylvania
+18173,67,Warrick,Indiana
+50011,68,Franklin,Vermont
+27131,69,Rice,Minnesota
+29183,70,Saint Charles,Missouri
+26111,71,Midland,Michigan
+27089,72,Marshall,Minnesota
+05051,73,Garland,Arkansas
+31019,74,Buffalo,Nebraska
+13139,75,Hall,Georgia
+19153,76,Polk,Iowa
+15001,77,Hawaii,Hawaii
+17043,78,DuPage,Illinois
+22101,79,Saint Mary,Louisiana
+36085,80,Richmond,New York
+55093,81,Pierce,Wisconsin
+27123,82,Ramsey,Minnesota
+39017,83,Butler,Ohio
+18127,84,Porter,Indiana
+41067,85,Washington,Oregon
+20045,86,Douglas,Kansas
+56025,87,Natrona,Wyoming
+32007,88,Elko,Nevada
+13183,89,Long,Georgia
+50025,90,Windham,Vermont
+13045,91,Carroll,Georgia
+27033,92,Cottonwood,Minnesota
+48231,93,Hunt,Texas
+08077,94,Mesa,Colorado
+51155,95,Pulaski,Virginia
+01003,96,Baldwin,Alabama
+32005,97,Douglas,Nevada
+54049,98,Marion,West Virginia
+28059,99,Jackson,Mississippi
+19033,100,Cerro Gordo,Iowa
+39003,101,Allen,Ohio
+42077,102,Lehigh,Pennsylvania
+18089,103,Lake,Indiana
+45051,104,Horry,South Carolina
+36059,105,Nassau,New York
+36089,106,St. Lawrence,New York
+39061,107,Hamilton,Ohio
+42103,108,Pike,Pennsylvania
+23001,109,Androscoggin,Maine
+08097,110,Pitkin,Colorado
+39157,111,Tuscarawas,Ohio
+24031,112,Montgomery,Maryland
+45091,113,York,South Carolina
+12057,114,Hillsborough,Florida
+05143,115,Washington,Arkansas
+05059,116,Hot Spring,Arkansas
+39159,117,Union,Ohio
+37089,118,Henderson,North Carolina
+17113,119,McLean,Illinois
+12053,120,Hernando,Florida
+13187,121,Lumpkin,Georgia
+56033,122,Sheridan,Wyoming
+31109,123,Lancaster,Nebraska
+50015,124,Lamoille,Vermont
+29095,125,Jackson,Missouri
+37001,126,Alamance,North Carolina
+42041,127,Cumberland,Pennsylvania
+22109,128,Terrebonne,Louisiana
+36047,129,Kings,New York
+48257,130,Kaufman,Texas
+12055,131,Highlands,Florida
+26077,132,Kalamazoo,Michigan
+39089,133,Licking,Ohio
+48157,134,Fort Bend,Texas
+21093,135,Hardin,Kentucky
+38035,136,Grand Forks,North Dakota
+39173,137,Wood,Ohio
+26141,138,Presque Isle,Michigan
+09001,139,Fairfield,Connecticut
+39041,140,Delaware,Ohio
+36093,141,Schenectady,New York
+13175,142,Laurens,Georgia
+05069,143,Jefferson,Arkansas
+42019,144,Butler,Pennsylvania
+19099,145,Jasper,Iowa
+20005,146,Atchison,Kansas
+04013,147,Maricopa,Arizona
+12129,148,Wakulla,Florida
+47149,149,Rutherford,Tennessee
+54081,150,Raleigh,West Virginia
+36067,151,Onondaga,New York
+42105,152,Potter,Pennsylvania
+21151,153,Madison,Kentucky
+01001,154,Autauga,Alabama
+02185,155,North Slope,Alaska
+34009,156,Cape May,New Jersey
+24043,157,Washington,Maryland
+32003,158,Clark,Nevada
+47089,159,Jefferson,Tennessee
+48001,160,Anderson,Texas
+01125,161,Tuscaloosa,Alabama
+09005,162,Litchfield,Connecticut
+21019,163,Boyd,Kentucky
+25023,164,Plymouth,Massachusetts
+25013,165,Hampden,Massachusetts
+21047,166,Christian,Kentucky
+51121,167,Montgomery,Virginia
+22051,168,Jefferson,Louisiana
+48439,169,Tarrant,Texas
+24510,170,Baltimore,Maryland
+54083,171,Randolph,West Virginia
+,172,Cabell,Virginia
+34035,173,Somerset,New Jersey
+48469,174,Victoria,Texas
+20085,175,Jackson,Kansas
+12005,176,Bay,Florida
+21195,177,Pike,Kentucky
+17197,178,Will,Illinois
+36105,179,Sullivan,New York
+,180,Richland,North Carolina
+38105,181,Williams,North Dakota
+39049,182,Franklin,Ohio
+36065,183,Oneida,New York
+19169,184,Story,Iowa
+47141,185,Putnam,Tennessee
+08019,186,Clear Creek,Colorado
+12073,187,Leon,Florida
+02020,188,Anchorage,Alaska
+18157,189,Tippecanoe,Indiana
+48201,190,Harris,Texas
+37081,191,Guilford,North Carolina
+34005,192,Burlington,New Jersey
+45001,193,Abbeville,South Carolina
+53035,194,Kitsap,Washington
+,195,Washington,Washington
+41035,196,Klamath,Oregon
+16047,197,Gooding,Idaho
+53033,198,King,Washington
+04019,199,Pima,Arizona
+54041,200,Lewis,West Virginia
+05035,201,Crittenden,Arkansas
+51041,202,Chesterfield,Virginia
+37051,203,Cumberland,North Carolina
+23005,204,Cumberland,Maine
+26117,205,Montcalm,Michigan
+16013,206,Blaine,Idaho
+21217,207,Taylor,Kentucky
+22089,208,Saint Charles,Louisiana
+38101,209,Ward,North Dakota
+42045,210,Delaware,Pennsylvania
+51760,211,Richmond,Virginia
+46065,212,Hughes,South Dakota
+40021,213,Cherokee,Oklahoma
+41059,214,Umatilla,Oregon
+41003,215,Benton,Oregon
+49019,216,Grand,Utah
+01009,217,Blount,Alabama
+53031,218,Jefferson,Washington
+51830,219,Williamsburg,Virginia
+33015,220,Rockingham,New Hampshire
+17019,221,Champaign,Illinois
+39111,222,Monroe,Ohio
+41039,223,Lane,Oregon
+25017,224,Middlesex,Massachusetts
+47105,225,Loudon,Tennessee
+18167,226,Vigo,Indiana
+48321,227,Matagorda,Texas
+42007,228,Beaver,Pennsylvania
+37129,229,New Hanover,North Carolina
+39143,230,Sandusky,Ohio
+24039,231,Somerset,Maryland
+37021,232,Buncombe,North Carolina
+,233,Greenville,North Carolina
+48167,234,Galveston,Texas
+18011,235,Boone,Indiana
+21083,236,Graves,Kentucky
+53053,237,Pierce,Washington
+39047,238,Fayette,Ohio
+55073,239,Marathon,Wisconsin
+16065,240,Madison,Idaho
+30049,241,Lewis and Clark,Montana
+54075,242,Pocahontas,West Virginia
+01107,243,Pickens,Alabama
+17041,244,Douglas,Illinois
+05045,245,Faulkner,Arkansas
+31177,246,Washington,Nebraska
+29091,247,Howell,Missouri
+16039,248,Elmore,Idaho
+02090,249,Fairbanks North Star,Alaska
+13247,250,Rockdale,Georgia
+39027,251,Clinton,Ohio
+18119,252,Owen,Indiana
+02050,253,Bethel,Alaska
+19125,254,Marion,Iowa
+05033,255,Crawford,Arkansas
+25001,256,Barnstable,Massachusetts
+40131,257,Rogers,Oklahoma
+37179,258,Union,North Carolina
+10005,259,Sussex,Delaware
+05007,260,Benton,Arkansas
+23009,261,Hancock,Maine
+31143,262,Polk,Nebraska
+36075,263,Oswego,New York
+36055,264,Monroe,New York
+48497,265,Wise,Texas
+05005,266,Baxter,Arkansas
+27147,267,Steele,Minnesota
+34037,268,Sussex,New Jersey
+53009,269,Clallam,Washington
+09003,270,Hartford,Connecticut
+05015,271,Carroll,Arkansas
+21059,272,Daviess,Kentucky
+36073,273,Orleans,New York
+16001,274,Ada,Idaho
+13121,275,Fulton,Georgia
+13117,276,Forsyth,Georgia
+13285,277,Troup,Georgia
+13023,278,Bleckley,Georgia
+34019,279,Hunterdon,New Jersey
+37119,280,Mecklenburg,North Carolina
+36103,281,Suffolk,New York
+04017,282,Navajo,Arizona
+54015,283,Clay,West Virginia
+39115,284,Morgan,Ohio
+48259,285,Kendall,Texas
+48397,286,Rockwall,Texas
+13097,287,Douglas,Georgia
+37173,288,Swain,North Carolina
+42089,289,Monroe,Pennsylvania
+37019,290,Brunswick,North Carolina
+55089,291,Ozaukee,Wisconsin
+30041,292,Hill,Montana
+45083,293,Spartanburg,South Carolina
+18067,294,Howard,Indiana
+48355,295,Nueces,Texas
+12015,296,Charlotte,Florida
+15003,297,Honolulu,Hawaii
+12011,298,Broward,Florida
+48143,299,Erath,Texas
+26105,300,Mason,Michigan
+25007,301,Dukes,Massachusetts
+48347,302,Nacogdoches,Texas
+53073,303,Whatcom,Washington
+20055,304,Finney,Kansas
+35001,305,Bernalillo,New Mexico
+37039,306,Cherokee,North Carolina
+42063,307,Indiana,Pennsylvania
+55071,308,Manitowoc,Wisconsin
+44007,309,Providence,Rhode Island
+09011,310,New London,Connecticut
+39099,311,Mahoning,Ohio
+30031,312,Gallatin,Montana
+34013,313,Essex,New Jersey
+36001,314,Albany,New York
+26055,315,Grand Traverse,Michigan
+39095,316,Lucas,Ohio
+42071,317,Lancaster,Pennsylvania
+02130,318,Ketchikan Gateway,Alaska
+09015,319,Windham,Connecticut
+34031,320,Passaic,New Jersey
+24017,321,Charles,Maryland
+33017,322,Strafford,New Hampshire
+40023,323,Choctaw,Oklahoma
+53055,324,San Juan,Washington
+53007,325,Chelan,Washington
+37069,326,Franklin,North Carolina
+18057,327,Hamilton,Indiana
+21073,328,Franklin,Kentucky
+24021,329,Frederick County,Maryland
+24041,330,Talbot,Maryland
+21021,331,Boyle,Kentucky
+18005,332,Bartholomew,Indiana
+13013,333,Barrow,Georgia
+30057,334,Madison,Montana
+39133,335,Portage,Ohio
+55105,336,Rock,Wisconsin
+25011,337,Franklin,Massachusetts
+29139,338,Montgomery,Missouri
+20091,339,Johnson,Kansas
+35017,340,Grant,New Mexico
+48309,341,McLennan,Texas
+26089,342,Leelanau,Michigan
+12127,343,Volusia,Florida
+18177,344,Wayne,Indiana
+12109,345,Saint Johns,Florida
+20107,346,Linn,Kansas
+17077,347,Jackson,Illinois
+51139,348,Page,Virginia
+37141,349,Pender,North Carolina
+09009,350,New Haven,Connecticut
+08083,351,Montezuma,Colorado
+17115,352,Macon,Illinois
+21161,353,Mason,Kentucky
+26029,354,Charlevoix,Michigan
+13115,355,Floyd,Georgia
+36095,356,Schoharie,New York
+12117,357,Seminole,Florida
+19163,358,Scott,Iowa
+29027,359,Callaway,Missouri
+13039,360,Camden,Georgia
+35037,361,Quay,New Mexico
+02122,362,Kenai Peninsula,Alaska
+26085,363,Lake,Michigan
+44009,364,Washington,Rhode Island
+33007,365,Coos,New Hampshire
+41041,366,Lincoln,Oregon
+49005,367,Cache,Utah
+,368,Juneau Borough,Alaska
+39045,369,Fairfield,Ohio
+08089,370,Otero,Colorado
+26005,371,Allegan,Michigan
+12103,372,Pinellas,Florida
+29077,373,Greene,Missouri
+36119,374,Westchester,New York
+39167,375,Washington,Ohio
+48329,376,Midland,Texas
+39103,377,Medina,Ohio
+40019,378,Carter,Oklahoma
+38059,379,Morton,North Dakota
+48053,380,Burnet,Texas
+48113,381,Dallas,Texas
+53067,382,Thurston,Washington
+35045,383,San Juan,New Mexico
+45019,384,Charleston,South Carolina
+37105,385,Lee,North Carolina
+51510,386,Alexandria,Virginia
+49043,387,Summit,Utah
+12099,388,Palm Beach,Florida
+01073,389,Jefferson,Alabama
+34027,390,Morris,New Jersey
+51127,391,New Kent,Virginia
+29199,392,Scotland,Missouri
+38015,393,Burleigh,North Dakota
+26087,394,Lapeer,Michigan
+08013,395,Boulder,Colorado
+30111,396,Yellowstone,Montana
+48339,397,Montgomery,Texas
+20157,398,Republic,Kansas
+40101,399,Muskogee,Oklahoma
+17037,400,DeKalb,Illinois
+01055,401,Etowah,Alabama
+34033,402,Salem,New Jersey
+20103,403,Leavenworth,Kansas
+29177,404,Ray,Missouri
+47021,405,Cheatham,Tennessee
+51027,406,Buchanan,Virginia
+36087,407,Rockland,New York
+40031,408,Comanche,Oklahoma
+01033,409,Colbert,Alabama
+26127,410,Oceana,Michigan
+25015,411,Hampshire,Massachusetts
+19101,412,Jefferson,Iowa
+36005,413,Bronx County,New York
+27163,414,Washington,Minnesota
+39119,415,Muskingum,Ohio
+48121,416,Denton,Texas
+51153,417,Prince William,Virginia
+26121,418,Muskegon,Michigan
+27003,419,Anoka,Minnesota
+42033,420,Clearfield,Pennsylvania
+48303,421,Lubbock,Texas
+55079,422,Milwaukee,Wisconsin
+19057,423,Des Moines,Iowa
+42069,424,Lackawanna,Pennsylvania
+05091,425,Miller,Arkansas
+40147,426,Washington,Oklahoma
+47165,427,Sumner,Tennessee
+18117,428,Orange,Indiana
+16005,429,Bannock,Idaho
+22075,430,Plaquemines,Louisiana
+53071,431,Walla Walla,Washington
+48021,432,Bastrop,Texas
+04007,433,Gila,Arizona
+,434,Sitka City and,Alaska
+24035,435,Queen Annes,Maryland
+36045,436,Jefferson,New York
+20111,437,Lyon,Kansas
+51810,438,Virginia Beach,Virginia
+41019,439,Douglas,Oregon
+27141,440,Sherburne,Minnesota
+13073,441,Columbia,Georgia
+37125,442,Moore,North Carolina
+47177,443,Warren,Tennessee
+12023,444,Columbia,Florida
+17093,445,Kendall,Illinois
+04003,446,Cochise,Arizona
+35005,447,Chaves,New Mexico
+42125,448,Washington,Pennsylvania
+05031,449,Craighead,Arkansas
+13215,450,Muscogee,Georgia
+13123,451,Gilmer,Georgia
+53037,452,Kittitas,Washington
+13089,453,DeKalb,Georgia
+19041,454,Clay,Iowa
+36101,455,Steuben,New York
+12001,456,Alachua,Florida
+36079,457,Putnam,New York
+13179,458,Liberty,Georgia
+26047,459,Emmet,Michigan
+19061,460,Dubuque,Iowa
+36083,461,Rensselaer,New York
+39153,462,Summit,Ohio
+13059,463,Clarke,Georgia
+22077,464,Pointe Coupee,Louisiana
+29117,465,Livingston,Missouri
+18091,466,LaPorte,Indiana
+,467,Douglas,New Jersey
+36029,468,Erie,New York
+02261,469,Valdez-Cordova,Alaska
+12111,470,Saint Lucie,Florida
+13087,471,Decatur,Georgia
+22015,472,Bossier,Louisiana
+48441,473,Taylor,Texas
+37107,474,Lenoir,North Carolina
+56021,475,Laramie,Wyoming
+13067,476,Cobb,Georgia
+21077,477,Gallatin,Kentucky
+26021,478,Berrien,Michigan
+24047,479,Worcester,Maryland
+55117,480,Sheboygan,Wisconsin
+17109,481,McDonough,Illinois
+12095,482,Orange,Florida
+29097,483,Jasper,Missouri
+22125,484,West Feliciana,Louisiana
+17027,485,Clinton,Illinois
+53077,486,Yakima,Washington
+08045,487,Garfield,Colorado
+48273,488,Kleberg,Texas
+17085,489,Jo Daviess,Illinois
+36023,490,Cortland,New York
+31053,491,Dodge,Nebraska
+30063,492,Missoula,Montana
+08037,493,Eagle,Colorado
+04023,494,Santa Cruz,Arizona
+29213,495,Taney,Missouri
+38093,496,Stutsman,North Dakota
+25021,497,Norfolk,Massachusetts
+12081,498,Manatee,Florida
+41005,499,Clackamas,Oregon
+48375,500,Potter,Texas
+48367,501,Parker,Texas
+42049,502,Erie,Pennsylvania
+42115,503,Susquehanna,Pennsylvania
+02180,504,Nome,Alaska
+53041,505,Lewis,Washington
+08005,506,Arapahoe,Colorado
+26025,507,Calhoun,Michigan
+36061,508,New York,New York
+30081,509,Ravalli,Montana
+36009,510,Cattaraugus,New York
+29185,511,Saint Clair,Missouri
+39005,512,Ashland,Ohio
+47037,513,Davidson,Tennessee
+53027,514,Grays Harbor,Washington
+17187,515,Warren,Illinois
+37195,516,Wilson,North Carolina
+47031,517,Coffee,Tennessee
+36013,518,Chautauqua,New York
+13113,519,Fayette,Georgia
+21095,520,Harlan,Kentucky
+30093,521,Silver Bow,Montana
+42013,522,Blair,Pennsylvania
+47093,523,Knox,Tennessee
+12071,524,Lee,Florida
+27153,525,Todd,Minnesota
+47063,526,Hamblen,Tennessee
+04021,527,Pinal,Arizona
+22105,528,Tangipahoa,Louisiana
+37161,529,Rutherford,North Carolina
+51710,530,Norfolk,Virginia
+34007,531,Camden,New Jersey
+17073,532,Henry,Illinois
+24009,533,Calvert,Maryland
+45073,534,Oconee,South Carolina
+18163,535,Vanderburgh,Indiana
+39035,536,Cuyahoga,Ohio
+02170,537,Matanuska-Susitna,Alaska
+41029,538,Jackson,Oregon
+19027,539,Carroll,Iowa
+36117,540,Wayne,New York
+55139,541,Winnebago,Wisconsin
+17029,542,Coles,Illinois
+35015,543,Eddy,New Mexico
+21015,544,Boone,Kentucky
+21111,545,Jefferson,Kentucky
+30001,546,Beaverhead,Montana
+36069,547,Ontario,New York
+37071,548,Gaston,North Carolina
+37127,549,Nash,North Carolina
+47157,550,Shelby,Tennessee
+47035,551,Cumberland,Tennessee
+22017,552,Caddo,Louisiana
+56023,553,Lincoln,Wyoming
+39151,554,Stark,Ohio
+29159,555,Pettis,Missouri
+35028,556,Los Alamos,New Mexico
+12097,557,Osceola,Florida
+28081,558,Lee,Mississippi
+42101,559,Philadelphia,Pennsylvania
+42021,560,Cambria,Pennsylvania
+27149,561,Stevens,Minnesota
+13055,562,Chattooga,Georgia
+26145,563,Saginaw,Michigan
+29510,564,Saint Louis,Missouri
+48027,565,Bell,Texas
+05063,566,Independence,Arkansas
+41065,567,Wasco,Oregon
+51095,568,James City,Virginia
+20121,569,Miami,Kansas
+17099,570,LaSalle,Illinois
+21205,571,Rowan,Kentucky
+17057,572,Fulton,Illinois
+13135,573,Gwinnett,Georgia
+01025,574,Clarke,Alabama
+28115,575,Pontotoc,Mississippi
+27079,576,Le Sueur,Minnesota
+20021,577,Cherokee,Kansas
+29021,578,Buchanan,Missouri
+26161,579,Washtenaw,Michigan
+42127,580,Wayne,Pennsylvania
+28075,581,Lauderdale,Mississippi
+47001,582,Anderson,Tennessee
+22011,583,Beauregard,Louisiana
+42133,584,York,Pennsylvania
+31001,585,Adams,Nebraska
+27137,586,Saint Louis,Minnesota
+18055,587,Greene,Indiana
+55039,588,Fond du Lac,Wisconsin
+13151,589,Henry,Georgia
+26165,590,Wexford,Michigan
+53061,591,Snohomish,Washington
+26091,592,Lenawee,Michigan
+29037,593,Cass,Missouri
+16085,594,Valley,Idaho
+17111,595,McHenry,Illinois
+47065,596,Hamilton,Tennessee
+22005,597,Ascension,Louisiana
+13031,598,Bulloch,Georgia
+17095,599,Knox,Illinois
+35009,600,Curry,New Mexico
+51840,601,Winchester,Virginia
+09013,602,Tolland,Connecticut
+08049,603,Grand,Colorado
+26075,604,Jackson,Michigan
+54039,605,Kanawha,West Virginia
+26163,606,Wayne,Michigan
+,607,Livingston,Tennessee
+54003,608,Berkeley,West Virginia
+31055,609,Douglas,Nebraska
+42081,610,Lycoming,Pennsylvania
+42003,611,Allegheny,Pennsylvania
+22063,612,Livingston,Louisiana
+32013,613,Humboldt,Nevada
+27059,614,Isanti,Minnesota
+41071,615,Yamhill,Oregon
+12101,616,Pasco,Florida
+51660,617,Harrisonburg,Virginia
+,618,Clay,Virginia
+,619,Hudson,New York
+36107,620,Tioga,New York
+48451,621,Tom Green,Texas
+49053,622,Washington,Utah
+27007,623,Beltrami,Minnesota
+48043,624,Brewster,Texas
+53011,625,Clark,Washington
+02230,626,Skagway,Alaska
+08003,627,Alamosa,Colorado
+16069,628,Nez Perce,Idaho
+18043,629,Floyd,Indiana
+27169,630,Winona,Minnesota
+48185,631,Grimes,Texas
+50021,632,Rutland,Vermont
+,633,Chesapeake,Ohio
+27061,634,Itasca,Minnesota
+51179,635,Stafford,Virginia
+45013,636,Beaufort,South Carolina
+41033,637,Josephine,Oregon
+39155,638,Trumbull,Ohio
+48349,639,Navarro,Texas
+20155,640,Reno,Kansas
+05085,641,Lonoke,Arkansas
+37041,642,Chowan,North Carolina
+10003,643,New Castle,Delaware
+37191,644,Wayne,North Carolina
+13245,645,Richmond,Georgia
+48183,646,Gregg,Texas
+47107,647,McMinn,Tennessee
+27053,648,Hennepin,Minnesota
+24013,649,Carroll,Maryland
+56029,650,Park,Wyoming
+36091,651,Saratoga,New York
+23031,652,York,Maine
+34017,653,Hudson,New Jersey
+53015,654,Cowlitz,Washington
+18003,655,Allen,Indiana
+26061,656,Houghton,Michigan
+37063,657,Durham,North Carolina
+36027,658,Dutchess,New York
+51820,659,Waynesboro,Virginia
+22073,660,Ouachita,Louisiana
+,661,Harrison,Virginia
+12105,662,Polk,Florida
+35035,663,Otero,New Mexico
+18141,664,Saint Joseph,Indiana
+19103,665,Johnson,Iowa
+12089,666,Nassau,Florida
+08031,667,Denver,Colorado
+22103,668,Saint Tammany,Louisiana
+01047,669,Dallas,Alabama
+27171,670,Wright,Minnesota
+17105,671,Livingston,Illinois
+37055,672,Dare,North Carolina
+21125,673,Laurel,Kentucky
+54061,674,Monongalia,West Virginia
+37189,675,Watauga,North Carolina
+45015,676,Berkeley,South Carolina
+45079,677,Richland,South Carolina
+51199,678,York,Virginia
+12031,679,Duval,Florida
+26155,680,Shiawassee,Michigan
+49049,681,Utah,Utah
+55133,682,Waukesha,Wisconsin
+04005,683,Coconino,Arizona
+16033,684,Clark,Idaho
+13127,685,Glynn,Georgia
+27049,686,Goodhue,Minnesota
+18035,687,Delaware,Indiana
+05131,688,Sebastian,Arkansas
+41043,689,Linn,Oregon
+19187,690,Webster,Iowa
+33005,691,Cheshire,New Hampshire
+,692,Lexington,District of Columbia
+05119,693,Pulaski,Arkansas
+35025,694,Lea,New Mexico
+50027,695,Windsor,Vermont
+55063,696,La Crosse,Wisconsin
+39145,697,Scioto,Ohio
+18039,698,Elkhart,Indiana
+22045,699,Iberia,Louisiana
+13051,700,Chatham,Georgia
+29001,701,Adair,Missouri
+36113,702,Warren,New York
+42079,703,Luzerne,Pennsylvania
+53057,704,Skagit,Washington
+55097,705,Portage,Wisconsin
+38057,706,Mercer,North Dakota
+27139,707,Scott,Minnesota
+13009,708,Baldwin,Georgia
+45035,709,Dorchester,South Carolina
+26017,710,Bay,Michigan
+08101,711,Pueblo,Colorado
+37171,712,Surry,North Carolina
+22019,713,Calcasieu,Louisiana
+17201,714,Winnebago,Illinois
+22001,715,Acadia,Louisiana
+48061,716,Cameron,Texas
+34021,717,Mercer,New Jersey
+29153,718,Ozark,Missouri
+01015,719,Calhoun,Alabama
+17163,720,Saint Clair,Illinois
+39081,721,Jefferson,Ohio
+12045,722,Gulf,Florida
+21179,723,Nelson,Kentucky
+25025,724,Suffolk,Massachusetts
+,725,LaPorte,Michigan
+10001,726,Kent,Delaware
+01095,727,Marshall,Alabama
+25009,728,Essex,Massachusetts
+28011,729,Bolivar,Mississippi
+29167,730,Polk,Missouri
+42121,731,Venango,Pennsylvania
+51085,732,Hanover,Virginia
+31157,733,Scotts Bluff,Nebraska
+34025,734,Monmouth,New Jersey
+34041,735,Warren,New Jersey
+17091,736,Kankakee,Illinois
+45007,737,Anderson,South Carolina
+26083,738,Keweenaw,Michigan
+13159,739,Jasper,Georgia
+20177,740,Shawnee,Kansas
+33009,741,Grafton,New Hampshire
+45045,742,Greenville,South Carolina
+37045,743,Cleveland,North Carolina
+39161,744,Van Wert,Ohio
+55131,745,Washington,Wisconsin
+49037,746,San Juan,Utah
+51680,747,Lynchburg,Virginia
+27067,748,Kandiyohi,Minnesota
+36035,749,Fulton,New York
+41015,750,Curry,Oregon
+08123,751,Weld,Colorado
+54069,752,Ohio,West Virginia
+54047,753,McDowell,West Virginia
+34003,754,Bergen,New Jersey
+41051,755,Multnomah,Oregon
+49057,756,Weber,Utah
+42015,757,Bradford,Pennsylvania
+08117,758,Summit,Colorado
+53047,759,Okanogan,Washington
+48209,760,Hays,Texas
+36081,761,Queens,New York
+47103,762,Lincoln,Tennessee
+01117,763,Shelby,Alabama
+42001,764,Adams,Pennsylvania
+21199,765,Pulaski,Kentucky
+49035,766,Salt Lake,Utah
+26081,767,Kent,Michigan
+45037,768,Edgefield,South Carolina
+55067,769,Langlade,Wisconsin
+55119,770,Taylor,Wisconsin
+19167,771,Sioux,Iowa
+23003,772,Aroostook,Maine
+19155,773,Pottawattamie,Iowa
+39149,774,Shelby,Ohio
+19191,775,Winneshiek,Iowa
+49021,776,Iron,Utah
+51107,777,Loudoun,Virginia
+13057,778,Cherokee,Georgia
+56039,779,Teton,Wyoming
+18105,780,Monroe,Indiana
+29047,781,Clay,Missouri
+19129,782,Mills,Iowa
+01013,783,Butler,Alabama
+48325,784,Medina,Texas
+48029,785,Bexar,Texas
+20161,786,Riley,Kansas
+48049,787,Brown,Texas
+48037,788,Bowie,Texas
+20173,789,Sedgwick,Kansas
+28047,790,Harrison,Mississippi
+48085,791,Collin,Texas
+12009,792,Brevard,Florida
+49025,793,Kane,Utah
+28035,794,Forrest,Mississippi
+13119,795,Franklin,Georgia
+18041,796,Fayette,Indiana
+12037,797,Franklin,Florida
+18097,798,Marion,Indiana
+18017,799,Cass,Indiana
+37151,800,Randolph,North Carolina
+42017,801,Bucks,Pennsylvania
+01121,802,Talladega,Alabama
+12017,803,Citrus,Florida
+39023,804,Clark,Ohio
+42043,805,Dauphin,Pennsylvania
+47125,806,Montgomery,Tennessee
+48245,807,Jefferson,Texas
+27027,808,Clay,Minnesota
+46099,809,Minnehaha,South Dakota
+39141,810,Ross,Ohio
+48141,811,El Paso,Texas
+47071,812,Hardin,Tennessee
+29161,813,Phelps,Missouri
+47011,814,Bradley,Tennessee
+21117,815,Kenton,Kentucky
+34029,816,Ocean,New Jersey
+04001,817,Apache,Arizona
+48453,818,Travis,Texas
+08071,819,Las Animas,Colorado
+21227,820,Warren,Kentucky
+40087,821,McClain,Oklahoma
+29510,822,St. Louis,Missouri
+42029,823,Chester,Pennsylvania
+26099,824,Macomb,Michigan
+36063,825,Niagara,New York
+51550,826,Chesapeake,Virginia
+17097,827,Lake,Illinois
+37183,828,Wake,North Carolina
+13095,829,Dougherty,Georgia
+45021,830,Cherokee,South Carolina
+47155,831,Sevier,Tennessee
+37133,832,Onslow,North Carolina
+15007,833,Kauai,Hawaii
+17143,834,Peoria,Illinois
+39059,835,Guernsey,Ohio
+24015,836,Cecil,Maryland
+54027,837,Hampshire,West Virginia
+26123,838,Newaygo,Michigan
+45043,839,Georgetown,South Carolina
+27019,840,Carver,Minnesota
+13185,841,Lowndes,Georgia
+21233,842,Webster,Kentucky
+25027,843,Worcester,Massachusetts
+39063,844,Hancock,Ohio
+55035,845,Eau Claire,Wisconsin
+12087,846,Monroe,Florida
+40017,847,Canadian,Oklahoma
+46079,848,Lake,South Dakota
+,849,Lexington,North Carolina
+40109,850,Oklahoma,Oklahoma
+26103,851,Marquette,Michigan
+34001,852,Atlantic,New Jersey
+48221,853,Hood,Texas
+34011,854,Cumberland,New Jersey
+51775,855,Salem,Virginia
+21197,856,Powell,Kentucky
+26009,857,Antrim,Michigan
+30013,858,Cascade,Montana
+55101,859,Racine,Wisconsin
+55127,860,Walworth,Wisconsin
+12083,861,Marion,Florida
+48491,862,Williamson,Texas
+51770,863,Roanoke,Virginia
+25003,864,Berkshire,Massachusetts
+27037,865,Dakota,Minnesota
+28143,866,Tunica,Mississippi
+46081,867,Lawrence,South Dakota
+41017,868,Deschutes,Oregon
+34023,869,Middlesex,New Jersey
+37067,870,Forsyth,North Carolina
+22117,871,Washington,Louisiana
+33001,872,Belknap,New Hampshire
+28095,873,Monroe,Mississippi
+24033,874,Prince Georges,Maryland
+12069,875,Lake,Florida
+48479,876,Webb,Texas
+51630,877,Fredericksburg,Virginia
+01115,878,Saint Clair,Alabama
+20079,879,Harvey,Kansas
+37097,880,Iredell,North Carolina
+02150,881,Kodiak Island,Alaska
+,882,De Soto,Mississippi
+40137,883,Stephens,Oklahoma
+44005,884,Newport,Rhode Island
+23011,885,Kennebec,Maine
+,886,Riverside,Florida
+28067,887,Jones,Mississippi
+51165,888,Rockingham,Virginia
+25005,889,Bristol,Massachusetts
+36007,890,Broome,New York
+37057,891,Davidson,North Carolina
+08065,892,Lake,Colorado
+12091,893,Okaloosa,Florida
+13015,894,Bartow,Georgia
+27109,895,Olmsted,Minnesota
+37059,896,Davie,North Carolina
+48039,897,Brazoria,Texas
+12033,898,Escambia,Florida
+55015,899,Calumet,Wisconsin
+54011,900,Cabell,West Virginia
+17179,901,Tazewell,Illinois
+55003,902,Ashland,Wisconsin
+26073,903,Isabella,Michigan
+36003,904,Allegany,New York
+05081,905,Little River,Arkansas
+33003,906,Carroll,New Hampshire
+55007,907,Bayfield,Wisconsin
+17177,908,Stephenson,Illinois
+09007,909,Middlesex,Connecticut
+18095,910,Madison,Indiana
+01043,911,Cullman,Alabama
+45077,912,Pickens,South Carolina
+34039,913,Union,New Jersey
+26007,914,Alpena,Michigan
+17119,915,Madison,Illinois
+42039,916,Crawford,Pennsylvania
+15009,917,Maui County,Hawaii
+19193,918,Woodbury,Iowa
+36037,919,Genesee,New York
+01069,920,Houston,Alabama
+36021,921,Columbia,New York
+28049,922,Hinds,Mississippi
+04015,923,Mohave,Arizona
+35013,924,Doña Ana,New Mexico
+24037,925,Saint Marys,Maryland
+18155,926,Switzerland,Indiana
+24027,927,Howard,Maryland
+40111,928,Okmulgee,Oklahoma
+24025,929,Harford,Maryland
+08087,930,Morgan,Colorado
+08014,931,Broomfield,Colorado
+01097,932,Mobile,Alabama
+32510,933,Carson City,Nevada
+08069,934,Larimer,Colorado
+36011,935,Cayuga,New York
+39135,936,Preble,Ohio
+,937,Delaware,Delaware
+21211,938,Shelby,Kentucky
+42011,939,Berks,Pennsylvania
+28099,940,Neshoba,Mississippi
+18175,941,Washington,Indiana
+13077,942,Coweta,Georgia
+26041,943,Delta,Michigan
+42129,944,Westmoreland,Pennsylvania
+26149,945,Saint Joseph,Michigan
+33011,946,Hillsborough,New Hampshire
+16019,947,Bonneville,Idaho
+47187,948,Williamson,Tennessee
+27035,949,Crow Wing,Minnesota
+16027,950,Canyon,Idaho
+55081,951,Monroe,Wisconsin
+21071,952,Floyd,Kentucky
+,953,Kanawha,Virginia
+27103,954,Nicollet,Minnesota
+12131,955,Walton,Florida
+24003,956,Anne Arundel,Maryland
+37077,957,Granville,North Carolina
+42037,958,Columbia,Pennsylvania
+01057,959,Fayette,Alabama
+21049,960,Clark,Kentucky
+01081,961,Lee,Alabama
+23017,962,Oxford,Maine
+26065,963,Ingham,Michigan
+21005,964,Anderson,Kentucky
+50007,965,Chittenden,Vermont
+36071,966,Orange,New York
+39093,967,Lorain,Ohio
+12021,968,Collier,Florida
+39009,969,Athens,Ohio
+35049,970,Santa Fe,New Mexico
+55029,971,Door,Wisconsin
+21037,972,Campbell,Kentucky
+50023,973,Washington,Vermont
+35055,974,Taos,New Mexico
+47163,975,Sullivan,Tennessee
+16055,976,Kootenai,Idaho
+42095,977,Northampton,Pennsylvania
+18137,978,Ripley,Indiana
+13021,979,Bibb,Georgia
+55087,980,Outagamie,Wisconsin
+08067,981,La Plata,Colorado
+01077,982,Lauderdale,Alabama
+45071,983,Newberry,South Carolina
+18113,984,Noble,Indiana
+12113,985,Santa Rosa,Florida
+22033,986,East Baton Rouge,Louisiana
+48091,987,Comal,Texas
+19059,988,Dickinson,Iowa
+55025,989,Dane,Wisconsin
+26049,990,Genesee,Michigan
+47119,991,Maury,Tennessee
+48277,992,Lamar,Texas
+24001,993,Allegany,Maryland
+12035,994,Flagler,Florida
+17167,995,Sangamon,Illinois
+19045,996,Clinton,Iowa
+26147,997,Saint Clair,Michigan
+38067,998,Pembina,North Dakota
+51600,999,Fairfax,Virginia
+40027,1000,Cleveland,Oklahoma
+39055,1001,Geauga,Ohio
+39107,1002,Mercer,Ohio
+48215,1003,Hidalgo,Texas
+44003,1004,Kent,Rhode Island
+30029,1005,Flathead,Montana
+48255,1006,Karnes,Texas
+23019,1007,Penobscot,Maine
+01103,1008,Morgan,Alabama
+26125,1009,Oakland,Michigan
+37139,1010,Pasquotank,North Carolina
+08001,1011,Adams,Colorado
+41047,1012,Marion,Oregon
+22097,1013,Saint Landry,Louisiana
+37087,1014,Haywood,North Carolina
+29101,1015,Johnson,Missouri
+36019,1016,Clinton,New York
+19113,1017,Linn,Iowa
+13299,1018,Ware,Georgia
+28001,1019,Adams,Mississippi
+38017,1020,Cass,North Dakota
+38041,1021,Hettinger,North Dakota
+13223,1022,Paulding,Georgia
+40143,1023,Tulsa,Oklahoma
+48409,1024,San Patricio,Texas
+32033,1025,White Pine,Nevada
+55059,1026,Kenosha,Wisconsin
+08051,1027,Gunnison,Colorado
+37121,1028,Mitchell,North Carolina
+08059,1029,Jefferson,Colorado
+18085,1030,Kosciusko,Indiana
+01101,1031,Montgomery,Alabama
+12086,1032,Miami-Dade County,Florida
+12107,1033,Putnam,Florida
+08035,1034,Douglas,Colorado
+08041,1035,El Paso,Colorado
+13129,1036,Gordon,Georgia
+26097,1037,Mackinac,Michigan
+34015,1038,Gloucester,New Jersey
+46103,1039,Pennington,South Dakota
+31081,1040,Hamilton,Nebraska
+36077,1041,Otsego,New York
+25019,1042,Nantucket,Massachusetts
+32031,1043,Washoe,Nevada
+17031,1044,Cook,Illinois
+22055,1045,Lafayette,Louisiana
+21145,1046,McCracken,Kentucky
+18061,1047,Harrison,Indiana
+39113,1048,Montgomery,Ohio
+05089,1049,Marion,Arkansas
+37157,1050,Rockingham,North Carolina
+48423,1051,Smith,Texas
+13313,1052,Whitfield,Georgia
+54107,1053,Wood,West Virginia
