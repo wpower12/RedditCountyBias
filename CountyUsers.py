@@ -11,7 +11,21 @@ from progress.bar import Bar
 import progressbar
 from datetime import date, timedelta
 
+""" estimateWeeklyThroughput
+inputs:
+ sub_name      - Name of subreddit to estimate weekly submission throughput of.
+ psapi         - PushShift api object.
+ weeks         - List of pandas dates representing the weeks to take an average over.
+ max_responses - Max number of responses to check before.
 
+side-effects:
+ Will be 'using up' some of the available request limit on the provided PushShift API 
+ object. Other requests from the same IP, at the same time, may cause retries/temp bans.
+
+outputs:
+ throughput_mean - Mean of the throughput values over list of weeks.
+ throughput_var  - Variance of the throughput values over list of weeks.
+"""
 def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 	num_weeks = len(weeks)*1.0
 	counts = []
@@ -33,8 +47,7 @@ def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 	return count_s.mean(), count_s.var()
 
 
-
-"""
+""" collectUserYWsAndActiveSubreddits
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
  year         - Year of users/comments to process.
@@ -177,6 +190,22 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N
 
 	sub_bar.finish()
 
+""" collectUsersAndActiveSubreddits
+inputs:
+ subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
+ year         -
+ user_N       - number of source comments to process for each subreddit when finding users.
+ active_N     - number of source comments to process for each user when finding active subreddits
+ db_conn      - A pymysql connection to a properly set-up database, meaning:
+							 (User, Subreddit, ActiveSubreddit) tables. 
+ start_sub    - URL string of the subreddit to start from. Assumes consistent ordering in the df.
+
+side-effects:
+  Fills the db with the active users, and their active subreddits, for the provided subreddits. 
+
+notes:
+ - Kept for historical scripts. Using the UserYW versions 'now'.
+"""
 def collectUsersAndActiveSubreddits(subreddit_df, year, user_N, active_N, db_conn, start_sub=None):
 	START_TS = int(time.mktime(datetime.date(year, 1,   1).timetuple()))
 	END_TS   = int(time.mktime(datetime.date(year, 12, 30).timetuple()))
@@ -308,6 +337,14 @@ def collectUsersAndActiveSubreddits(subreddit_df, year, user_N, active_N, db_con
 		except Exception as e:
 			print("exception: {}, {}".format(sub_row[1]['subreddit url'], e))
 
+
+""" get_county
+inputs:
+ query - The geo query to run. Usually the concatenation of 'State'+'Location Name'
+
+outputs:
+ county - name of the found US county. None if no county is found or if the query errors out. 
+"""
 def get_county(query):
     # initial search
     # http://api.geonames.org/searchJSON?q=long%20beach%20island%20nj&maxRows=10&country=US&username=wpower3dabi
