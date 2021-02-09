@@ -51,7 +51,6 @@ try:
 											target_weeks, 
 											MAX_RESPONSES)
 
-
 		sub_bar.update(i)
 		i += 1
 

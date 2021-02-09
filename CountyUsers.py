@@ -55,11 +55,12 @@ def splitUsersIntoCohorts(users, cohort_size):
 		if len(curr_cohort) >= cohort_size:
 			cohorts.append(curr_cohort)
 			curr_cohort = []
+	cohorts.append(curr_cohort)
 	return cohorts
 
 """ cohortCollect
 
-SUBMISSION based user collection. 
+Collects users based on their 
 
 """
 def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, db_conn):
@@ -136,9 +137,12 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 		except:
 			pass
 
-	print(" splitting {} users into cohorts".format(len(user_list)))
-	for user_cohort in splitUsersIntoCohorts(user_list, user_cohort_size):
-		
+	print("-- splitting {} users into cohorts".format(len(user_list)))
+	user_cohorts = splitUsersIntoCohorts(user_list, user_cohort_size)
+	c_count  = 0
+	as_count = 0
+	cohort_bar = progressbar.ProgressBar(max_value=len(user_cohorts), redirect_stdout=True)
+	for user_cohort in user_cohorts:
 		author_list = ""
 		for u in user_cohort:
 			u_id, u_name = u
@@ -189,8 +193,15 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 					cursor.execute(AS_INS_SQL.format(uyw_id, 
 												   	 sub_id))
 				db_conn.commit()
+
+				as_count += 1
+
 			except Exception as e:
 				print(" error in AS comment; {}".format(e))
+		c_count += 1
+		cohort_bar.update(c_count)
+	cohort_bar.finish()
+	print("-- {} Active Subreddits found".format(as_count))
 
 
 """ collectUserYWsAndActiveSubreddits

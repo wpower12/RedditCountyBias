@@ -53,6 +53,7 @@ for row in df.iterrows():
 		# Add to the current cohort
 		curr_cohort.append(sub_row)
 		curr_size += size_est
+		
 	num_subs += 1
 labelled_cohorts = []
 i = 0
