@@ -9,19 +9,10 @@ import progressbar
 import math
 import pickle
 
-# Ok so this is done-ish? Its creating cohorts. 
-
-
-# I think this means that I need to handle quitting a lot better
-# namely, I think that before anything runs, this should either
-# create separate csv files for each cohort in a temp folder, 
-# and a file with start info, or, create a pickle of the object
-# containing all the cohorts. The upside of the pickle is we can
-# add more meta data to the object for restarting a run. Could
-# check for a flag, or the name of a pickle file. Easy enough.
-
-# Then this object can be opened up when running the actual data 
-# gather scripts. might be annoying to update or tweak the data. 
+"""
+Splits the provided csv of location subreddits into cohorts based on their
+estimated size/throughputs. 
+"""
 
 MAX_RESPONSE_SIZE = 450
 SOLO_CUTOFF       = 0.85*MAX_RESPONSE_SIZE
