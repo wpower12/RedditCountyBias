@@ -29,14 +29,13 @@ outputs:
 def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 	num_weeks = len(weeks)*1.0
 	counts = []
-
 	for w in weeks:
 		START_TS = int(w.timestamp())
 		a_week   = pd.Timedelta(value=7, unit="days")
 		END_TS   = int((w+a_week).timestamp())
 
 		sc_cache = []
-		source_submissions = psapi.search_submissions(after=START_TS, before=END_TS, subreddit=sub_name)
+		source_submissions = psapi.search_comments(after=START_TS, before=END_TS, subreddit=sub_name, size=500)
 		for c in source_submissions:
 			sc_cache.append(c)
 			if len(sc_cache) >= max_responses: break
@@ -47,6 +46,11 @@ def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 	return count_s.mean(), count_s.var()
 
 
+""" splitUsersIntoCohorts
+Utility method for the cohort collect. Splits a list of users into 
+equally sized cohorts. These are then used for the batch comment
+processing where the AS are collected for each user. 
+"""
 def splitUsersIntoCohorts(users, cohort_size):
 	cohorts = []
 	curr_cohort = []
@@ -58,10 +62,14 @@ def splitUsersIntoCohorts(users, cohort_size):
 	cohorts.append(curr_cohort)
 	return cohorts
 
+
 """ cohortCollect
 
-Collects users based on their 
+Similar to the other collect methods, but gathers sets of users, and their 
+active subreddits according to the set of cohorts provided. This should
+speed up the data gather compared to the other methods. 
 
+TODO - Add input/output/side-effects
 """
 def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, db_conn):
 	import warnings
@@ -124,13 +132,10 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 								(\'{}\', \'{}\', \'{}\', {}, {});"""
 		try:
 			with db_conn.cursor() as cursor:
-				cursor.execute(USER_INS_SQL.format(u_id, 
-												   u_name, 
-												   s_id,
-												   year,
-												   week))
+				cursor.execute(USER_INS_SQL.format(u_id, u_name, s_id, year, week))
 				useryw_id = cursor.lastrowid # Get id of the recently added useryw.
 			db_conn.commit()
+
 			user_list.append((useryw_id, u_name))
 			user_map[u_name] = useryw_id  # Save these to make inserting the AS easier.
 
@@ -150,7 +155,7 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 		author_list = author_list[:-2]
 
 		comment_cache = []
-		cohort_comments = psapi.search_submissions(after=START_TS, 
+		cohort_comments = psapi.search_comments(after=START_TS, 
 												before=END_TS,
 												author=author_list,
 												size=500)
@@ -179,9 +184,7 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 								 VALUES 
 								 	(\'{}\', \'{}\', \'{}\');"""
 				with db_conn.cursor() as cursor:
-					cursor.execute(SUB_INS_SQL.format(sub_id, 
-													  sub_name, 
-													  sub_name))
+					cursor.execute(SUB_INS_SQL.format(sub_id, sub_name, sub_name))
 				db_conn.commit()
 
 				# Now the AS
@@ -207,8 +210,7 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 """ collectUserYWsAndActiveSubreddits
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
- year         - Year of users/comments to process.
- week         - week
+ start_date   - Pandas date object represnting the first day of the week to process.
  user_N       - number of source comments to process for each subreddit when finding users.
  active_N     - number of source comments to process for each user when finding active subreddits
  db_conn      - A pymysql connection to a properly set-up database, meaning:
@@ -352,7 +354,7 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N
 """ collectUsersAndActiveSubreddits
 inputs:
  subreddit_df - Pandas df of the subreddits to process. Assumed ordered alphabetiacally.
- year         -
+ year         - 
  user_N       - number of source comments to process for each subreddit when finding users.
  active_N     - number of source comments to process for each user when finding active subreddits
  db_conn      - A pymysql connection to a properly set-up database, meaning:

@@ -11,7 +11,8 @@ warnings.simplefilter("ignore")
 
 FIRST_N_WEEKS = 5
 MAX_RESPONSES = 500
-START_SUB     = '/r/alabama'
+START_SUB     = '/r/durango'
+
 
 FN_IN  = "./data/locationsubs_withCounties.csv"
 df_in  = pd.read_csv(FN_IN)
@@ -28,8 +29,8 @@ first_days   = list(pd.date_range('2020-01-01', '2020-12-31', freq='W-WED'))
 target_weeks = first_days[:FIRST_N_WEEKS] # First 5 weeks used 
 
 total = len(df_in)
-sub_bar = progressbar.ProgressBar(max_value=total, redirect_stdout=True)
-sub_bar.start()
+# sub_bar = progressbar.ProgressBar(max_value=total, redirect_stdout=True)
+# sub_bar.start()
 i = 1
 skipping = True
 
@@ -43,15 +44,17 @@ try:
 
 		# Skipping to START_SUB - Assumes consistent ordering in the dataframe bw runs. 
 		if( skipping and (sub_url != START_SUB )): 
-			skipping = False
 			continue
+		else:
+			skipping = False
 
+		print("processing {}, {}".format(sub_name, sub_url))
 		sub_mu, sub_var = cu.estimateWeeklyThroughput(sub_name, 
 											psapi, 
 											target_weeks, 
 											MAX_RESPONSES)
 
-		sub_bar.update(i)
+		# sub_bar.update(i)
 		i += 1
 
 		# Now we add this shit to the database.
@@ -68,6 +71,7 @@ try:
 		conn.commit()
 
 		print("added {} - mu: {} var: {}".format(sub_url, sub_mu, sub_var))
-
-finally:
-	sub_bar.finish()
+except Exception as e:
+	print(e)
+# finally:
+# 	sub_bar.finish()

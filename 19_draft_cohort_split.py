@@ -18,7 +18,7 @@ MAX_RESPONSE_SIZE = 450
 SOLO_CUTOFF       = 0.85*MAX_RESPONSE_SIZE
 MAX_COHORT_SIZE   = 30
 
-COHORTS_SAVE_FN = 'data/cohorts/test_cohorts.p'
+COHORTS_SAVE_FN = 'data/cohorts/cohorts_comment_tp.p'
 
 FN = 'data/locationsubs_withThroughputs.csv'
 df = pd.read_csv(FN)
