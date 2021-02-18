@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import time
 import datetime
@@ -22,7 +22,7 @@ for row in df_raw.iterrows():
 	
 	try:
 		query  = "{} {}".format(sub_name, state)
-		county = cu.get_county(query)
+		county = dc.get_county(query)
 		print("processing {}/{}, {} {}".format(i, total, state, sub_name))
 	except Exception as e:
 		# pass

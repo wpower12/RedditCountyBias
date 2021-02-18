@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import praw
 from psaw import PushshiftAPI
@@ -49,7 +49,7 @@ try:
 			skipping = False
 
 		print("processing {}, {}".format(sub_name, sub_url))
-		sub_mu, sub_var = cu.estimateWeeklyThroughput(sub_name, 
+		sub_mu, sub_var = dc.estimateWeeklyThroughput(sub_name, 
 											psapi, 
 											target_weeks, 
 											MAX_RESPONSES)

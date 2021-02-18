@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import pymysql as sql
 
@@ -30,7 +30,7 @@ start_row = df.index[df['subreddit url'] == START_SUB][0] # hacky
 df_partial = df.iloc[start_row:,:]
 
 
-cu.collectUserYWsAndActiveSubreddits(df_partial, 
+dc.collectUserYWsAndActiveSubreddits(df_partial, 
 								week_fd,
 								NC_SOURCE_USERS,
 								NC_SOURCE_ASUBS,

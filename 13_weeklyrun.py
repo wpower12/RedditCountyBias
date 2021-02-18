@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import pymysql as sql
 
@@ -22,7 +22,7 @@ first_days = list(pd.date_range('2020-01-01', '2020-12-31', freq='W-WED'))
 for start_date in first_days[START_WEEK-1:]:
 	print("---- YEAR {} WEEK {} ----".format(start_date.year, start_date.week))
 	try:
-		cu.collectUserYWsAndActiveSubreddits(df, 
+		dc.collectUserYWsAndActiveSubreddits(df, 
 									start_date,
 									NC_SOURCE_USERS,
 									NC_SOURCE_ASUBS,

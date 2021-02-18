@@ -1,4 +1,3 @@
-import CountyUsers as cu
 import pandas as pd
 import time
 import datetime

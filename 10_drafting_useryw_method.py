@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import pymysql as sql
 
@@ -16,7 +16,7 @@ NC_SOURCE_USERS = 3 # Using less cause its at a week.
 NC_SOURCE_ASUBS = 3
 
 # subreddit_df, year, week, user_N, active_N, db_conn
-cu.collectUserYWsAndActiveSubreddits(df, 
+dc.collectUserYWsAndActiveSubreddits(df, 
 							YEAR, 
 							WEEK, 
 							NC_SOURCE_USERS,

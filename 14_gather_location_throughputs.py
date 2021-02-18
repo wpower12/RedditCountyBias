@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import praw
 from psaw import PushshiftAPI
@@ -33,7 +33,7 @@ for row in df_in.iterrows():
 	sub_id   = row[1]['subreddit id']
 	county   = row[1]['county']
 
-	sub_mu, sub_var = cu.estimateWeeklyThroughput(sub_name, 
+	sub_mu, sub_var = dc.estimateWeeklyThroughput(sub_name, 
 										psapi, 
 										target_weeks, 
 										MAX_RESPONSES)

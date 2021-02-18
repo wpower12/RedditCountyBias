@@ -1,4 +1,4 @@
-import CountyUsers as cu
+import rcdTools.DataCollect as dc
 import pandas as pd
 import time
 import datetime
@@ -41,7 +41,7 @@ for WEEK in WEEK_IDS:
 					i, 
 					len(cohorts), 
 					len(cohort[1])))
-			cu.cohortCollect(cohort, 
+			dc.cohortCollect(cohort, 
 					week_fd, 
 					MAX_RESPONSE_USERS,
 					NC_SOURCE_ASUBS, 

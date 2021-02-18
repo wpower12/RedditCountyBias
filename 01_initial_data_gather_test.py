@@ -1,31 +1,3 @@
-# We'll do counties later. 
-# Add subreddit to the subreddit table if not present
-	# DONE
-# Find active users in subreddit:
-	# Build time-window search query for submissions in the sub
-	# For the top X of these, look at the top Y comments
-	# Add each author of each comment as a user, whose 'home' 
-	# is the current location subreddit being looked at.
-		# DONE
-	# For each of these, find their active subreddits
-		# create a comment search query with the user as the auther
-		# time gate, limit to top N?
-		# assume user is active in subs they commented in. 
-		# Add the subreddit-user pair to the 'active subreddits' table
-			# DONE
-
-# Just fixed it so it pages through all the results instead of the first lazy load. 
-# I think? Re running now, hopefully see a 500 on some lines. 
-# Weird. Still getting stuck on 100 Users added.
-# TODO - Transfer these notes to the weekly notes.
-# TODO - Check the docs to see if youre paging these results right. Idk. 
-# TODO - Leave this running. see how far it gets.
-# TODO - Get FULL location subreddit list. Need to have it exception proof. 
-#        Or start it from the right spot. You know where you ended. 
-#
-# IDEA - Get a GIS map of the US that you can click on to see the subreddits per county. 
-
-import CountyUsers as cu
 import pandas as pd
 import praw
 from psaw import PushshiftAPI
