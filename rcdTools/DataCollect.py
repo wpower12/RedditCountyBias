@@ -59,8 +59,101 @@ def splitUsersIntoCohorts(users, cohort_size):
 		if len(curr_cohort) >= cohort_size:
 			cohorts.append(curr_cohort)
 			curr_cohort = []
-	cohorts.append(curr_cohort)
+	if(len(curr_cohort) > 0):
+		cohorts.append(curr_cohort)
 	return cohorts
+
+
+def getCandidateUseryws(conn, week, amount):
+	CU_QUERY = """
+	 			SELECT
+				    uyw.useryw_id,
+				    uyw.user_reddit_name,
+				    uyw.user_reddit_id,
+				    uyw.scrape_count,
+				    COUNT(asub.useryw_id) AS 'links'
+				FROM
+				    useryw AS uyw
+				JOIN
+				    activesubreddit AS asub ON uyw.useryw_id=asub.useryw_id
+				WHERE
+				    uyw.week = {}
+				GROUP BY
+				    useryw_id
+				ORDER BY
+				    COUNT(asub.useryw_id) ASC, uyw.scrape_count ASC
+				LIMIT {};"""
+
+	users = []
+	with conn.cursor() as cur:
+		cur.execute(CU_QUERY.format(week, amount))
+		users = cur.fetchall()
+	return users
+
+
+def scrapeUserCohortAS(user_cohort, psapi, db_conn, START_TS, END_TS):
+	author_list = ""
+	author_map  = {} # From r_id to uyw_id
+	for u in user_cohort:
+		uyw_id, u_r_name, u_r_id, _, _ = u
+		author_list += "{}, ".format(u_r_name)
+		author_map[u_r_name] = uyw_id # So we can insert easier later. 
+
+	author_list = author_list[:-2]
+	comment_cache = []
+	cohort_comments = psapi.search_comments(after=START_TS, 
+											before=END_TS,
+											author=author_list,
+											size=500)
+
+	for c in cohort_comments:
+		comment_cache.append(c)
+
+	as_count = 0
+	for comment in comment_cache:
+		try:
+			uyw_id   = author_map[comment.author]
+			sub_id   = comment.subreddit_id[3:]
+			sub_name = comment.subreddit
+
+			# INSERT IGNORE the sub. 
+			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
+								(subreddit_id, subreddit_name, subreddit_url) 
+							 VALUES 
+							 	(\'{}\', \'{}\', \'{}\');"""
+			with db_conn.cursor() as cursor:
+				cursor.execute(SUB_INS_SQL.format(sub_id, sub_name, sub_name))
+			db_conn.commit()
+
+			# Now the AS
+			AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddit
+								(useryw_id, subreddit_id)
+							VALUES
+								({}, \'{}\');"""
+			with db_conn.cursor() as cursor:
+				cursor.execute(AS_INS_SQL.format(uyw_id, 
+											   	 sub_id))
+			db_conn.commit()
+			as_count += 1
+		except Exception as e:
+			# Catching weird issues where the authors aren't found? idk. 
+			pass
+
+	# Now we update the scrape counts.
+	for u in user_cohort:
+		uyw_id, u_r_name, u_r_id, _, _ = u
+
+		SCU_SQL = """UPDATE 
+					 useryw 
+					 SET 
+					 scrape_count = scrape_count+1 
+					 WHERE useryw_id = {};"""
+
+		with db_conn.cursor() as cur:
+			cur.execute(SCU_SQL.format(uyw_id))
+		db_conn.commit()
+
+	return len(comment_cache), as_count
 
 
 """ cohortCollect
@@ -167,10 +260,6 @@ def cohortCollect(cohort, start_date, max_response, active_N, user_cohort_size, 
 		if len(comment_cache) == 0:
 			continue
 
-		AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddit
-							(useryw_id, subreddit_id)
-						VALUES
-							({}, \'{}\');"""
 		for comment in comment_cache:
 			try:
 				# Just need info for an IGNORE INSERT of a sub, and an AS
@@ -350,6 +439,7 @@ def collectUserYWsAndActiveSubreddits(subreddit_df, start_date, user_N, active_N
 			sub_bar.update(i)
 
 	sub_bar.finish()
+
 
 """ collectUsersAndActiveSubreddits
 inputs:
