@@ -81,7 +81,7 @@ def getCandidateUseryws(conn, week, amount):
 				GROUP BY
 				    useryw_id
 				ORDER BY
-				    COUNT(asub.useryw_id) ASC, uyw.scrape_count ASC
+				    uyw.scrape_count ASC, COUNT(asub.useryw_id) ASC
 				LIMIT {};"""
 
 	users = []
