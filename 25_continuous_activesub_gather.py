@@ -6,12 +6,12 @@ from psaw import PushshiftAPI
 import rcdTools.DataCollect as dc
 
 # Because psaw is noisy on 200s/202s
-import warnings
-warnings.simplefilter("ignore")
+# import warnings
+# warnings.simplefilter("ignore")
 
 # First lets just get a single year pass written, then we can make it loop forever.
 USERS_PER_WEEK   = 500
-USER_COHORT_SIZE = 10
+USER_COHORT_SIZE = 5
 WEEKS = range(1, 53)
 A_WEEK = pd.Timedelta(value=7, unit="days")
 FIRST_DAYS = pd.date_range('2020-01-01', '2020-12-31', freq='W-WED')
@@ -20,11 +20,22 @@ conn = sql.connect(host='localhost',
 				   user='bill',
 				   password='password',
 				   database='reddit_data')
+
 psapi  = PushshiftAPI()
 
-iteration = 1
+START_WEEK = 26
+iteration = 3
+skipping = True
+
 while(True):
 	for WEEK in WEEKS:
+
+		if skipping:
+			if(WEEK == START_WEEK):
+				skipping = False
+			else:
+				continue
+
 		users_full_batch = dc.getCandidateUseryws(conn, WEEK, USERS_PER_WEEK)
 		user_cohorts = dc.splitUsersIntoCohorts(users_full_batch, USER_COHORT_SIZE)
 

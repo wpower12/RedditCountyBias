@@ -38,7 +38,7 @@ def estimateWeeklyThroughput(sub_name, psapi, weeks, max_responses):
 		source_submissions = psapi.search_comments(after=START_TS, before=END_TS, subreddit=sub_name, size=500)
 		for c in source_submissions:
 			sc_cache.append(c)
-			if len(sc_cache) >= max_responses: break
+			if len(sc_cache) >= 500: break
 
 		counts.append(len(sc_cache))
 
@@ -108,6 +108,7 @@ def scrapeUserCohortAS(user_cohort, psapi, db_conn, START_TS, END_TS):
 
 	for c in cohort_comments:
 		comment_cache.append(c)
+		if(len(comment_cache) >= 500): break
 
 	as_count = 0
 	for comment in comment_cache:
@@ -137,6 +138,7 @@ def scrapeUserCohortAS(user_cohort, psapi, db_conn, START_TS, END_TS):
 			as_count += 1
 		except Exception as e:
 			# Catching weird issues where the authors aren't found? idk. 
+			print(e)
 			pass
 
 	# Now we update the scrape counts.
