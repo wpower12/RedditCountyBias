@@ -1,0 +1,1 @@
+CREATE TABLE activesubreddit_dedupe SELECT DISTINCT subreddit_id, useryw_id FROM activesubreddit;

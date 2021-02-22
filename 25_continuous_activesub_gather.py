@@ -23,8 +23,8 @@ conn = sql.connect(host='localhost',
 
 psapi  = PushshiftAPI()
 
-START_WEEK = 26
-iteration = 3
+START_WEEK = 1
+iteration = 1
 skipping = True
 
 while(True):
