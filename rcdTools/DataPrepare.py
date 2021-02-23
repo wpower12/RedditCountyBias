@@ -1,5 +1,22 @@
 import pandas as pd
 
+
+def getResidentSubs(conn):
+	# I think it will be important to get a map from a subreddit to an index, so we could
+	GET_SUBS_QUERY = """SELECT sr.subreddit_id, sr.subreddit_name
+			FROM 
+				(SELECT DISTINCT(subreddit_id) FROM activesubreddit) AS T
+			LEFT JOIN 
+				subreddit as sr ON T.subreddit_id=sr.subreddit_id;"""
+
+	subs = []
+	with conn.cursor() as cur:
+		cur.execute(GET_SUBS_QUERY)
+		subs = cur.fetchall()
+
+	return subs
+
+
 def createSubredditMaps(subs):
 	# Maybe this is overkill but idc. These are all the things I usually want/need.
 	id2idx   = {} 
@@ -16,6 +33,7 @@ def createSubredditMaps(subs):
 		idx2name.append(sub_id)
 
 	return id2idx, id2name, idx2id, idx2name
+
 
 def createCountyMaps(network_DIR):
 	county_idx2fips_df = pd.read_csv("{}/idx_to_fips.csv".format(network_DIR))
@@ -59,10 +77,34 @@ def getActivitySummary(week, fips, conn):
 
 	return res
 
-def addFeatureVector(full_tensor, fips, week, conn):
-	# Will work on the full tensor, adding in the appropriate values. 
-	# Will need the sub maps, I think. 
 
+def prepareWeeklyDataset(save_dir, c_idx2fips, s_id2idx, db_conn):
+	NUM_WEEKS    = 52
+	NUM_COUNTIES = len(c_idx2fips) # Either map would work
+	NUM_SUBS     = len(s_id2idx)   # Really the len of any sub map would do.
 
+	TOTAL_QUERIES = NUM_WEEKS*NUM_COUNTIES
+	q_bar = progressbar.ProgressBar(max_value=TOTAL_QUERIES)
+	q = 0
+	SHAPE = (NUM_COUNTIES, NUM_SUBS)
+	for WEEK in range(NUM_WEEKS):
+		# If each weekly slice is a CxS, that means each row is a county
+		rows = [] # county index
+		cols = [] # subreddit index
+		data = [] # actual count value
 
-	pass
+		for COUNTY in range(NUM_COUNTIES):
+			fips_val = c_idx2fips[COUNTY]
+			activity_summary = dp.getActivitySummary(WEEK+1, fips_val, conn)
+			for sub in activity_summary:
+				sub_name, sub_count, sub_id = sub
+				sub_idx = s_id2idx[sub_id]
+
+				# again, we have full_data[COUNTY_IDX][SUB_IDX] = VAL
+				rows.append(COUNTY) # add the county 
+				cols.append(sub_idx)
+				data.append(sub_count)
+			q += 1
+			q_bar.update(q)
+		cs_data = ss.coo_matrix((data, (rows, cols)), shape=SHAPE, dtype='int')
+		ss.save_npz("{}/WEEK_{}.npz".format(SAVE_DIR, "{}".format(WEEK+1).zfill(2)), cs_data)
