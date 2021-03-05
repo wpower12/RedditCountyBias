@@ -4,6 +4,8 @@ FROM
     useryd
 LEFT JOIN
     subreddit on useryd.home_subreddit = subreddit.subreddit_id
+WHERE 
+	useryd.day=1
 GROUP BY
     useryd.home_subreddit, useryd.day
 ORDER BY

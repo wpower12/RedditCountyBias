@@ -14,6 +14,105 @@ from datetime import date, timedelta
 from .Tools import splitUsersIntoCohorts
 
 
+def getCandidateSubreddits(conn, day, num_subs):
+	GET_SQL = """SELECT 
+			subreddit.subreddit_name, COUNT(*)
+		FROM
+		    useryd
+		LEFT JOIN
+		    subreddit on useryd.home_subreddit = subreddit.subreddit_id
+		WHERE
+			useryd.day={}
+		GROUP BY
+		    useryd.home_subreddit
+		ORDER BY
+		    subreddit.scrape_count ASC, COUNT(*) ASC
+		LIMIT {};"""
+
+	subs = []
+	with conn.cursor() as cur:
+		cur.execute(GET_SQL.format(day, num_subs))
+		subs = cur.fetchall()
+
+	return subs
+
+
+def tsBoundsFromYearDay(year, day):
+	year_start = "{}-01-01".format(year)
+	year_end   = "{}-12-31".format(year)
+	days  = pd.date_range(year_start, year_end, freq='D')
+
+	day_date = days[day-1]
+	START_TS = int(day_date.timestamp())
+	a_day   = pd.Timedelta(value=1, unit="days")
+	END_TS   = int((day_date+a_day).timestamp())
+
+	return [START_TS, END_TS]
+
+
+
+def subredditCohortGather(subs, year, day, conn):
+	import warnings
+	warnings.simplefilter("ignore")
+	psapi  = PushshiftAPI()
+
+	START_TS, END_TS = tsBoundsFromYearDay(year, day)
+
+	# Need to create the 'common query' for pushshift, which means
+	# getting a comma separated list of the subreddit names. 
+	sub_name_list = ""
+	for sub in subs:
+		sub_name = sub[0]
+		sub_name_list += "{}, ".format(sub_name)
+	sub_name_list = sub_name_list[:-2]
+	
+	submission_cache   = []
+	source_submissions = psapi.search_submissions(after=START_TS, 
+												before=END_TS,
+												subreddit=sub_name_list,
+												size=500)
+
+	for c in source_submissions:
+		submission_cache.append(c)
+		if len(submission_cache) >= max_response: break
+
+	if len(submission_cache) == 0:
+		return 0
+
+	user_set = set()
+	for submission in submission_cache:
+		try:
+			sub_id    = submission.subreddit_id[3:]
+			sub_name  = submission.subreddit
+			user_name = submission.author
+			user_id   = submission.author_fullname[3:]
+			user_set.add((user_id, user_name, sub_id, sub_name))
+		except Exception as e:
+			# Catches banned users/reddits. 
+			pass
+
+	if len(user_set) == 0:
+		return 0
+
+	u_count = 0
+	for user in user_set:
+		u_id, u_name, s_id, s_name = user
+		USER_INS_SQL = """INSERT IGNORE INTO reddit_data.useryd 
+								(user_reddit_id, user_reddit_name, home_subreddit, year, day) 
+						  VALUES 
+								(\'{}\', \'{}\', \'{}\', {}, {});"""
+		try:
+			with db_conn.cursor() as cursor:
+				cursor.execute(USER_INS_SQL.format(u_id, u_name, s_id, year, day))
+			db_conn.commit()
+			u_count += 1
+		except Exception as e:
+			print(e)
+			pass
+
+	return u_count
+
+
 def cohortCollectYD(cohort, start_date, max_response, active_N, user_cohort_size, db_conn):
 	import warnings
 	warnings.simplefilter("ignore")
@@ -76,7 +175,7 @@ def cohortCollectYD(cohort, start_date, max_response, active_N, user_cohort_size
 	user_map  = {}
 	for user in user_set:
 		u_id, u_name, s_id, s_name = user
-		USER_INS_SQL = """INSERT INTO reddit_data.useryd 
+		USER_INS_SQL = """INSERT IGNORE INTO reddit_data.useryd 
 								(user_reddit_id, user_reddit_name, home_subreddit, year, day) 
 						  VALUES 
 								(\'{}\', \'{}\', \'{}\', {}, {});"""
