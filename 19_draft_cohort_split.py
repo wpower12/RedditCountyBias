@@ -11,13 +11,15 @@ import pickle
 """
 Splits the provided csv of location subreddits into cohorts based on their
 estimated size/throughputs. 
+
+NOTE - TWEAKED TO ESTIMATE DAILY TP FROM WEEKLY BY DIV BY 7. 
 """
 
 MAX_RESPONSE_SIZE = 450
 SOLO_CUTOFF       = 0.85*MAX_RESPONSE_SIZE
 MAX_COHORT_SIZE   = 30
 
-COHORTS_SAVE_FN = 'data/cohorts/cohorts_comment_tp.p'
+COHORTS_SAVE_FN = 'data/cohorts/cohorts_comment_tp_daily.p'
 
 FN = 'data/locationsubs_withThroughputs.csv'
 df = pd.read_csv(FN)
@@ -36,7 +38,7 @@ for row in df.iterrows():
 	
 	sub_row = [sub_id, sub_name, sub_url, county_id, tp_mean, tp_var]
 	
-	size_est = tp_mean + 2.0*math.sqrt(tp_var)
+	size_est = (tp_mean + 2.0*math.sqrt(tp_var))/7.0
 	
 	if size_est > SOLO_CUTOFF:
 		# Create solo cohort
