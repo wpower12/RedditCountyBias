@@ -3,7 +3,7 @@ import pymysql as sql
 import progressbar
 import math
 from psaw import PushshiftAPI
-import rcdTools.DataCollect as dc
+import rcdTools.DataCollectWeekly as dc
 
 WEEK = 1
 COHORT_SIZE = 5

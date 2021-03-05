@@ -1,4 +1,4 @@
-import rcdTools.DataCollect as dc
+import rcdTools.DataCollectWeekly as dc
 import pandas as pd
 import praw
 from psaw import PushshiftAPI

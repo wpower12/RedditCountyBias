@@ -3,7 +3,7 @@ import pymysql as sql
 import progressbar
 import math
 from psaw import PushshiftAPI
-import rcdTools.DataCollect as dc
+import rcdTools.DataCollectWeekly as dc
 
 # Because psaw is noisy on 200s/202s
 # import warnings
