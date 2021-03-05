@@ -14,7 +14,7 @@ from datetime import date, timedelta
 from .Tools import splitUsersIntoCohorts
 
 
-def getCandidateSubreddits(conn, day, num_subs):
+def getCandidateSubreddits(conn, year, day, num_subs):
 	GET_SQL = """SELECT 
 			subreddit.subreddit_name, COUNT(*)
 		FROM
@@ -22,6 +22,7 @@ def getCandidateSubreddits(conn, day, num_subs):
 		LEFT JOIN
 		    subreddit on useryd.home_subreddit = subreddit.subreddit_id
 		WHERE
+			useryd.year={} AND
 			useryd.day={}
 		GROUP BY
 		    useryd.home_subreddit
@@ -31,10 +32,34 @@ def getCandidateSubreddits(conn, day, num_subs):
 
 	subs = []
 	with conn.cursor() as cur:
-		cur.execute(GET_SQL.format(day, num_subs))
+		cur.execute(GET_SQL.format(year, day, num_subs))
 		subs = cur.fetchall()
 
 	return subs
+
+
+def getCandidateUserYDs(conn, year, day, num_users):
+	GET_SQL = """SELECT
+			useryd.useryd_id, useryd.user_reddit_name, useryd.user_reddit_id, COUNT(*)
+		FROM
+			useryd
+		LEFT JOIN
+			activesubreddit_yd ON useryd.useryd_id = activesubreddit_yd.useryd_id
+		WHERE
+			useryd.year={} AND
+			useryd.day={}
+		GROUP BY
+			activesubreddit_yd.useryd_id, useryd.useryd_id, useryd.user_reddit_name
+		ORDER BY
+			COUNT(*) ASC
+		LIMIT {};"""
+
+	users = []
+	with conn.cursor() as cur:
+		cur.execute(GET_SQL.format(year, day, num_users))
+		users = cur.fetchall()
+
+	return users
 
 
 def tsBoundsFromYearDay(year, day):
@@ -50,12 +75,10 @@ def tsBoundsFromYearDay(year, day):
 	return [START_TS, END_TS]
 
 
-
-def subredditCohortGather(subs, year, day, conn):
+def subredditCohortGather(conn, subs, year, day):
 	import warnings
 	warnings.simplefilter("ignore")
 	psapi  = PushshiftAPI()
-
 	START_TS, END_TS = tsBoundsFromYearDay(year, day)
 
 	# Need to create the 'common query' for pushshift, which means
@@ -74,7 +97,7 @@ def subredditCohortGather(subs, year, day, conn):
 
 	for c in source_submissions:
 		submission_cache.append(c)
-		if len(submission_cache) >= max_response: break
+		if len(submission_cache) >= 500: break
 
 	if len(submission_cache) == 0:
 		return 0
@@ -102,15 +125,78 @@ def subredditCohortGather(subs, year, day, conn):
 						  VALUES 
 								(\'{}\', \'{}\', \'{}\', {}, {});"""
 		try:
-			with db_conn.cursor() as cursor:
+			with conn.cursor() as cursor:
 				cursor.execute(USER_INS_SQL.format(u_id, u_name, s_id, year, day))
-			db_conn.commit()
+			conn.commit()
 			u_count += 1
 		except Exception as e:
 			print(e)
 			pass
 
 	return u_count
+
+
+def userydASCohortGather(conn, users, year, day):
+	import warnings
+	warnings.simplefilter("ignore")
+	psapi  = PushshiftAPI()
+	START_TS, END_TS = tsBoundsFromYearDay(year, day)
+
+	user_map  = {}
+	author_list = ""
+	for u in users:
+		u_id, u_r_name, u_r_id, _ = u
+		author_list += "{}, ".format(u_r_name)
+		user_map[u_r_name] = u_id
+
+	author_list = author_list[:-2]
+
+	comment_cache = []
+	cohort_comments = psapi.search_comments(after=START_TS, 
+											before=END_TS,
+											author=author_list,
+											size=500)
+
+	for c in cohort_comments:
+		comment_cache.append(c)
+		if len(comment_cache) >= 500: break
+
+	if len(comment_cache) == 0:
+		return 0
+
+	as_count = 0
+	for comment in comment_cache:
+		try:
+			# Just need info for an IGNORE INSERT of a sub, and an AS
+			uyd_id   = user_map[comment.author]
+			sub_id   = comment.subreddit_id[3:]
+			sub_name = comment.subreddit
+
+			# INSERT IGNORE the sub. 
+			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
+								(subreddit_id, subreddit_name, subreddit_url) 
+							 VALUES 
+							 	(\'{}\', \'{}\', \'{}\');"""
+			with conn.cursor() as cursor:
+				cursor.execute(SUB_INS_SQL.format(sub_id, sub_name, sub_name))
+			conn.commit()
+
+			# Now the AS
+			AS_INS_SQL = """INSERT IGNORE INTO reddit_data.activesubreddit_yd
+								(useryd_id, subreddit_id)
+							VALUES
+								({}, \'{}\');"""
+			with conn.cursor() as cursor:
+				cursor.execute(AS_INS_SQL.format(uyd_id, 
+											   	 sub_id))
+			conn.commit()
+			as_count += 1
+
+		except Exception as e:
+			print(" error in AS comment; {}".format(e))
+
+	return as_count
+
 
 
 def cohortCollectYD(cohort, start_date, max_response, active_N, user_cohort_size, db_conn):
