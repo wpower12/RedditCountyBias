@@ -10,7 +10,8 @@ MAX_RESPONSE_USERS = 500 # Max number of submissions pulled from single cohort q
 NC_SOURCE_ASUBS    = 500 # Number of comments to search for active subs.
 USER_COHORT_SIZE   = 20  # Number of users to query at once 
 
-DAYS = range(0, 20)
+# DAYS = range(1, 365)
+DAYS = [365, 366]
 
 # TODO - UPDATE THE COHORTS. 
 COHORTS_SAVE_FN = 'data/cohorts/cohorts_comment_tp_daily.p'

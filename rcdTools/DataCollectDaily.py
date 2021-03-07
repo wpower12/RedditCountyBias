@@ -16,7 +16,7 @@ from .Tools import splitUsersIntoCohorts
 
 def getCandidateSubreddits(conn, year, day, num_subs):
 	GET_SQL = """SELECT 
-			subreddit.subreddit_name, COUNT(*)
+			subreddit.subreddit_name, subreddit.subreddit_id, COUNT(*)
 		FROM
 		    useryd
 		LEFT JOIN
@@ -25,7 +25,7 @@ def getCandidateSubreddits(conn, year, day, num_subs):
 			useryd.year={} AND
 			useryd.day={}
 		GROUP BY
-		    useryd.home_subreddit
+		    subreddit.subreddit_name, subreddit.subreddit_id
 		ORDER BY
 		    subreddit.scrape_count ASC, COUNT(*) ASC
 		LIMIT {};"""
@@ -61,6 +61,33 @@ def getCandidateUserYDs(conn, year, day, num_users):
 
 	return users
 
+
+def increaseUserydScrapeCount(conn, users):
+	INC_SC_SQL = """UPDATE useryd
+			SET
+				scrape_count=scrape_count+1
+			WHERE
+				useryd_id={};"""
+
+	for u in users:
+		u_id, _, _, _ = u
+		with conn.cursor() as cur:
+			cur.execute(INC_SC_SQL.format(u_id))
+		conn.commit()
+
+
+def increaseSubredditScrapeCount(conn, subs):
+	INC_SC_SQL = """UPDATE subreddit
+			SET
+				scrape_count=scrape_count+1
+			WHERE
+				subreddit_id='{}';"""
+	for s in subs:
+		s_name, s_id, _ = s
+		with conn.cursor() as cur:
+			cur.execute(INC_SC_SQL.format(s_id))
+		conn.commit()
+	pass
 
 def tsBoundsFromYearDay(year, day):
 	year_start = "{}-01-01".format(year)

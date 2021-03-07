@@ -6,8 +6,8 @@ import math
 import rcdTools.DataCollectDaily as dc
 
 YEAR = 2020
-NUM_SUBS_PER_COHORT  = 20
-NUM_USERS_PER_COHORT = 20 
+NUM_SUBS_PER_COHORT  = 30
+NUM_USERS_PER_COHORT = 30 
 
 conn = sql.connect(host='localhost',
 				   user='bill',
@@ -17,17 +17,19 @@ conn = sql.connect(host='localhost',
 running = True
 while(running):
 	iteration = 0
-	for DAY in range(1, 365):
+	for DAY in range(1, 366):
 		try:
 			print("Iteration {}, Day {}".format(iteration, DAY))
 			# Subreddit Gather
 			subs    = dc.getCandidateSubreddits(conn, DAY, YEAR, NUM_SUBS_PER_COHORT)
 			u_count = dc.subredditCohortGather(conn, subs, DAY, YEAR) 
+			dc.increaseSubredditScrapeCount(conn, subs)
 			print("- {} users attempt-added".format(u_count))
 
 			# User Gather
 			users    = dc.getCandidateUserYDs(conn, DAY, YEAR, NUM_USERS_PER_COHORT)
 			as_count = dc.userydASCohortGather(conn, users, DAY, YEAR) 
+			dc.increaseUserydScrapeCount(conn, users)
 			print("- {} AS links attempt-added".format(as_count))
 	
 		# Totally clean code, right?
