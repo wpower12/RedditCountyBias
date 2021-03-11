@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\graphicspath{ {../../images/} }
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{bm}
@@ -10,20 +11,22 @@
 \usepackage{euscript}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
-\title{Random Equations}
-\author{willpowe}
-\date{September 2021}
+\title{Draft Subreddit-County Temporal GNN Model}
+\author{wpower}
+\date{March 11 2021}
 
 \begin{document}
-\section{Model}
+\maketitle
+
+\section{GNN Update and Aggregation}
 
 
 \begin{equation}
-x_{n,t}^k= f_{\text{Update}}(
+h_{n,t}^k= f_{\text{Update}}(
 						f_{\text{Agg}}^C(\textbf{N}_{n,t}^{k-1}),
 						f_{\text{Agg}}^S(\textbf{S}_{n,t}^{k-1}),
-						f_{\text{Agg}}^T(x_{n,t-1}^{k-1}, \cdots, x_{n, t-d}^{k-1}), 
-						x_{n, t}^{k-1})
+						f_{\text{Agg}}^T(h_{n,t-1}^{k-1}, \cdots, h_{n, t-d}^{k-1}), 
+						h_{n, t}^{k-1}, x_{n, t}^{k-1})
 \end{equation}
 
 Where \\
@@ -32,14 +35,19 @@ $f_{\text{Agg}}^C$ is the county-timestep-layer aggregation function. \\
 $f_{\text{Agg}}^S$ is the subreddit-layer aggregation function. \\
 $f_{\text{Agg}}^T$ is the temporal aggregation function.  \\
 \\
-The aggregation functions operate on the preceeding iterations messages, from the $(k-1)^\text{th}$ step of updates. The temporal aspect of the data is encoded in the parameters to the temporal temporal aggregation function. In this formaulation, there is a single, large graph with a node for each county, at each timestep. The temporal parameters represent the connections between different temporal realizations of a given county. In a sense, each node has a directional connection to $d$ nodes `in the past'.
-
+The aggregation functions operate on the preceeding iterations messages, from the $(k-1)^\text{th}$ step of updates. The temporal aspect of the data is encoded in the parameters to the temporal temporal aggregation function. In this formaulation, there is a single, large graph with a node for each county, at each timestep. The temporal parameters represent the connections between different temporal realizations of a given county. In a sense, each node has a directional connection to $d$ nodes `in the past'. Note that the final parameter is the state of the node itself, these are the additional features for each county node, like the mobility counts per mobility vector.\\
+\\
+The state of the node will be used to predict a COVID target through an additional function layer.
+\\
+$$\hat{y}_{n,t} = f_\text{Output}\left(h_{n,t}\right)$$
+\\
+These parameterized functions will then be trained by comparing this predicted output to the chosen COVID target. 
 \subsection{$f_{\text{Agg}}^C$}
 The parameters to this function represent the connections for a single county node $n$ at a single timestep $t$. The set $\textbf{N}_{n,t}^{k-1}$ contains the messages from the neighborhood of the county node $n$ at the same timestep, from the preceeding round of updates. 
 \\
 A draft approach would be to use \textbf{symmetric normalization}, and sum the set of messages, each weighted by the factor $\frac{1}{\sqrt{\EuScript{N}_u*\EuScript{N}_v}}$\\
 
-$$f_{\text{Agg}}^C(\textbf{N}_{n,t}^{k-1})=\sum_v^{\textbf{N}}\left( \frac{x_{v,t}^{k-1}}{\sqrt{\EuScript{N}_v*\EuScript{N}_n}} \right)$$
+$$f_{\text{Agg}}^C(\textbf{N}_{n,t}^{k-1})=\sum_v^{\textbf{N}}\left( \frac{h_{v,t}^{k-1}}{\sqrt{\EuScript{N}_v*\EuScript{N}_n}} \right)$$
 
 This could be improved by the use of `deep' methods, where a small parameterized function or network could be used to aggregate the messages. 
 
@@ -47,8 +55,10 @@ This could be improved by the use of `deep' methods, where a small parameterized
 The parameters to this function represent the connections between a single county-node $n$ at a single timestep $t$ and the set of `static' subreddit nodes. The term static is used to refer to the fact that there is only a single node for a given subreddit, not a node for each timestep. \\
 The set $\textbf{S}_{n,t}^{k-1}$ represents the set of messages from all subreddits connected to the county at that timestep, from the preceeding iteration of the update function.\\
 The message sent by a subreddit is simply a parameter holding its current `embedding' in some low dimensional space, weighted by the edge weight (actual count value from the counties reddit activity for that timestep). For a subreddit $s$, its message to node $n$ will be a function:
-$$\textbf{m}_{n,t,s}^{k} = x_{s}^{k-1}*g(e_{n,t,s})$$\\
-Where $x_{s}^{k-1} \in \EuScript{R}^i$ is the state of the subreddit in the preceeding iteration of message passing, and $i$ is the chosen dimension of the embedding space for subreddits. The function $g$ weights this message by the value of the edge between the subreddit and the county node at that timestep, $e_{n,t,s}$
+
+$$\textbf{m}_{n,t,s}^{k} = h_{s}^{k-1}*g(e_{n,t,s})$$\\
+
+Where $h_{s}^{k-1} \in \EuScript{R}^i$ is the state of the subreddit in the preceeding iteration of message passing, and $i$ is the chosen dimension of the embedding space for subreddits. The function $g$ weights this message by the value of the edge between the subreddit and the county node at that timestep, $e_{n,t,s}$
 \\
 To aggregate these, the \textbf{Set Pooling} method would be used, where two MLPs are trained, with one operating directly on subreddit state values, and the second oeprating on the sum of these.
 
@@ -60,8 +70,26 @@ The weight values for the $\phi$ MLP would be shared across all subreddits.
 This function encodes the temporal history of a specific node, at a specific timestep. The sequence $x_{n,t-1}^{k-1}, \cdots, x_{n, t-d}^{k-1}$ represents the $d$ nodes associated with county $n$, at the $d$ preceeding timesteps. \\
 To handle the sequential nature of this data, the a draft aggregation function could be an LSTM model.
 
-$$f_{\text{Agg}}^T(x_{n,t-1}^{k-1}, \cdots, x_{n, t-d}^{k-1}) = \text{LSTM}(x_{n,t-1}^{k-1}, \cdots, x_{n, t-d}^{k-1})$$
+$$f_{\text{Agg}}^T(h_{n,t-1}^{k-1}, \cdots, h_{n, t-d}^{k-1}) = \text{LSTM}(h_{n,t-1}^{k-1}, \cdots, h_{n, t-d}^{k-1})$$\\
+In this example, the final hidden state could be used as the output of the aggregation function. 
 
+\subsection{Message Overview}
+The following (poorly drawn) figure shows the sources of messages for a single county node, at a single time step, in a hypothetical county-subreddit network. Note the connections from the `past' connecting the node to its $d$ many historical instances. The node is also recieving messages from a subset of the subreddit layer. 
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{message_sources}
+\end{figure}
+
+\subsection{$f_{\text{Update}}$}
+The final missing component is the update method that converts these signals into a new state for the county node. Note that only the county nodes will `receive' an update. The subreddit nodes will be treated almost as parameters unto themselves, and won't update `mid training' for the GNN, only when the GNN has stabalized, and the loss can be computed, will the `state' of the subreddit nodes be updated.\\
+
+The GRL book suggests naive approaches that simply apply a thin parameterized function over a concatenation of the aggregation outputs, the node features, and the prior state. This will need to be researched more, as the choice here will likely be critical.\\
+
+$$f_{\text{Update}}(n,t) = \text{MLP}_{\upsilon}\left(\text{Concat}\left(
+						f_{\text{Agg}}^C,
+						f_{\text{Agg}}^S,
+						f_{\text{Agg}}^T, 
+						h_{n, t}^{k-1}, x_{n, t}^{k-1}\right)\right)$$
 
 
 \end{document}
