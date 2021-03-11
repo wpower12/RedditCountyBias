@@ -2,3 +2,10 @@ __pycache__/*
 */__pycache__/*
 .ipynb_checkpoints/*
 praw.ini
+*.sublime-project
+# latex metas
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
