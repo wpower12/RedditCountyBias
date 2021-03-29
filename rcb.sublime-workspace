@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coho",
+				"cohortCollectYD"
+			],
+			[
+				"NUM",
+				"NUM_COUNTIES"
+			],
+			[
+				"cou",
+				"county_idx2fips"
+			],
+			[
+				"fips_",
+				"fips_to_idx"
+			],
+			[
+				"id",
+				"idx_to_fips"
+			],
+			[
+				"fips",
+				"fips_to_idx"
+			],
+			[
+				"c_a",
+				"c_adj_matrix"
+			],
+			[
+				"idx",
+				"idx_v"
+			],
+			[
+				"fip",
+				"fips_to_idx"
+			],
+			[
+				"county",
+				"county_adjacency2010"
+			],
+			[
+				"useryw",
+				"useryw_id"
+			],
+			[
+				"subred",
+				"subreddit_id"
+			],
+			[
+				"act",
+				"active_df"
+			],
+			[
+				"u_",
+				"u_home"
+			],
+			[
+				"u_r",
+				"u_r_name"
+			],
+			[
+				"user_re",
+				"user_reddit_id"
+			],
+			[
+				"count",
+				"county_df"
+			],
+			[
+				"subredd",
+				"subreddit_id"
+			],
+			[
+				"c_",
+				"c_fips"
+			],
+			[
+				"ac",
+				"active_df"
+			],
+			[
+				"user",
+				"useryw_df"
+			],
+			[
+				"subre",
+				"subred_df"
+			],
+			[
+				"sour",
+				"source_comments"
+			],
+			[
+				"num",
+				"num_weeks"
+			],
+			[
+				"progress",
+				"progressbar"
+			],
+			[
+				"NC",
+				"NC_SOURCE_ASUBS"
+			],
+			[
+				"NC_",
+				"NC_SOURCE_USERS"
+			],
+			[
+				"ST",
+				"START_TS"
+			]
+		]
+	},
+	"build_system": "Packages/User/python3.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"instal\t",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bill/Documents/Research/RedditCountyBias/rcb.sublime-project",
+		"/home/bill/Documents/Research/RedditCountyBias/15_testing_covid_sources.py",
+		"/home/bill/Documents/Research/RedditCountyBias/.gitignore",
+		"/home/bill/Documents/Research/RedditCountyBias/29_test.py",
+		"/home/bill/Documents/Research/RedditCountyBias/rcdTools/DataCollectDaily.py",
+		"/home/bill/Documents/Research/RedditCountyBias/rcdTools/Tools.py",
+		"/home/bill/Documents/Research/RedditCountyBias/08_add_counties.py",
+		"/home/bill/Documents/Research/RedditCountyBias/27_draft_daily_gather.py",
+		"/home/bill/Documents/Research/RedditCountyBias/25_continuous_activesub_gather.py",
+		"/home/bill/Documents/Research/RedditCountyBias/26_draft_x_y_objects.py",
+		"/home/bill/Documents/Research/RedditCountyBias/24_draft_useryw_continuous.py",
+		"/home/bill/Documents/Research/RedditCountyBias/20_draft_cohort_gather.py",
+		"/home/bill/Documents/Research/RedditCountyBias/18_new_throughput_db_script.py",
+		"/home/bill/Documents/Research/RedditCountyBias/14_gather_location_throughputs.py",
+		"/home/bill/Documents/Research/RedditCountyBias/13_weeklyrun.py",
+		"/home/bill/Documents/Research/RedditCountyBias/12_partial_run_code.py",
+		"/home/bill/Documents/Research/RedditCountyBias/11_test_2020_useryw_gather.py",
+		"/home/bill/Documents/Research/RedditCountyBias/10_drafting_useryw_method.py",
+		"/home/bill/Documents/Research/RedditCountyBias/06_fillin_skipped_locations.py",
+		"/home/bill/Documents/Research/RedditCountyBias/05_initial_data_collect.py",
+		"/home/bill/Documents/Research/RedditCountyBias/03_test_countyusers.py",
+		"/home/bill/Documents/Research/RedditCountyBias/docs/latex/draftmodel/draftmodel.tex",
+		"/home/bill/Documents/Research/RedditCountyBias/rcdTools/DataCollect.py",
+		"/home/bill/Documents/Research/RedditCountyBias/rcdTools/DataPrepare.py",
+		"/home/bill/Documents/Research/RedditCountyBias/24_draft_useryw_maintenance.py",
+		"/home/bill/Documents/Research/RedditCountyBias/19_draft_cohort_split.py",
+		"/home/bill/Documents/Research/RedditCountyBias/17_adding_fips_to_counties.py",
+		"/home/bill/Documents/Research/RedditCountyBias/16_full_weekly_COVID_gather.py",
+		"/home/bill/Documents/Research/RedditCountyBias/09_add_counties_to_db.py",
+		"/home/bill/Documents/Research/RedditCountyBias/07_adding_sub_ids_to_df.py",
+		"/home/bill/Documents/Research/RedditCountyBias/23_network_object_gen.py",
+		"/home/bill/Documents/Research/RedditCountyBias/02_test_psaw_query_limit.py",
+		"/home/bill/Documents/Research/RedditCountyBias/01_initial_data_gather_test.py",
+		"/home/bill/Documents/Research/RedditCountyBias/rcdTools/__init__.py",
+		"/home/bill/Documents/Research/RedditCountyBias/22_draft_insert.py",
+		"/home/bill/Documents/Research/RedditCountyBias/db/testdb_source/county.csv",
+		"/home/bill/Documents/Research/RedditCountyBias/22_draft_data_objs.py",
+		"/home/bill/Documents/Research/RedditCountyBias/db/testdb_source/subreddit.csv",
+		"/home/bill/Documents/Research/RedditCountyBias/data/county_adjacency.txt",
+		"/home/bill/Documents/Research/RedditCountyBias/CountyUsers.py",
+		"/home/bill/Downloads/Texas.svg",
+		"/home/bill/Documents/Research/RedditCountyBias/15_testing_covid_datasets.py",
+		"/home/bill/Documents/Research/10_drafting_year_week_method.py",
+		"/home/bill/Documents/Research/RedditCountyBias/06_adding_sub_ids_to_df.py",
+		"/home/bill/Documents/Research/RedditCountyBias/04_parse_location_html.py",
+		"/home/bill/Documents/Research/RedditCountyBias/data/location_subreddit_counties.csv",
+		"/home/bill/Documents/Research/RedditCountyBias/data/states.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 343.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

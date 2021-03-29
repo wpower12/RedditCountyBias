@@ -13,6 +13,68 @@ from datetime import date, timedelta
 
 from .Tools import splitUsersIntoCohorts
 
+def getRandPartSubreddits(cohort_size, conn):
+	GET_SQL = """SELECT subreddit_name, subreddit_id
+		FROM
+		    subreddit
+		WHERE
+		    county_id IS NOT NULL
+		ORDER BY
+		    RAND();"""
+
+	subs = []
+	with conn.cursor() as cur:
+		cur.execute(GET_SQL)
+		subs = cur.fetchall()
+
+	cohorts    = []
+	cur_cohort = []
+	for sub in subs:
+		cur_cohort.append([sub[0], sub[1]])
+		if len(cur_cohort) >= cohort_size:
+			cohorts.append(cur_cohort)
+			cur_cohort = []
+
+	if len(cur_cohort) > 0:
+		cohorts.append(cur_cohort)
+
+	return cohorts
+
+
+def getRandPartUseryds(day_set, cohort_size, conn):
+	GET_SQL = """SELECT 
+				useryd_id, user_reddit_name, user_reddit_id, 0
+			FROM
+			    useryd
+			WHERE
+			    useryd.day IN {}
+			ORDER BY
+			    RAND();"""
+
+	day_str = "("
+	for d in day_set:
+		day_str += "{}, ".format(d)
+	day_str = day_str[:-2]+")"
+
+	users = []
+	with conn.cursor() as cur:
+		cur.execute(GET_SQL.format(day_str))
+		users = cur.fetchall()
+
+	cohorts = []
+	cur_cohort = []
+
+	for user in users:
+		cur_cohort.append(user)
+		if len(cur_cohort) >= cohort_size:
+			cohorts.append(cur_cohort)
+			cur_cohort = []
+
+	if len(cur_cohort) > 0:
+		cohorts.append(cur_cohort)
+
+	return cohorts
+
 
 def getCandidateSubreddits(conn, year, day, num_subs):
 	GET_SQL = """SELECT 
@@ -89,6 +151,7 @@ def increaseSubredditScrapeCount(conn, subs):
 		conn.commit()
 	pass
 
+
 def tsBoundsFromYearDay(year, day):
 	year_start = "{}-01-01".format(year)
 	year_end   = "{}-12-31".format(year)
@@ -164,8 +227,8 @@ def subredditCohortGather(conn, subs, year, day):
 
 
 def userydASCohortGather(conn, users, year, day):
-	import warnings
-	warnings.simplefilter("ignore")
+	# import warnings
+	# warnings.simplefilter("ignore")
 	psapi  = PushshiftAPI()
 	START_TS, END_TS = tsBoundsFromYearDay(year, day)
 
@@ -195,9 +258,12 @@ def userydASCohortGather(conn, users, year, day):
 	for comment in comment_cache:
 		try:
 			# Just need info for an IGNORE INSERT of a sub, and an AS
+			# print(comment.author)
 			uyd_id   = user_map[comment.author]
+			# print("hi")
 			sub_id   = comment.subreddit_id[3:]
 			sub_name = comment.subreddit
+
 
 			# INSERT IGNORE the sub. 
 			SUB_INS_SQL = """INSERT IGNORE INTO reddit_data.subreddit 
@@ -223,7 +289,6 @@ def userydASCohortGather(conn, users, year, day):
 			print(" error in AS comment; {}".format(e))
 
 	return as_count
-
 
 
 def cohortCollectYD(cohort, start_date, max_response, active_N, user_cohort_size, db_conn):

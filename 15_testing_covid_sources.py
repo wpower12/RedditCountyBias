@@ -32,7 +32,7 @@ def get_week_num(bounds, date_str):
 	return -1
 
 # So lets just make a dataframe? save it? Check it out? 
-raw_data = []
+raw_data = []1
 get_ind_state = "https://corona.lmao.ninja/v2/historical/usacounties/{}?lastdays={}"
 res_counties  = requests.get(get_ind_state.format(TARGET_STATE, 'all'))
 county_data = res_counties.json()
