@@ -108,6 +108,3 @@ def prepareWeeklyDataset(save_dir, c_idx2fips, s_id2idx, db_conn):
 			q_bar.update(q)
 		cs_data = ss.coo_matrix((data, (rows, cols)), shape=SHAPE, dtype='int')
 		ss.save_npz("{}/WEEK_{}.npz".format(SAVE_DIR, "{}".format(WEEK+1).zfill(2)), cs_data)
-
-
-def prepareCOVIDTestDataset(save_dir):
